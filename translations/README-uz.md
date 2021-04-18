@@ -185,7 +185,7 @@ If you want to be a reliability engineer or operations engineer, study more from
 
 ---
 
-## Bu reja nima uchun foydali?
+## Nima uchun foydali?
 
 Ushbu loyihani boshlaganimda, men bu yo’nalishdagi to’plamlar haqida ham,
 Big-O, daraxtlar haqida va grafikni qanday bosib o'tish kerakligi haqida hech narsa 

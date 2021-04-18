@@ -200,19 +200,19 @@ tuzilmalarini yaratmaganman.
 Bu uzoq vaqt talab qiladigan jarayon bo’lib, szga bir necha oy kerak bo'lishi mumkin. 
 Agar siz  bu haqida ko'p narsalarni bilsangiz, bu sizga juda oz vaqt talab etishi mumkin.
 
-## How to use it
+## Foydalanish qo'llanmasi
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Quyida foydalanish qoidalari berilgan bo'lib, bosqichlarni yuqoridan pastga tartibda bajarishingiz kerak.
 
-I'm using Github's special markdown flavor, including tasks lists to track progress.
+Men natijalarni kuzatish uchun vazifalar ro'yxatini o'z ichiga olgan Github markupidan foydalanmoqdaman.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+**Bu kabi elementlarni tekshirishingiz uchun yangi "branch" yarating, so'ngra shunchaki qavs ichiga x qo'shib, ro'yxat elementlarini belgilashingiz mumkin: [x]**
 
-    Fork a branch and follow the commands below
+     Branchingizni ulang va quyidagi buyruqlarni ketma-ketlikda bajaring:
 
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button
+Ulash uchun https://github.com/jwasham/coding-interview-university havolaga o'ting va "Fork" tugmasini bosing  
 
-    Clone to your local repo
+    Shaxsiy(local) repo-ga ko'chirib oling
 
 `git clone git@github.com:<your_github_username>/coding-interview-university.git`
 
@@ -222,7 +222,7 @@ Fork the GitHub repo https://github.com/jwasham/coding-interview-university by c
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    O'zgarishlaringizni tugatgandan so'ng barcha qismlarni X bilan belgilang
 
 `git add .`
 

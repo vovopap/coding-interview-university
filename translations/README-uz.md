@@ -237,7 +237,7 @@ Ulash uchun https://github.com/jwasham/coding-interview-university havolaga o'ti
 [More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 
-## O'zingizni omadsiz deb o'ylamang
+## O'zingizni omadsiz deb hisoblamang
 
 - Omadli dasturchilar aqlli, ammo ularning ko'pchiliklari o'zlarini yetarlicha aqlli deb hisoblashmaydi.
 - [Daho dasturchining afsonasi](https://www.youtube.com/watch?v=0SARbwvhupQ)

@@ -69,10 +69,10 @@ If you want to be a reliability engineer or operations engineer, study more from
 ## Table of Contents
 
 - [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
+- [Nima uchun foydali?](#why-use-it)
+- [Foydalanish qo'llanmasi](#how-to-use-it)
+- [O'zingizni omadsiz deb o'ylamang](#dont-feel-you-arent-smart-enough)
+- [Video qo'llanmalar haqida](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
 - [Book List](#book-list)
@@ -237,19 +237,21 @@ Ulash uchun https://github.com/jwasham/coding-interview-university havolaga o'ti
 [More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 
-## Don't feel you aren't smart enough
+## O'zingizni omadsiz deb o'ylamang
 
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- Omadli dasturchilar aqlli, ammo ularning ko'pchiliklari o'zlarini yetarlicha aqlli deb hisoblashmaydi.
+- [Daho dasturchining afsonasi](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Yolg'iz qolish xavfli: Texnologiyada ko'rinmas monsterlarga qarshi kurash](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Video Resources
+## Video qo'llanmalar haqida
 
 Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
 Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
+Ba'zi videolarni faqat Coursera yoki EdX kurslariga yozilish orqali olish mumkin. Ular MOOC deb nomlanadi.
+Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to'g'ri keladi.
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+    YouTube videolari kabi bepul va har doim ham ochiq manbalarni onlayn videolarga qo'shishda yordamlasha olsangiz mamnun bo''lgan bo'lar edim.
+    Menga universitet ma'ruzalaridan foydalanish yoqadi.    
 
 
 ## Interview Process & General Interview Prep

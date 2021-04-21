@@ -187,20 +187,21 @@ If you want to be a reliability engineer or operations engineer, study more from
 
 ## Nima uchun foydali?
 
-Ushbu loyihani boshlaganimda, men bu yo’nalishdagi to’plamlar haqida ham,
-Big-O, daraxtlar haqida va grafikni qanday bosib o'tish kerakligi haqida hech narsa 
+Ushbu loyihani boshlaganimda, men bu stack dagi to’plamlar(heap) haqida ham,
+Big-O, daraxtlar(trees) haqida va grafikni qanday bosib o'tish kerakligi haqida hech narsa 
 bilmas edim. Agar tartiblash algoritmida kod yozishga kelsak bu ham menda juda yaxshi bo’lmagan.  
 Men ilgari dasturlash tilga kiritilgan ma'lumotlar tuzilmasini ishlatganimda uning asl mohiyatini 
 va qanday ishlashlarini umuman bilmas edim. Ish jarayonida agar "xotiradan tashqarida" xatolikka
 yo'l qo'yilmasa, men xotirani boshqarish haqida qayg’urmaganman  va xatolikka duch kelsam ham, 
-vaqtinchalik yechim topishga to'g'ri kelgan. Men hayotimda bir nechta ko'p o'lchovli massivlardan 
+vaqtinchalik yechim topishga to'g'ri kelgan. Men hayotimda bir nechta ko'p 
+o'lchovli massivlardan((multidimensional arrays)) 
 va minglab assotsiativ massivlardan foydalanganman, lekin men hech qachon noldan ma'lumotlar 
 tuzilmalarini yaratmaganman.
 
-Bu uzoq vaqt talab qiladigan jarayon bo’lib, szga bir necha oy kerak bo'lishi mumkin. 
-Agar siz  bu haqida ko'p narsalarni bilsangiz, bu sizga juda oz vaqt talab etishi mumkin.
+Bu uzoq vaqt talab qiladigan jarayon bo’lib, sizga bir necha oy kerak bo'lishi mumkin. 
+Agar siz allaqachon bu narsalarni ko'pini bilsangiz, bu resurslar sizni ko'p vaqtingizni olmaydi.
 
-## Foydalanish qo'llanmasi
+## Qanday fordalanish kerak?
 
 Quyida foydalanish qoidalari berilgan bo'lib, bosqichlarni yuqoridan pastga tartibda bajarishingiz kerak.
 
@@ -208,9 +209,9 @@ Men natijalarni kuzatish uchun vazifalar ro'yxatini o'z ichiga olgan Github mark
 
 **Bu kabi elementlarni tekshirishingiz uchun yangi "branch" yarating, so'ngra shunchaki qavs ichiga x qo'shib, ro'yxat elementlarini belgilashingiz mumkin: [x]**
 
-     Branchingizni ulang va quyidagi buyruqlarni ketma-ketlikda bajaring:
+     Branch-ni uzingizga fork qiling va quyidagi buyruqlarni ketma-ketlikda bajaring:
 
-Ulash uchun https://github.com/jwasham/coding-interview-university havolaga o'ting va "Fork" tugmasini bosing  
+Ulash uchun https://github.com/jwasham/coding-interview-university havola(link) ga o'ting va "Fork" tugmasini bosing  
 
     Shaxsiy(local) repo-ga ko'chirib oling
 

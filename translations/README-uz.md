@@ -201,7 +201,7 @@ tuzilmalarini yaratmaganman.
 Bu uzoq vaqt talab qiladigan jarayon bo’lib, sizga bir necha oy kerak bo'lishi mumkin. 
 Agar siz allaqachon bu narsalarni ko'pini bilsangiz, bu resurslar sizni ko'p vaqtingizni olmaydi.
 
-## Qanday fordalanish kerak?
+## Qanday foydalanish kerak?
 
 Quyida foydalanish qoidalari berilgan bo'lib, bosqichlarni yuqoridan pastga tartibda bajarishingiz kerak.
 

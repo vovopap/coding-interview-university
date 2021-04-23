@@ -135,21 +135,21 @@ If you want to be a reliability engineer or operations engineer, study more from
 - [Have questions for the interviewer](#have-questions-for-the-interviewer)
 - [Once You've Got The Job](#once-youve-got-the-job)
 
----------------- Everything below this point is optional ----------------
+---------------- Quyidagi barcha bandlar ixtiyoriydir. ----------------
 
-## Additional Resources
+## Qo'shmicha resurslar
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
+- [Qo'shimcha kitoblar](#additional-books)
+- [Qo'shimcha o'rganish uchun materiallar](#additional-learning)
+    - [Kompilyatorlar](#compilers)
     - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory-videos)
+    - [Unix buyruqlar satri vositalari(command line tools)](#unix-command-line-tools)
+    - [Axborot nazariyasi](#information-theory-videos)
     - [Parity & Hamming Code](#parity--hamming-code-videos)
     - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Computer Security](#computer-security)
+    - [Kriptografiya](#cryptography)
+    - [Kompress qilish](#compression)
+    - [Kompyuter xavfsizligi](#computer-security)
     - [Garbage collection](#garbage-collection)
     - [Parallel Programming](#parallel-programming)
     - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
@@ -170,17 +170,17 @@ If you want to be a reliability engineer or operations engineer, study more from
         - B-Trees
     - [k-D Trees](#k-d-trees)
     - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
+    - [Tarmoq oqimlari](#network-flows)
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
     - [Math for Fast Processing](#math-for-fast-processing)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming-videos)
-    - [Geometry, Convex hull](#geometry-convex-hull-videos)
-    - [Discrete math](#discrete-math)
+    - [Chiziqli dasturlash](#linear-programming-videos)
+    - [Geometriya, Convex korpusi](#geometry-convex-hull-videos)
+    - [Diskret matematika](#discrete-math)
     - [Machine Learning](#machine-learning)
 - [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+- [Video seriyalari](#video-series)
+- [Computer Science bo'yicha kurslar](#computer-science-courses)
 - [Papers](#papers)
 
 ---

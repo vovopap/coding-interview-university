@@ -70,7 +70,7 @@ If you want to be a reliability engineer or operations engineer, study more from
 
 - [What is it?](#what-is-it)
 - [Nima uchun foydali?](#why-use-it)
-- [Foydalanish qo'llanmasi](#how-to-use-it)
+- [Qanday foydalanish kerak?](#how-to-use-it)
 - [O'zingizni omadsiz deb o'ylamang](#dont-feel-you-arent-smart-enough)
 - [Video qo'llanmalar haqida](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
@@ -231,7 +231,7 @@ Ulash uchun https://github.com/jwasham/coding-interview-university havola(link) 
 
 `git push --force`
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Github-flavored markdown-haqida ko'proq ma'lumot](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 
 ## O'zingizni omadsiz deb hisoblamang
@@ -242,21 +242,22 @@ Ulash uchun https://github.com/jwasham/coding-interview-university havola(link) 
 
 ## Video qo'llanmalar haqida
 
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
-Ba'zi videolarni faqat Coursera yoki EdX kurslariga yozilish orqali olish mumkin. Ular MOOC deb nomlanadi.
+
+Ba'zi video darsliklarni faqat Coursera yoki EdX platformalari orqali ro'yxatdan o'tgan holda olish mumkin. 
+Ular MOOC (ommaviy ochiq onlayn kurs) deb nomlanadi.
 Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to'g'ri keladi.
 
-    YouTube videolari kabi bepul va har doim ham ochiq manbalarni onlayn videolarga qo'shishda yordamlasha olsangiz mamnun bo''lgan bo'lar edim.
-    Menga universitet ma'ruzalaridan foydalanish yoqadi.    
+    Bepul va har doim ham ochiq ommaviy manbalarni yaratishda o'z hissangizni qo'shishingizni xoxlagan bo'lar edim. 
+    Bu manbalar Youtube dagi video darsliklar ham bo'lishi mumkin. Masalan menga universitet 
+    ma'ruzalaridan foydalanish yoqadi.    
 
 
-## Interview Process & General Interview Prep
+## Suhbat jarayoni va intervyuga tayyorgarlik
 
-- [ ] [How to Pass the Engineering Interview in 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
+- [ ] [2021 yilda muhandislik(engineering) suhbatidan qanday o'tish kerak?](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
-- [ ] How to Get a Job at the Big 4:
+- [ ] Qanday qilib "Big 4" kompaniyalariga ishga kirish mumkin:
     - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [How to Get a Job at the Big 4.1 (Follow-up video)](https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be)
 - [ ] Cracking The Coding Interview Set 1:
@@ -265,9 +266,9 @@ Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to
 - [ ] Cracking the Facebook Coding Interview:
     - [ ] [The Approach](https://www.youtube.com/watch?v=wCl9kvQGHPI)
     - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
-- [ ] Prep Course:
+- [ ] Tayyorlanish uchun kurslar:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+        - Google-ning sobiq interviewer-dan software engineer suhbatlariga qanday tayyorlanishni o'rganing.
     - [ ] [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
         - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
     - [ ] [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
@@ -277,28 +278,29 @@ Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to
     - [ ] [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
         - Many times, it’s not your technical competency that holds you back from landing your dream job, it’s how you perform on the behavioral interview.
 
-## Pick One Language for the Interview
+## Intervyu uchun bitta dasturlash tilini tanlang
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Intervyuning kodlash qismini bajarish uchun o'zingizga qulay bo'lgan dasturlash tilidan foydalanishingiz mumkin,
+Lekin yirik kompaniyalar quyida berilgan tillarning biridan foydalanishni talab qilishlari mumkin:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Shuningdek quyidagilarni ham ishlatishingiz mumkin:
 
 - JavaScript
 - Ruby
 
-Here is an article I wrote about choosing a language for the interview: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
+Quyida intervyu uchun dasturlash tilini tanlash haqida yozgan maqolamni ko'rishingiz mumkin: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
 
-You need to be very comfortable in the language and be knowledgeable.
+Siz tanlagan dasturlash tilida erkin kod yoza oladigan va o'z bilimingizga ega bo'lishingiz kerak.
 
-Read more about choices:
+Tog'ri tanlov haqida ko'proq o'qing:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
-[See language resources here](programming-language-resources.md)
+[Dasturlash tillari bo'yicha manbalar](programming-language-resources.md)
 
 You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
 

@@ -48,16 +48,16 @@ Asl versiyasi: [Inglischa](../README.md)
 
 </details>
 
-## What is it?
+## Bu nima?
 
-Uzbekcha yozamiz :)
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
-
+Bu mening web developer darajasidan katta kompaniyada ishlaydigan software developer darajasiga chiqish uchun qilgan ko'p oylik o'qish planim.
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 This is meant for **new software engineers** or those switching from
 software/web development to software engineering (where computer science knowledge is required). If you have
 many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+
+Bu proyekt **yangi software injinerlar** uchun juda forydali. Va yana, oddiy software/web programmislikdan software injinerlikka (software injinerlardan computer science bilimlari talab qilinadi) o'
 
 If you have many years of software/web development experience, note that large software companies like Google, Amazon,
 Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.

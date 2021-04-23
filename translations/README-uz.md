@@ -301,7 +301,7 @@ You'll see some C, C++, and Python learning included below, because I'm learning
 
 ## Book List
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+sdhfsdfdsjdf
 
 ### Interview Prep
 

@@ -187,16 +187,12 @@ If you want to be a reliability engineer or operations engineer, study more from
 
 ## Nima uchun foydali?
 
-Ushbu loyihani boshlaganimda, men bu stack dagi to’plamlar(heap) haqida ham,
-Big-O, daraxtlar(trees) haqida va grafikni qanday bosib o'tish kerakligi haqida hech narsa 
-bilmas edim. Agar tartiblash algoritmida kod yozishga kelsak bu ham menda juda yaxshi bo’lmagan.  
-Men ilgari dasturlash tilga kiritilgan ma'lumotlar tuzilmasini ishlatganimda uning asl mohiyatini 
-va qanday ishlashlarini umuman bilmas edim. Ish jarayonida agar "xotiradan tashqarida" xatolikka
-yo'l qo'yilmasa, men xotirani boshqarish haqida qayg’urmaganman  va xatolikka duch kelsam ham, 
-vaqtinchalik yechim topishga to'g'ri kelgan. Men hayotimda bir nechta ko'p 
-o'lchovli massivlardan((multidimensional arrays)) 
-va minglab assotsiativ massivlardan foydalanganman, lekin men hech qachon noldan ma'lumotlar 
-tuzilmalarini yaratmaganman.
+Ushbu loyihani boshlaganimda, men stack bilan heap-ni farqini bilmas edim,
+Big-O ni nimaligini bilmas edim, tree-lar yoki graph-lar haqida hech qanday tushunchaga 
+ega emas edim. Agar tartiblash algoritmini (sorting) yozishni so'rashganda, aniq qovun tushirgan 
+bo'lar edim. Umrimda ishlatgan data strukturalarni hammasini tayyor holda ishlatganman 
+(built-in library) va ularni asosida nimalar yotishini umuman bilmas edim. 
+Juda ko'p kod yozgan bo'lsamda, lekin men hech qachon qandaydir data strukturani noldan yozmaganman
 
 Bu uzoq vaqt talab qiladigan jarayon bo’lib, sizga bir necha oy kerak bo'lishi mumkin. 
 Agar siz allaqachon bu narsalarni ko'pini bilsangiz, bu resurslar sizni ko'p vaqtingizni olmaydi.

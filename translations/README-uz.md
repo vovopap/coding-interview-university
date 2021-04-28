@@ -191,7 +191,7 @@ Ushbu loyihani boshlaganimda, men stack bilan heap-ni farqini bilmas edim,
 Big-O ni nimaligini bilmas edim, tree-lar yoki graph-lar haqida hech qanday tushunchaga 
 ega emas edim. Agar tartiblash algoritmini (sorting) yozishni so'rashganda, aniq qovun tushirgan 
 bo'lar edim. Umrimda ishlatgan data strukturalarni hammasini tayyor holda ishlatganman 
-(built-in library) va ularni asosida nimalar yotishini umuman bilmas edim. 
+(built-in library) va ularning asosida nimalar yotishini umuman bilmas edim. 
 Juda ko'p kod yozgan bo'lsamda, lekin men hech qachon qandaydir data strukturani noldan yozmaganman
 
 Bu uzoq vaqt talab qiladigan jarayon bo’lib, sizga bir necha oy kerak bo'lishi mumkin. 
@@ -205,7 +205,7 @@ Men natijalarni kuzatish uchun vazifalar ro'yxatini o'z ichiga olgan Github mark
 
 **Bu kabi elementlarni tekshirishingiz uchun yangi "branch" yarating, so'ngra shunchaki qavs ichiga x qo'shib, ro'yxat elementlarini belgilashingiz mumkin: [x]**
 
-     Branch-ni uzingizga fork qiling va quyidagi buyruqlarni ketma-ketlikda bajaring:
+     Branch-ni o'zingizga fork qiling va quyidagi buyruqlarni ketma-ketlikda bajaring:
 
 Ulash uchun https://github.com/jwasham/coding-interview-university havola(link) ga o'ting va "Fork" tugmasini bosing  
 
@@ -219,7 +219,7 @@ Ulash uchun https://github.com/jwasham/coding-interview-university havola(link) 
 
 `git fetch --all`
 
-    O'zgarishlaringizni tugatgandan so'ng barcha qismlarni X bilan belgilang
+    O'zgarishlaringizni tugatganingizdan so'ng barcha qismlarni X bilan belgilang
 
 `git add .`
 
@@ -247,9 +247,9 @@ Ba'zi video darsliklarni faqat Coursera yoki EdX platformalari orqali ro'yxatdan
 Ular MOOC (ommaviy ochiq onlayn kurs) deb nomlanadi.
 Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to'g'ri keladi.
 
-    Bepul va har doim ham ochiq ommaviy manbalarni yaratishda o'z hissangizni qo'shishingizni xoxlagan bo'lar edim. 
+    Bepul va har doim ham ochiq ommaviy manbalarni yaratishda o'z hissangizni qo'shishingizni xohlagan bo'lar edim. 
     Bu manbalar Youtube dagi video darsliklar ham bo'lishi mumkin. Masalan menga universitet 
-    ma'ruzalaridan foydalanish yoqadi.    
+    maruzalaridan foydalanish yoqadi.    
 
 
 ## Suhbat jarayoni va intervyuga tayyorgarlik
@@ -260,10 +260,10 @@ Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to
 - [ ] Qanday qilib "Big 4" kompaniyalariga ishga kirish mumkin:
     - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [How to Get a Job at the Big 4.1 (Follow-up video)](https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be)
-- [ ] Cracking The Coding Interview Set 1:
+- [ ] Coding intervyuga tayyorlanish, to'plam 1:
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
     - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-- [ ] Cracking the Facebook Coding Interview:
+- [ ] Facebook Coding Intervyusiga tayyorlanish:
     - [ ] [The Approach](https://www.youtube.com/watch?v=wCl9kvQGHPI)
     - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
 - [ ] Tayyorlanish uchun kurslar:
@@ -281,7 +281,7 @@ Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to
 ## Intervyu uchun bitta dasturlash tilini tanlang
 
 Intervyuning kodlash qismini bajarish uchun o'zingizga qulay bo'lgan dasturlash tilidan foydalanishingiz mumkin,
-Lekin yirik kompaniyalar quyida berilgan tillarning biridan foydalanishni talab qilishlari mumkin:
+lekin yirik kompaniyalar quyida berilgan tillarning biridan foydalanishni talab qilishlari mumkin:
 
 - C++
 - Java
@@ -304,51 +304,52 @@ Tog'ri tanlov haqida ko'proq o'qishingiz uchun manbalar:
 
 Quyida berilgan kitoblar ro'yxatida o'zim o'rganayotgan C, C++, va Python ga oid manbalarni ko'rishingiz mumkin.
 
-## Book List
+## Kitoblar ro'yxati
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+Bu sizning vaqtingizni tejash uchun men ishlatgan kitoblar ro'yxatining qisqartirilgan ko'rinishi.
 
-### Interview Prep
+### Intervyuga tayyorlanish
 
 - [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - answers in C++ and Java
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - C++ va Java dasturlash tillarida javoblar
+    - Coding intervyuga tayyorlanish uchun juda yaxshi manba 
+    - Juda murakkab emas, masalarning ko'pchiligi intervyuda uchraydigan masalalardan osonroq bo'lishi mumkin.
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - Java dasturlash tilida javoblar
 
-### If you have tons of extra time:
+### Agar sizda bo'sh vaqtingiz ko'p bo'lsa:
 
-Choose one:
+Quyidagi kitoblardan birini tanlashingiz mumkin:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
-- [ ] Elements of Programming Interviews (Java version)
+- [ ] Dasturlash intervyularining elementlari (Java versiyasi)
     - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
     - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
-### Language Specific
+### Dasturlash tiliga oid
 
-**You need to choose a language for the interview (see above).**
+** Yuqorida aytilganidek siz intervyu uchun bitta dasturlash tilini tanlashingiz kerak **
 
-Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+Mening tilga oid tavsiyalarim. Menda barcha tillar uchun resurslar yo'q shuning uchun sizda qo'shimcha ma'lumot bo'lsa 
+tavsiya qilishingiz mumkin.
+Agar siz bulardan birini o'qib chiqsangiz, masalalarni yechishni boshlashda kerak bo'lgan barcha ma'lumotlar tuzilmalari(data structures) 
+va algoritmlari bo'yicha bilimlarga ega bo'lishingiz kerak.
+** Loyihadagi video resurslarni o'tkazib yuborishingiz mumkin**, agar ko'rib chiqishni xohlamasangiz.
 
-If you read through one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
-
-[Additional language-specific resources here.](programming-language-resources.md)
+[Tilga oid qo'shimcha resurslar.](programming-language-resources.md)
 
 ### C++
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+Men bularning ikkitasini o'qimaganman, lekin ular yuqori baholangan va Sedvik tomonidan yozilgan. U ajoyib
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 - [ ] [Open Data Structures in C++](https://opendatastructures.org/ods-cpp.pdf)
-    - Rich and detailed collection of Data Structures and Algorithms
-    - Great for first-timers
+    - Ma'lumotlar tuzilmasi va algoritmlarga oid boy va batafsil to'plam
+    - Birinchi marta boshlayotganlar uchun juda qulay
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+Agar sizda C++ bo'yicha yaxshiroq tavsiyalaringiz bo'lsa iltimos biz bilan baham ko'ring.
 
 ### Java
 

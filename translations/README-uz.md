@@ -73,8 +73,8 @@ If you want to be a reliability engineer or operations engineer, study more from
 - [Qanday foydalanish kerak?](#how-to-use-it)
 - [O'zingizni omadsiz deb o'ylamang](#dont-feel-you-arent-smart-enough)
 - [Video qo'llanmalar haqida](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
+- [Suhbat jarayoni va intervyuga tayyorgarlik](#interview-process--general-interview-prep)
+- [Intervyu uchun bitta dasturlash tilini tanlang](#pick-one-language-for-the-interview)
 - [Book List](#book-list)
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
@@ -254,8 +254,8 @@ Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to
 
 ## Suhbat jarayoni va intervyuga tayyorgarlik
 
-- [ ] [2021 yilda muhandislik(engineering) suhbatidan qanday o'tish kerak?](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
-- [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+- [ ] [2021 yilda injinerlik suhbatidan qanday o'tish mumkin?](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
+- [ ] [Doskada kodlash(Whiteboarding)](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ] Qanday qilib "Big 4" kompaniyalariga ishga kirish mumkin:
     - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
@@ -268,15 +268,15 @@ Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to
     - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
 - [ ] Tayyorlanish uchun kurslar:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Google-ning sobiq interviewer-dan software engineer suhbatlariga qanday tayyorlanishni o'rganing.
+        - Google-ning sobiq interviewer-dan "software engineer" suhbatlariga qanday tayyorlanishni o'rganing.
     - [ ] [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
+        - Ma'lumotlar tuzilmalari, algoritmlari, mock intervyular va boshqa ko'p ma'lumotlarni o'z ichiga oladigan Python markaziy intervyuga tayyorlash kursi
     - [ ] [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
-        - A free Python centric data structures and algorithms course.
+        - Python-da ma'lumotlar tuzilmasi va algoritmlar haqida tekin kurs:
     - [ ] [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
-        - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
+        - 100 dan ortiq ma'lumotlar tuzilmalari va algoritmlarga oid mashqlari bilan amaliy mashg'ulotlarni olib boring va sizni intervyu jarayoniga tayyorlanishingizga yordam beradigan maxsus mentordan ko'rsatma oling.
     - [ ] [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
-        - Many times, it’s not your technical competency that holds you back from landing your dream job, it’s how you perform on the behavioral interview.
+        - Ko'pincha orzuyingizdagi ish joyiga intervyudan o'tishingizda faqat texnik salohiyatingiz emas balki o'zingizni qanday tuta olishingiz, xulqingiz ham katta ahamiyatga ega.
 
 ## Intervyu uchun bitta dasturlash tilini tanlang
 
@@ -292,17 +292,18 @@ Shuningdek quyidagilarni ham ishlatishingiz mumkin:
 - JavaScript
 - Ruby
 
-Quyida intervyu uchun dasturlash tilini tanlash haqida yozgan maqolamni ko'rishingiz mumkin: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
+Quyida intervyu uchun dasturlash tilini tanlash haqida yozgan maqolam: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
+ 
+Siz intervyu uchun tanlagan dasturlash tilida erkin kod yoza oladigan va o'z bilimingizga ega bo'lishingiz kerak.
 
-Siz tanlagan dasturlash tilida erkin kod yoza oladigan va o'z bilimingizga ega bo'lishingiz kerak.
-
-Tog'ri tanlov haqida ko'proq o'qing:
+Tog'ri tanlov haqida ko'proq o'qishingiz uchun manbalar:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
 [Dasturlash tillari bo'yicha manbalar](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+You'll see some C, C++, and Python learning included below, because I'm learning. 
+There are a few books involved, see the bottom.
 
 ## Book List
 

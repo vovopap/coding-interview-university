@@ -69,12 +69,12 @@ If you want to be a reliability engineer or operations engineer, study more from
 ## Table of Contents
 
 - [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
+- [Nima uchun foydali?](#why-use-it)
+- [Qanday foydalanish kerak?](#how-to-use-it)
+- [O'zingizni omadsiz deb o'ylamang](#dont-feel-you-arent-smart-enough)
+- [Video qo'llanmalar haqida](#about-video-resources)
+- [Suhbat jarayoni va intervyuga tayyorgarlik](#interview-process--general-interview-prep)
+- [Intervyu uchun bitta dasturlash tilini tanlang](#pick-one-language-for-the-interview)
 - [Book List](#book-list)
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
@@ -185,30 +185,31 @@ If you want to be a reliability engineer or operations engineer, study more from
 
 ---
 
-## Why use it?
+## Nima uchun foydali?
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Ushbu loyihani boshlaganimda, men stack bilan heap-ni farqini bilmas edim,
+Big-O ni nimaligini bilmas edim, tree-lar yoki graph-lar haqida hech qanday tushunchaga 
+ega emas edim. Agar tartiblash algoritmini (sorting) yozishni so'rashganda, aniq qovun tushirgan 
+bo'lar edim. Umrimda ishlatgan data strukturalarni hammasini tayyor holda ishlatganman 
+(built-in library) va ularni asosida nimalar yotishini umuman bilmas edim. 
+Juda ko'p kod yozgan bo'lsamda, lekin men hech qachon qandaydir data strukturani noldan yozmaganman
 
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+Bu uzoq vaqt talab qiladigan jarayon bo’lib, sizga bir necha oy kerak bo'lishi mumkin. 
+Agar siz allaqachon bu narsalarni ko'pini bilsangiz, bu resurslar sizni ko'p vaqtingizni olmaydi.
 
-## How to use it
+## Qanday foydalanish kerak?
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Quyida foydalanish qoidalari berilgan bo'lib, bosqichlarni yuqoridan pastga tartibda bajarishingiz kerak.
 
-I'm using Github's special markdown flavor, including tasks lists to track progress.
+Men natijalarni kuzatish uchun vazifalar ro'yxatini o'z ichiga olgan Github markupidan foydalanmoqdaman.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+**Bu kabi elementlarni tekshirishingiz uchun yangi "branch" yarating, so'ngra shunchaki qavs ichiga x qo'shib, ro'yxat elementlarini belgilashingiz mumkin: [x]**
 
-    Fork a branch and follow the commands below
+     Branch-ni uzingizga fork qiling va quyidagi buyruqlarni ketma-ketlikda bajaring:
 
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button
+Ulash uchun https://github.com/jwasham/coding-interview-university havola(link) ga o'ting va "Fork" tugmasini bosing  
 
-    Clone to your local repo
+    Shaxsiy(local) repo-ga ko'chirib oling
 
 `git clone git@github.com:<your_github_username>/coding-interview-university.git`
 
@@ -218,7 +219,7 @@ Fork the GitHub repo https://github.com/jwasham/coding-interview-university by c
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    O'zgarishlaringizni tugatgandan so'ng barcha qismlarni X bilan belgilang
 
 `git add .`
 
@@ -230,30 +231,33 @@ Fork the GitHub repo https://github.com/jwasham/coding-interview-university by c
 
 `git push --force`
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Github-flavored markdown-haqida ko'proq ma'lumot](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 
-## Don't feel you aren't smart enough
+## O'zingizni omadsiz deb hisoblamang
 
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- Omadli dasturchilar aqlli, ammo ularning ko'pchiliklari o'zlarini yetarlicha aqlli deb hisoblashmaydi.
+- [Daho dasturchining afsonasi](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Yolg'iz qolish xavfli: Texnologiyada ko'rinmas monsterlarga qarshi kurash](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Video Resources
-
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
-
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+## Video qo'llanmalar haqida
 
 
-## Interview Process & General Interview Prep
+Ba'zi video darsliklarni faqat Coursera yoki EdX platformalari orqali ro'yxatdan o'tgan holda olish mumkin. 
+Ular MOOC (ommaviy ochiq onlayn kurs) deb nomlanadi.
+Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to'g'ri keladi.
 
-- [ ] [How to Pass the Engineering Interview in 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
-- [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+    Bepul va har doim ham ochiq ommaviy manbalarni yaratishda o'z hissangizni qo'shishingizni xoxlagan bo'lar edim. 
+    Bu manbalar Youtube dagi video darsliklar ham bo'lishi mumkin. Masalan menga universitet 
+    ma'ruzalaridan foydalanish yoqadi.    
+
+
+## Suhbat jarayoni va intervyuga tayyorgarlik
+
+- [ ] [2021 yilda injinerlik suhbatidan qanday o'tish mumkin?](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
+- [ ] [Doskada kodlash(Whiteboarding)](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
-- [ ] How to Get a Job at the Big 4:
+- [ ] Qanday qilib "Big 4" kompaniyalariga ishga kirish mumkin:
     - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [How to Get a Job at the Big 4.1 (Follow-up video)](https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be)
 - [ ] Cracking The Coding Interview Set 1:
@@ -262,42 +266,43 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 - [ ] Cracking the Facebook Coding Interview:
     - [ ] [The Approach](https://www.youtube.com/watch?v=wCl9kvQGHPI)
     - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
-- [ ] Prep Course:
+- [ ] Tayyorlanish uchun kurslar:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+        - Google-ning sobiq interviewer-dan "software engineer" suhbatlariga qanday tayyorlanishni o'rganing.
     - [ ] [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
+        - Ma'lumotlar tuzilmalari, algoritmlari, mock intervyular va boshqa ko'p ma'lumotlarni o'z ichiga oladigan Python markaziy intervyuga tayyorlash kursi
     - [ ] [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
-        - A free Python centric data structures and algorithms course.
+        - Python-da ma'lumotlar tuzilmasi va algoritmlar haqida tekin kurs:
     - [ ] [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
-        - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
+        - 100 dan ortiq ma'lumotlar tuzilmalari va algoritmlarga oid mashqlari bilan amaliy mashg'ulotlarni olib boring va sizni intervyu jarayoniga tayyorlanishingizga yordam beradigan maxsus mentordan ko'rsatma oling.
     - [ ] [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
-        - Many times, it’s not your technical competency that holds you back from landing your dream job, it’s how you perform on the behavioral interview.
+        - Ko'pincha orzuyingizdagi ish joyiga intervyudan o'tishingizda faqat texnik salohiyatingiz emas balki o'zingizni qanday tuta olishingiz, xulqingiz ham katta ahamiyatga ega.
 
-## Pick One Language for the Interview
+## Intervyu uchun bitta dasturlash tilini tanlang
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Intervyuning kodlash qismini bajarish uchun o'zingizga qulay bo'lgan dasturlash tilidan foydalanishingiz mumkin,
+Lekin yirik kompaniyalar quyida berilgan tillarning biridan foydalanishni talab qilishlari mumkin:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Shuningdek quyidagilarni ham ishlatishingiz mumkin:
 
 - JavaScript
 - Ruby
 
-Here is an article I wrote about choosing a language for the interview: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
+Quyida intervyu uchun dasturlash tilini tanlash haqida yozgan maqolam: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
+ 
+Siz intervyu uchun tanlagan dasturlash tilida erkin kod yoza oladigan va o'z bilimingizga ega bo'lishingiz kerak.
 
-You need to be very comfortable in the language and be knowledgeable.
-
-Read more about choices:
+Tog'ri tanlov haqida ko'proq o'qishingiz uchun manbalar:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
-[See language resources here](programming-language-resources.md)
+[Dasturlash tillari bo'yicha manbalar](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Quyida berilgan kitoblar ro'yxatida o'zim o'rganayotgan C, C++, va Python ga oid manbalarni ko'rishingiz mumkin.
 
 ## Book List
 

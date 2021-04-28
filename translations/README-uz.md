@@ -302,8 +302,7 @@ Tog'ri tanlov haqida ko'proq o'qishingiz uchun manbalar:
 
 [Dasturlash tillari bo'yicha manbalar](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. 
-There are a few books involved, see the bottom.
+Quyida berilgan kitoblar ro'yxatida o'zim o'rganayotgan C, C++, va Python ga oid manbalarni ko'rishingiz mumkin.
 
 ## Book List
 

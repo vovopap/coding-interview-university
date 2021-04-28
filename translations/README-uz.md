@@ -353,26 +353,26 @@ Agar sizda C++ bo'yicha yaxshiroq tavsiyalaringiz bo'lsa iltimos biz bilan baham
 
 ### Java
 
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!) on coursera:
-        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+- [ ] [Algoritmlar (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - Coursera dagi kitob tarkibi bilan videolar (va Sedgewick!):
+        - [Algoritmlar I](https://www.coursera.org/learn/algorithms-part1)
+        - [Algoritmlar II](https://www.coursera.org/learn/algorithms-part2)
 
-OR:
+Yoki:
 
-- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics
+- [ ] [Java da ma'lumotlar tuzilmasi va algoritmlar](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+    - Goodrich, Tamassia, va Goldwasser tomonidan yozilgan      
+    - UC Berkeley-dagi CS(Computer Science) kirish kursi uchun qo'shimcha matn sifatida ishlatiladi
+    - Quyida Python dasturlash kitobi uchun men qoldirgan izohlar bu kitobga ham tegishli.
 
 ### Python
 
-- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more
-    - Pythonic code
-    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
-- [ ] [Open Data Structures in Python](https://opendatastructures.org/ods-python.pdf)
+- [ ] [Python da ma'lumotlar tuzilmasi va algoritmlar](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - Goodrich, Tamassia, va Goldwasser tomonidan yozilgan
+    - Menga bu kitob juda yoqdi. Bu juda ko'p ma'lumotlarni o'z ichiga olgan.
+    - Pythonic kod
+    - Mening bu kitob haqidagi izohim: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+- [ ] [Python da Open Data strukturalari](https://opendatastructures.org/ods-python.pdf)
 
 ## Before you Get Started
 

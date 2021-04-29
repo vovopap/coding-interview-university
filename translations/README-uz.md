@@ -311,9 +311,9 @@ Bu sizning vaqtingizni tejash uchun men ishlatgan kitoblar ro'yxatining qisqarti
 ### Intervyuga tayyorlanish
 
 - [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - C++ va Java dasturlash tillarida javoblar
-    - Coding intervyuga tayyorlanish uchun juda yaxshi manba 
-    - Juda murakkab emas, masalarning ko'pchiligi intervyuda uchraydigan masalalardan osonroq bo'lishi mumkin.
+    - Javoblar (C++ va Java)
+    - "Cracking the Coding Interview" kitobini boshlashdan oldin tayyorlanish uchun juda yaxshi manba 
+    - Juda murakkab emas, hattoki masalarning ko'pchiligi intervyuda uchraydigan masalalardan osonroq.
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - Java dasturlash tilida javoblar
 
@@ -323,7 +323,7 @@ Quyidagi kitoblardan birini tanlashingiz mumkin:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
-- [ ] Dasturlash intervyularining elementlari (Java versiyasi)
+- [ ] Elements of Programming Interviews (Java versiyasi)
     - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
     - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
@@ -333,7 +333,7 @@ Quyidagi kitoblardan birini tanlashingiz mumkin:
 
 Mening tilga oid tavsiyalarim. Menda barcha tillar uchun resurslar yo'q shuning uchun sizda qo'shimcha ma'lumot bo'lsa 
 tavsiya qilishingiz mumkin.
-Agar siz bulardan birini o'qib chiqsangiz, masalalarni yechishni boshlashda kerak bo'lgan barcha ma'lumotlar tuzilmalari(data structures) 
+Agar siz bulardan birini o'qib chiqsangiz, masalalarni yechishda kerak bo'lgan barcha data strukturalar
 va algoritmlari bo'yicha bilimlarga ega bo'lishingiz kerak.
 ** Loyihadagi video resurslarni o'tkazib yuborishingiz mumkin**, agar ko'rib chiqishni xohlamasangiz.
 
@@ -341,13 +341,13 @@ va algoritmlari bo'yicha bilimlarga ega bo'lishingiz kerak.
 
 ### C++
 
-Men bularning ikkitasini o'qimaganman, lekin ular yuqori baholangan va Sedvik tomonidan yozilgan. U ajoyib
+Men bularning ikkitasini o'qimaganman, lekin ular yuqori baholangan va Sedvik tomonidan yozilgan. Sedgewick aka zo'rlar :)
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 - [ ] [Open Data Structures in C++](https://opendatastructures.org/ods-cpp.pdf)
     - Ma'lumotlar tuzilmasi va algoritmlarga oid boy va batafsil to'plam
-    - Birinchi marta boshlayotganlar uchun juda qulay
+    - Birinchi marta boshlayotganlar uchun juda mos
 
 Agar sizda C++ bo'yicha yaxshiroq tavsiyalaringiz bo'lsa iltimos biz bilan baham ko'ring.
 
@@ -362,7 +362,7 @@ Yoki:
 
 - [ ] [Java da ma'lumotlar tuzilmasi va algoritmlar](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - Goodrich, Tamassia, va Goldwasser tomonidan yozilgan      
-    - UC Berkeley-dagi CS(Computer Science) kirish kursi uchun qo'shimcha matn sifatida ishlatiladi
+    - UC Berkeley-dagi CS(Computer Science) kirish kursi uchun qo'shimcha kitob sifatida ishlatiladi
     - Quyida Python dasturlash kitobi uchun men qoldirgan izohlar bu kitobga ham tegishli.
 
 ### Python
@@ -374,46 +374,50 @@ Yoki:
     - Mening bu kitob haqidagi izohim: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 - [ ] [Python da Open Data strukturalari](https://opendatastructures.org/ods-python.pdf)
 
-## Before you Get Started
+## O'rganishni boshlashdan oldin
 
-This list grew over many months, and yes, it kind of got out of hand.
+Mazkur ro'yxat bir necha oylar davomida shakllanganligi sababli biroz qo'ldan chiqdi.
+Bu yerda men ba'zi yo'l qo'ygan xatoliklar bor, bu esa sizlarga yaxshiroq tajriba orttirishingizga yordam beradi.
 
-Here are some mistakes I made so you'll have a better experience.
+### 1. Bularning barchasini eslab qolmaysiz
 
-### 1. You Won't Remember it All
+Men soatlab videolar ko'rardim va eslatmalar yozib qo'yar edim, va bir necha oydan so'ng hammasini eslab qola olmas edim.
+Men yozib olgan eslatmalarim va fleshkartalarim yordamida takrorlab chiqishim uchun 3 kun sarfladim. 
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards, so I could review.
-
-Please, read so you won't make my mistakes:
+Men qilgan xatolarni siz ham takrorlamasligingiz uchun iltimos o'qib chiqing:
 
 [Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
 
-A course recommended to me (haven't taken it): [Learning how to Learn](https://www.coursera.org/learn/learning-how-to-learn).
+Menga tavsiya qilingan kurs (shaxsan o'zim ko'rib chiqmaganman): [Learning how to Learn](https://www.coursera.org/learn/learning-how-to-learn).
 
-### 2. Use Flashcards
+### 2. Fleshkartalar(kartochkalar) ishlating
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Muammoni yechis uchun, men fleshkartalar uchun sayt yaratdim, u yerga 2 turdagi fleshkartalar joylanadi: umumiy eslatmalar va kod. 
+Har bir karta o'z formatiga ega.
 
-I made a mobile-first website, so I could review on my phone and tablet, wherever I am.
+Vebsaytdan telefon yoki tabletdan ham xoxlagan joyda foydalana olishim uchun mobilga moslangan sayt yaratdim.
 
-Make your own for free:
+O'zingizni saytingizni ham tekinga yarating:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
+- [Fleshkartalar sayti uchun repo](https://github.com/jwasham/computer-science-flash-cards)
+- [Mening fleshkartalarim bazasi (eski versiya - 1200 ta kartalar)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [ening fleshkartalarim bazasi(yangi versiya - 1800 ta kartalar)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
+Yodingizda bo'lsin, menda assembly language va Python triviyalaridan tortib, machine learning va statistikani 
+o'z ichiga olgan kartalarim bor. Bu esa talab qilinadigan narsalardan ham ko'p hisoblanadi. 
+(Ya'ni bularning barchasini siz bir vaqtda o'zlashtirgan bo'lishingiz shart emas)
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Fleshkartalardagi eslatmalar :** Birinchi marta fleshkartadagi javobni topa olganingizda uni o'zlashtirilganlar qatoriga qo'shmang. Aksincha xuddi shu kartani 
+ajratib qo'ying va bir necha marta javob bering toki haqiqatdan ham javobni anglab yetguningizgacha.
+Takrorlash natijasida ma'lumot miyangizga chuqurroq joylashadi.
+ 
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+Fleshkartalar uchun bir necha marta menga tavsiya qilingan alternativ vebsayt [Anki](http://ankisrs.net/). 
+Bu sizning eslab qolishingizga yordam berish uchun takrorlash sistemasini ishlatadi. 
+Buni ishlatish qulay va barcha platformalarda mavjud va cloud bn sinxronizatsiya qilingan. iOS platformalari 
+uchun narxi $25, lekin boshqa platformalar uchun tekin.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
+Anki formatidagi mening fleshkartalarim bazasi: https://ankiweb.net/shared/info/25173560 ([@xiewenya](https://github.com/xiewenya) ga tashakkur).
 
 ### 3. Start doing coding interview questions while you're learning data structures and algorithms
 

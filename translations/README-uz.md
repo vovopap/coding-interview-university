@@ -57,7 +57,6 @@ Bu proyekt **yangi dastur injinerlar** uchun juda forydali. Va yana, oddiy progr
 
 Agar sizda programmistlik buyicha kup yillik tajribangiz bulsa, shuni bilingki: Google, Amazon, Facebook, va Microsoftga o'xshagan katta kompaniyalar dastur injinirlikni (software engineer) programmistlikdan (software/web developer) farqli deb kuradi va ular computer science bilimini talab qiladi.
 
-If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
 Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, unda siz ixtiyoriy ro'yxatdan ko'proq o'qing (tarmoq, xavfsizlik va boshqalar).
 ---
 

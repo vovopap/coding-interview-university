@@ -50,20 +50,15 @@ Asl versiyasi: [Inglischa](../README.md)
 
 ## Bu nima?
 
-Bu mening web developer darajasidan katta kompaniyada ishlaydigan software developer darajasiga chiqish uchun qilgan ko'p oylik o'qish planim.
+Bu mening web dasturchisi (web developer) darajasidan katta kompaniyada ishlaydigan dastur injineri (software engineer) darajasiga chiqish uchun qilgan ko'p oylik o'qish planim.
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+Bu proyekt **yangi dastur injinerlar** uchun juda forydali. Va yana, oddiy programmistlikdan (masalan web yoki mobildan) dastur injinerlikka (dastur injinerlaridan computer science bilimlari talab qilinadi) o'tmoqchi bulganlar uchun foydali.
 
-Bu proyekt **yangi software injinerlar** uchun juda forydali. Va yana, oddiy software/web programmislikdan software injinerlikka (software injinerlardan computer science bilimlari talab qilinadi) o'
-
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
+Agar sizda programmistlik buyicha kup yillik tajribangiz bulsa, shuni bilingki: Google, Amazon, Facebook, va Microsoftga o'xshagan katta kompaniyalar dastur injinirlikni (software engineer) programmistlikdan (software/web developer) farqli deb kuradi va ular computer science bilimini talab qiladi.
 
 If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
-
+Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, unda siz ixtiyoriy ro'yxatdan ko'proq o'qing (tarmoq, xavfsizlik va boshqalar).
 ---
 
 ## Table of Contents

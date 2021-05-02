@@ -55,7 +55,9 @@ Bu mening web dasturchisi (web developer) darajasidan katta kompaniyada ishlaydi
 
 Bu proyekt **yangi dastur injinerlar** uchun juda forydali. Va yana, oddiy programmistlikdan (masalan web yoki mobildan) dastur injinerlikka (dastur injinerlaridan computer science bilimlari talab qilinadi) o'tmoqchi bulganlar uchun foydali.
 
+
 Agar sizda programmistlik buyicha kup yillik tajribangiz bulsa, shuni bilingki: Google, Amazon, Facebook, va Microsoftga o'xshagan katta kompaniyalar dastur injinirlikni (software engineer) programmistlikdan (software/web developer) farqli deb kuradi va ular computer science bilimini talab qiladi.
+
 
 Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, unda siz ixtiyoriy ro'yxatdan ko'proq o'qing (tarmoq, xavfsizlik va boshqalar).
 ---

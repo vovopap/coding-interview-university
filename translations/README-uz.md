@@ -445,13 +445,13 @@ Atrofimizda juda ko'p narsalar bizni chalg'itib qo'yadi va qimmatli vaqtimizni o
 Shuningg uchun diqqatni jamlash va konsentratsiya qilish oson emas. Buning bir usuli,
 matnsiz biron musiqa tinglang, bu esa diqqatingizni jamlashingizga yordam beradi.
 
-## Sizga bu loyiha davomida uchramaydigan reja ham qo'shilgan 
+## Bu proyekt nimalarni o'z ichiga olmaydi
 
-Bular keng tarqalgan texnologiyalar, ammo ushbu o'quv rejasida ishlatilmagan:
+Bular keng tarqalgan texnologiyalar lekin bu proyekt ularni o'z ichiga olmaydi:
 
 - SQL
 - Javascript
-- HTML, CSS, va boshqa frontendga oid texnologiyalar.
+- HTML, CSS, va boshqa front-end texnologiyalar
 
 ## Kunlik reja
 

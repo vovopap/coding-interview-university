@@ -434,13 +434,13 @@ Take a break from programming problems for a half hour and go through your flash
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
 without lyrics and you'll be able to focus pretty well.
 
-## What you won't see covered
+## Bu proyekt nimalarni o'z ichiga olmaydi
 
-These are prevalent technologies but not part of this study plan:
+Bular keng tarqalgan texnologiyalar lekin bu proyekt ularni o'z ichiga olmaydi:
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, va boshqa front-end texnologiyalar
 
 ## The Daily Plan
 

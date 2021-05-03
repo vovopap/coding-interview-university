@@ -191,7 +191,7 @@ Ushbu loyihani boshlaganimda, men stack bilan heap-ni farqini bilmas edim,
 Big-O ni nimaligini bilmas edim, tree-lar yoki graph-lar haqida hech qanday tushunchaga 
 ega emas edim. Agar tartiblash algoritmini (sorting) yozishni so'rashganda, aniq qovun tushirgan 
 bo'lar edim. Umrimda ishlatgan data strukturalarni hammasini tayyor holda ishlatganman 
-(built-in library) va ularni asosida nimalar yotishini umuman bilmas edim. 
+(built-in library) va ularning asosida nimalar yotishini umuman bilmas edim. 
 Juda ko'p kod yozgan bo'lsamda, lekin men hech qachon qandaydir data strukturani noldan yozmaganman
 
 Bu uzoq vaqt talab qiladigan jarayon bo’lib, sizga bir necha oy kerak bo'lishi mumkin. 
@@ -205,7 +205,7 @@ Men natijalarni kuzatish uchun vazifalar ro'yxatini o'z ichiga olgan Github mark
 
 **Bu kabi elementlarni tekshirishingiz uchun yangi "branch" yarating, so'ngra shunchaki qavs ichiga x qo'shib, ro'yxat elementlarini belgilashingiz mumkin: [x]**
 
-     Branch-ni uzingizga fork qiling va quyidagi buyruqlarni ketma-ketlikda bajaring:
+     Branch-ni o'zingizga fork qiling va quyidagi buyruqlarni ketma-ketlikda bajaring:
 
 Ulash uchun https://github.com/jwasham/coding-interview-university havola(link) ga o'ting va "Fork" tugmasini bosing  
 
@@ -219,7 +219,7 @@ Ulash uchun https://github.com/jwasham/coding-interview-university havola(link) 
 
 `git fetch --all`
 
-    O'zgarishlaringizni tugatgandan so'ng barcha qismlarni X bilan belgilang
+    O'zgarishlaringizni tugatganingizdan so'ng barcha qismlarni X bilan belgilang
 
 `git add .`
 
@@ -247,9 +247,9 @@ Ba'zi video darsliklarni faqat Coursera yoki EdX platformalari orqali ro'yxatdan
 Ular MOOC (ommaviy ochiq onlayn kurs) deb nomlanadi.
 Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to'g'ri keladi.
 
-    Bepul va har doim ham ochiq ommaviy manbalarni yaratishda o'z hissangizni qo'shishingizni xoxlagan bo'lar edim. 
+    Bepul va har doim ham ochiq ommaviy manbalarni yaratishda o'z hissangizni qo'shishingizni xohlagan bo'lar edim. 
     Bu manbalar Youtube dagi video darsliklar ham bo'lishi mumkin. Masalan menga universitet 
-    ma'ruzalaridan foydalanish yoqadi.    
+    maruzalaridan foydalanish yoqadi.    
 
 
 ## Suhbat jarayoni va intervyuga tayyorgarlik
@@ -260,10 +260,10 @@ Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to
 - [ ] Qanday qilib "Big 4" kompaniyalariga ishga kirish mumkin:
     - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [How to Get a Job at the Big 4.1 (Follow-up video)](https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be)
-- [ ] Cracking The Coding Interview Set 1:
+- [ ] Coding intervyuga tayyorlanish, to'plam 1:
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
     - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-- [ ] Cracking the Facebook Coding Interview:
+- [ ] Facebook Coding Intervyusiga tayyorlanish:
     - [ ] [The Approach](https://www.youtube.com/watch?v=wCl9kvQGHPI)
     - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
 - [ ] Tayyorlanish uchun kurslar:
@@ -281,7 +281,7 @@ Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to
 ## Intervyu uchun bitta dasturlash tilini tanlang
 
 Intervyuning kodlash qismini bajarish uchun o'zingizga qulay bo'lgan dasturlash tilidan foydalanishingiz mumkin,
-Lekin yirik kompaniyalar quyida berilgan tillarning biridan foydalanishni talab qilishlari mumkin:
+lekin yirik kompaniyalar quyida berilgan tillarning biridan foydalanishni talab qilishlari mumkin:
 
 - C++
 - Java
@@ -304,115 +304,120 @@ Tog'ri tanlov haqida ko'proq o'qishingiz uchun manbalar:
 
 Quyida berilgan kitoblar ro'yxatida o'zim o'rganayotgan C, C++, va Python ga oid manbalarni ko'rishingiz mumkin.
 
-## Book List
+## Kitoblar ro'yxati
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+Bu sizning vaqtingizni tejash uchun men ishlatgan kitoblar ro'yxatining qisqartirilgan ko'rinishi.
 
-### Interview Prep
+### Intervyuga tayyorlanish
 
 - [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - answers in C++ and Java
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - Javoblar (C++ va Java)
+    - "Cracking the Coding Interview" kitobini boshlashdan oldin tayyorlanish uchun juda yaxshi manba 
+    - Juda murakkab emas, hattoki masalarning ko'pchiligi intervyuda uchraydigan masalalardan osonroq.
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - Java dasturlash tilida javoblar
 
-### If you have tons of extra time:
+### Agar sizda bo'sh vaqtingiz ko'p bo'lsa:
 
-Choose one:
+Quyidagi kitoblardan birini tanlashingiz mumkin:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
-- [ ] Elements of Programming Interviews (Java version)
+- [ ] Elements of Programming Interviews (Java versiyasi)
     - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
     - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
-### Language Specific
+### Dasturlash tiliga oid
 
-**You need to choose a language for the interview (see above).**
+** Yuqorida aytilganidek siz intervyu uchun bitta dasturlash tilini tanlashingiz kerak **
 
-Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+Mening tilga oid tavsiyalarim. Menda barcha tillar uchun resurslar yo'q shuning uchun sizda qo'shimcha ma'lumot bo'lsa 
+tavsiya qilishingiz mumkin.
+Agar siz bulardan birini o'qib chiqsangiz, masalalarni yechishda kerak bo'lgan barcha data strukturalar
+va algoritmlari bo'yicha bilimlarga ega bo'lishingiz kerak.
+** Loyihadagi video resurslarni o'tkazib yuborishingiz mumkin**, agar ko'rib chiqishni xohlamasangiz.
 
-If you read through one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
-
-[Additional language-specific resources here.](programming-language-resources.md)
+[Tilga oid qo'shimcha resurslar.](programming-language-resources.md)
 
 ### C++
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+Men bularning ikkitasini o'qimaganman, lekin ular yuqori baholangan va Sedvik tomonidan yozilgan. Sedgewick aka zo'rlar :)
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 - [ ] [Open Data Structures in C++](https://opendatastructures.org/ods-cpp.pdf)
-    - Rich and detailed collection of Data Structures and Algorithms
-    - Great for first-timers
+    - Ma'lumotlar tuzilmasi va algoritmlarga oid boy va batafsil to'plam
+    - Birinchi marta boshlayotganlar uchun juda mos
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+Agar sizda C++ bo'yicha yaxshiroq tavsiyalaringiz bo'lsa iltimos biz bilan baham ko'ring.
 
 ### Java
 
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!) on coursera:
-        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+- [ ] [Algoritmlar (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - Coursera dagi kitob tarkibi bilan videolar (va Sedgewick!):
+        - [Algoritmlar I](https://www.coursera.org/learn/algorithms-part1)
+        - [Algoritmlar II](https://www.coursera.org/learn/algorithms-part2)
 
-OR:
+Yoki:
 
-- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics
+- [ ] [Java da ma'lumotlar tuzilmasi va algoritmlar](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+    - Goodrich, Tamassia, va Goldwasser tomonidan yozilgan      
+    - UC Berkeley-dagi CS(Computer Science) kirish kursi uchun qo'shimcha kitob sifatida ishlatiladi
+    - Quyida Python dasturlash kitobi uchun men qoldirgan izohlar bu kitobga ham tegishli.
 
 ### Python
 
-- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more
-    - Pythonic code
-    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
-- [ ] [Open Data Structures in Python](https://opendatastructures.org/ods-python.pdf)
+- [ ] [Python da ma'lumotlar tuzilmasi va algoritmlar](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - Goodrich, Tamassia, va Goldwasser tomonidan yozilgan
+    - Menga bu kitob juda yoqdi. Bu juda ko'p ma'lumotlarni o'z ichiga olgan.
+    - Pythonic kod
+    - Mening bu kitob haqidagi izohim: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+- [ ] [Python da Open Data strukturalari](https://opendatastructures.org/ods-python.pdf)
 
-## Before you Get Started
+## O'rganishni boshlashdan oldin
 
-This list grew over many months, and yes, it kind of got out of hand.
+Mazkur ro'yxat bir necha oylar davomida shakllanganligi sababli biroz qo'ldan chiqdi.
+Bu yerda men ba'zi yo'l qo'ygan xatoliklar bor, bu esa sizlarga yaxshiroq tajriba orttirishingizga yordam beradi.
 
-Here are some mistakes I made so you'll have a better experience.
+### 1. Bularning barchasini eslab qolmaysiz
 
-### 1. You Won't Remember it All
+Men soatlab videolar ko'rardim va eslatmalar yozib qo'yar edim, va bir necha oydan so'ng hammasini eslab qola olmas edim.
+Men yozib olgan eslatmalarim va fleshkartalarim yordamida takrorlab chiqishim uchun 3 kun sarfladim. 
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards, so I could review.
-
-Please, read so you won't make my mistakes:
+Men qilgan xatolarni siz ham takrorlamasligingiz uchun iltimos o'qib chiqing:
 
 [Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
 
-A course recommended to me (haven't taken it): [Learning how to Learn](https://www.coursera.org/learn/learning-how-to-learn).
+Menga tavsiya qilingan kurs (shaxsan o'zim ko'rib chiqmaganman): [Learning how to Learn](https://www.coursera.org/learn/learning-how-to-learn).
 
-### 2. Use Flashcards
+### 2. Fleshkartalar(kartochkalar) ishlating
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Muammoni yechis uchun, men fleshkartalar uchun sayt yaratdim, u yerga 2 turdagi fleshkartalar joylanadi: umumiy eslatmalar va kod. 
+Har bir karta o'z formatiga ega.
 
-I made a mobile-first website, so I could review on my phone and tablet, wherever I am.
+Vebsaytdan telefon yoki tabletdan ham xoxlagan joyda foydalana olishim uchun mobilga moslangan sayt yaratdim.
 
-Make your own for free:
+O'zingizni saytingizni ham tekinga yarating:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
+- [Fleshkartalar sayti uchun repo](https://github.com/jwasham/computer-science-flash-cards)
+- [Mening fleshkartalarim bazasi (eski versiya - 1200 ta kartalar)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [ening fleshkartalarim bazasi(yangi versiya - 1800 ta kartalar)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
+Yodingizda bo'lsin, menda assembly language va Python triviyalaridan tortib, machine learning va statistikani 
+o'z ichiga olgan kartalarim bor. Bu esa talab qilinadigan narsalardan ham ko'p hisoblanadi. 
+(Ya'ni bularning barchasini siz bir vaqtda o'zlashtirgan bo'lishingiz shart emas)
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Fleshkartalardagi eslatmalar :** Birinchi marta fleshkartadagi javobni topa olganingizda uni o'zlashtirilganlar qatoriga qo'shmang. Aksincha xuddi shu kartani 
+ajratib qo'ying va bir necha marta javob bering toki haqiqatdan ham javobni anglab yetguningizgacha.
+Takrorlash natijasida ma'lumot miyangizga chuqurroq joylashadi.
+ 
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+Fleshkartalar uchun bir necha marta menga tavsiya qilingan alternativ vebsayt [Anki](http://ankisrs.net/). 
+Bu sizning eslab qolishingizga yordam berish uchun takrorlash sistemasini ishlatadi. 
+Buni ishlatish qulay va barcha platformalarda mavjud va cloud bn sinxronizatsiya qilingan. iOS platformalari 
+uchun narxi $25, lekin boshqa platformalar uchun tekin.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
+Anki formatidagi mening fleshkartalarim bazasi: https://ankiweb.net/shared/info/25173560 ([@xiewenya](https://github.com/xiewenya) ga tashakkur).
 
 ### 3. Start doing coding interview questions while you're learning data structures and algorithms
 

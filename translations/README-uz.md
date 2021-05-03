@@ -1,6 +1,6 @@
 # Coding Interview University
 
-Asl versiyasi: [Inglischa](../README.md)
+Asl versiyasi: [Inglizcha](../README.md)
 
 > Dastlab men bu proyektni dasturchi (software engineer) bo'lish uchun o'qish kerak bo'lgan mavzularning qisqacha ro'yxati sifatida yaratdim,
 > ammo bu proyekt bugun siz ko'rib turgan katta ro'yxatga aylandi. Ushbu o'quv rejasidan o'tib, [men Amazon-ga dasturchi sifatida ishga yollandim](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 
@@ -50,7 +50,7 @@ Asl versiyasi: [Inglischa](../README.md)
 
 ## What is it?
 
-Uzbekcha yozamiz :)
+O'zbekcha yozamiz :)
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
@@ -419,39 +419,47 @@ uchun narxi $25, lekin boshqa platformalar uchun tekin.
 
 Anki formatidagi mening fleshkartalarim bazasi: https://ankiweb.net/shared/info/25173560 ([@xiewenya](https://github.com/xiewenya) ga tashakkur).
 
-### 3. Start doing coding interview questions while you're learning data structures and algorithms
+### 3. Ma'lumotlar tuzilmalari va algoritmlarini o'rganish jarayonida coding intervyu savollariga javob topishni boshlang.
 
-You need to apply what you're learning to solving problems, or you'll forget. I made this mistake. Once you've learned a topic,
-and feel comfortable with it, like linked lists, open one of the coding interview books and do a couple of questions regarding
-linked lists. Then move on to the next learning topic. Then later, go back and do another linked list problem,
-or recursion problem, or whatever. But keep doing problems while you're learning. You're not being hired for knowledge,
-but how you apply the knowledge. There are several books and sites I recommend.
-See here for more: [Coding Question Practice](#coding-question-practice).
+O'rganayotgan narsalaringizni masalalar yechishda qo'llab ketishingiz kerak, 
+aks holda o'rganganlaringizni tez unutishingiz mumkin.
+Shaxsan menda shunday bo'lgan. Biror bir mavzuni masalan bog'langan ro'yxatlar (linked lists) ga oid mavzuni 
+o'rganganingizdan keyin agar o'zingizni shu mavzuda erkin 
+his qilishni boshlasangiz coding intervyu kitoblaridan linked list ga oid masala yechishga urinib ko'ring.
+So'ng, keyingi mavzuga o'ting. Bir qancha vaqtdan keyin yana ortga qaytib linked listga yoki 
+rekursiyaga oid masala yeching. Asosiysi o'rganish jarayonida ko'proq masalalarni yechishda davom eting.
+Sizni ishga bilimingiz uchun emas, bilimingizni qo'llay olishingiz uchun qabul qilishadi.
+Men sizlarga tavsiya qiladigan kitoblar va saytlar bor. 
+Ko'proq ko'rish uchun havolaga o'ting:: [Coding Question Practice](#coding-question-practice).
 
-### 4. Review, review, review
+### 4. Takrorlang, takrorlang va yana takrorlang
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+Menda ASCII, OSI stack, Big-O notations va boshqa mavzularda eslatma varaqlarim bor. 
+Ularni biroz bo'sh vaqtim bo'lganda o'rganaman.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Masalalar yechish jarayonida biroz tanaffus oling va o'zingizni fleshkartalaringizni takrorlab chiqing.
 
-### 5. Focus
+### 5. Diqqatingizni bir joyga jamlang
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
-without lyrics and you'll be able to focus pretty well.
+Atrofimizda juda ko'p narsalar bizni chalg'itib qo'yadi va qimmatli vaqtimizni oladi.
+Shuningg uchun diqqatni jamlash va konsentratsiya qilish oson emas. Buning bir usuli,
+matnsiz biron musiqa tinglang, bu esa diqqatingizni jamlashingizga yordam beradi.
 
-## What you won't see covered
+## Sizga bu loyiha davomida uchramaydigan reja ham qo'shilgan 
 
-These are prevalent technologies but not part of this study plan:
+Bular keng tarqalgan texnologiyalar, ammo ushbu o'quv rejasida ishlatilmagan:
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, va boshqa frontendga oid texnologiyalar.
 
-## The Daily Plan
+## Kunlik reja
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+Bazi mavzular bir kun, va bazilari esa hattoki bir necha kun vaqt olishi mumkin. Bazilari esa hech qanday kod yozmasdan 
+ham o'rganish mumkin bo'ladi.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
+Har kuni men quyidagi ro'yxatdan bir mavzuni olardim, shu mavzuga oid video tomosha qilar edim va 
+kodda amalga oshirib ko'rar edim:
 - C - using structs and functions that take a struct * and something else as args
 - C++ - without using built-in types
 - C++ - using built-in types, like STL's std::list for a linked list

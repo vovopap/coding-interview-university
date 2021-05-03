@@ -447,24 +447,24 @@ These are prevalent technologies but not part of this study plan:
 - Javascript
 - HTML, CSS, and other front-end technologies
 
-## Kunlik plan
+## Kunlik reja
 
 Bazi mavzular bir kun oladi, va bazilariga bir necha kunlar kerak bo'ladi. Bazilari faqat o'rganish, kod yozish kerak emas.
 
-Har kuni bitta mavzu olib, videolarini ko'rib, quyidagi tillarda kodda yozib chiqiman:
-- C - struct-lardan va struct * oladigan funksiyalarni ishlatgan xolda
-- C++ - built-in tiplarni ishlatmagan xolda
-- C++ - built-in tiplarni ishlatgan xolda, masalan STL-ning std::list
-- Python - built-in tiplarni ishlatgan xolda (Python-ni mashq qilish uchun)
-- va testlar yozgan xolda (oddiy assert() ishlatib)
+Har kuni bitta mavzu olib, videolarini ko'rib, quyidagi tillarda kodda yozib chiqaman:
+- C - struct-lardan va struct * oladigan funksiyalarni ishlatgan holda
+- C++ - built-in tiplarni ishlatmagan holda
+- C++ - built-in tiplarni ishlatgan holda, masalan STL-ning std::list
+- Python - built-in tiplarni ishlatgan holda (Python-ni mashq qilish uchun)
+- va testlar yozgan holda (oddiy assert() ishlatib)
 - siz Java yoki boshqa tilda qilishingiz mumkin
 
 Sizga bularni hammasi kerak emas. Intervyu uchun sizga [faqat bitta til](#pick-one-language-for-the-interview) kerak.
 
 Nega turlicha yozish kerak?
 - Mashq, mashq, mashq, ko'nglim ayniguncha. Shunda muammosiz tushimda ham qila olaman.
-- Pastgi darajada (low level) yoza olish uchun (masalan, garbage collection ishlatmagan xolda)
-- Har kunlik ishda built-in tiplardan bemarol foydalana olish uchun (production-da array listni yoki linked listni boshidan yozib o'tirmaymanku)
+- Pastgi darajada (low level) yoza olish uchun (masalan, garbage collection ishlatmagan holda)
+- Har kunlik ishda built-in tiplardan bemalol foydalana olish uchun (production-da array listni yoki linked listni boshidan yozib o'tirmaymanku)
 
 Har bir mavzuni tepadagi tarzda o'qiyolmashim mumkin, lekin harakat qilaman.
 
@@ -473,9 +473,9 @@ Meni kodlarimni bu yerda ko'rishingiz mumkin:
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-Har bir algoritmni ich-kirini eslab qolishingiz shart emas.
+Har bir algoritmni ikr-chikirini eslab qolishingiz shart emas.
 
-Birinchi kodizni doskada yoki qog'ozda yozing, komputerda emas. Og'zaki test qiling. Keyin komputerda yozib test qiling.
+Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qiling. Keyin kompyuterda yozib test qiling.
 
 ## Prerequisite Knowledge
 

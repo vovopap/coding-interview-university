@@ -392,7 +392,7 @@ Menga tavsiya qilingan kurs (shaxsan o'zim ko'rib chiqmaganman): [Learning how t
 
 ### 2. Fleshkartalar(kartochkalar) ishlating
 
-Muammoni yechis uchun, men fleshkartalar uchun sayt yaratdim, u yerga 2 turdagi fleshkartalar joylanadi: umumiy eslatmalar va kod. 
+Muammoni yechish uchun, men fleshkartalar uchun sayt yaratdim, u yerga 2 turdagi fleshkartalar joylanadi: umumiy eslatmalar va kod. 
 Har bir karta o'z formatiga ega.
 
 Vebsaytdan telefon yoki tabletdan ham xoxlagan joyda foydalana olishim uchun mobilga moslangan sayt yaratdim.

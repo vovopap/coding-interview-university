@@ -455,35 +455,33 @@ Bular keng tarqalgan texnologiyalar, ammo ushbu o'quv rejasida ishlatilmagan:
 
 ## Kunlik reja
 
-Bazi mavzular bir kun, va bazilari esa hattoki bir necha kun vaqt olishi mumkin. Bazilari esa hech qanday kod yozmasdan 
-ham o'rganish mumkin bo'ladi.
+Bazi mavzular bir kun oladi, va bazilariga bir necha kunlar kerak bo'ladi. Bazilari faqat o'rganish, kod yozish kerak emas.
 
-Har kuni men quyidagi ro'yxatdan bir mavzuni olardim, shu mavzuga oid video tomosha qilar edim va 
-kodda amalga oshirib ko'rar edim:
-- C - using structs and functions that take a struct * and something else as args
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing
+Har kuni bitta mavzu olib, videolarini ko'rib, quyidagi tillarda kodda yozib chiqaman:
+- C - struct-lardan va struct * oladigan funksiyalarni ishlatgan holda
+- C++ - built-in tiplarni ishlatmagan holda
+- C++ - built-in tiplarni ishlatgan holda, masalan STL-ning std::list
+- Python - built-in tiplarni ishlatgan holda (Python-ni mashq qilish uchun)
+- va testlar yozgan holda (oddiy assert() ishlatib)
+- siz Java yoki boshqa tilda qilishingiz mumkin
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+Sizga bularni hammasi kerak emas. Intervyu uchun sizga [faqat bitta til](#pick-one-language-for-the-interview) kerak.
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python or Java))
-- Make use of built-in types, so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+Nega turlicha yozish kerak?
+- Mashq, mashq, mashq, ko'nglim ayniguncha. Shunda muammosiz tushimda ham qila olaman.
+- Pastgi darajada (low level) yoza olish uchun (masalan, garbage collection ishlatmagan holda)
+- Har kunlik ishda built-in tiplardan bemalol foydalana olish uchun (production-da array listni yoki linked listni boshidan yozib o'tirmaymanku)
 
-I may not have time to do all of these for every subject, but I'll try.
+Har bir mavzuni tepadagi tarzda o'qiyolmashim mumkin, lekin harakat qilaman.
 
-You can see my code here:
+Meni kodlarimni bu yerda ko'rishingiz mumkin:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+Har bir algoritmni ikr-chikirini eslab qolishingiz shart emas.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qiling. Keyin kompyuterda yozib test qiling.
 
 ## Prerequisite Knowledge
 

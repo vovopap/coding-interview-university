@@ -479,16 +479,16 @@ Har bir algoritmni ikr-chikirini eslab qolishingiz shart emas.
 
 Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qiling. Keyin kompyuterda yozib test qiling.
 
-## Prerequisite Knowledge
+## Oldindan nima bilish kerak
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying
+- [ ] **C ni o'rganing**
+    - C hamma yoqda. Siz C da yozilgan namuna kodlarni kitoblarda, ma'ruzalarda, videolarda, hamma yoqda uchratasiz
     - [ ] [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work
-        - [Answers to questions](https://github.com/lekkas/c-algorithms)
+        - Bu qisqacha kitob, lekin C ni sizga ancha o'rgatadi va agar ozgina mashq qilsangiz tezda mohir bo'lib ketasiz.
+            C ni tushunish dasturlar va xotira qanday ishlashini tushinishga yordam beradi
+        - [Savollarga javoblar](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
+- [ ] **Kompyuterlar dasturni qanday boshqarishadi**
     - [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
     - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
     - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)

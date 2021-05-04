@@ -48,22 +48,18 @@ Asl versiyasi: [Inglizcha](../README.md)
 
 </details>
 
-## What is it?
+## Bu nima?
 
-O'zbekcha yozamiz :)
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
-
+Bu mening web dasturchisi (web developer) darajasidan katta kompaniyada ishlaydigan dastur injineri (software engineer) darajasiga chiqish uchun qilgan ko'p oylik o'qish rejam.
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+Bu proyekt **yangi dasturchi injinerlar** uchun juda forydali. Va yana, oddiy programmistlikdan (masalan web yoki mobildan) dastur injinerlikka (dastur injinerlaridan computer science bilimlari talab qilinadi) o'tmoqchi bulganlar uchun foydali.
 
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
 
-If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
+Agar sizda dasturchilik bo'yicha ko'p yillik tajribangiz bo'lsa, shuni bilingki: Google, Amazon, Facebook, va Microsoftga o'xshagan katta kompaniyalar dastur injinerlikni (software engineer) oddiy dasturchilikdan (software/web developer) farqli deb kuradi va ular computer science bilimini talab qiladi.
 
+
+Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, unda siz ixtiyoriy ro'yxatdan ko'proq o'qing (tarmoq, xavfsizlik va boshqalar).
 ---
 
 ## Table of Contents

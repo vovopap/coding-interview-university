@@ -50,13 +50,13 @@ Asl versiyasi: [Inglizcha](../README.md)
 
 ## Bu nima?
 
-Bu mening web dasturchisi (web developer) darajasidan katta kompaniyada ishlaydigan dastur injineri (software engineer) darajasiga chiqish uchun qilgan ko'p oylik o'qish planim.
+Bu mening web dasturchisi (web developer) darajasidan katta kompaniyada ishlaydigan dastur injineri (software engineer) darajasiga chiqish uchun qilgan ko'p oylik o'qish rejam.
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-Bu proyekt **yangi dastur injinerlar** uchun juda forydali. Va yana, oddiy programmistlikdan (masalan web yoki mobildan) dastur injinerlikka (dastur injinerlaridan computer science bilimlari talab qilinadi) o'tmoqchi bulganlar uchun foydali.
+Bu proyekt **yangi dasturchi injinerlar** uchun juda forydali. Va yana, oddiy programmistlikdan (masalan web yoki mobildan) dastur injinerlikka (dastur injinerlaridan computer science bilimlari talab qilinadi) o'tmoqchi bulganlar uchun foydali.
 
 
-Agar sizda programmistlik buyicha kup yillik tajribangiz bulsa, shuni bilingki: Google, Amazon, Facebook, va Microsoftga o'xshagan katta kompaniyalar dastur injinirlikni (software engineer) programmistlikdan (software/web developer) farqli deb kuradi va ular computer science bilimini talab qiladi.
+Agar sizda dasturchilik bo'yicha ko'p yillik tajribangiz bo'lsa, shuni bilingki: Google, Amazon, Facebook, va Microsoftga o'xshagan katta kompaniyalar dastur injinerlikni (software engineer) oddiy dasturchilikdan (software/web developer) farqli deb kuradi va ular computer science bilimini talab qiladi.
 
 
 Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, unda siz ixtiyoriy ro'yxatdan ko'proq o'qing (tarmoq, xavfsizlik va boshqalar).

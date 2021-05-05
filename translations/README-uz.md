@@ -495,7 +495,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
     - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
 
-## Algorithmic complexity / Big-O / Asimtotik tahlil
+## Algoritmik murakkablik / Big-O / Asimtotik tahlil
 
 - Kodda yozadigan narsa yo'q
 - Bu yerda ko'p videolar bor. Tushunginizcha ko'ring. Har doim qayta ko'rib chiqingiz mumkin.

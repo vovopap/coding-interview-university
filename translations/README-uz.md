@@ -498,8 +498,8 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
 ## Algoritmik murakkablik / Big-O / Asimtotik tahlil
 
 - Kodda yozadigan narsa yo'q
-- Bu yerda ko'p videolar bor. Tushunginizcha ko'ring. Har doim qayta ko'rib chiqingiz mumkin.
-- Agar bazi maruzalar murakkab matematika ishlatsa, pastgi qisimga tushib diskret matematika videolarini ko'rib chiqishingiz mumkin
+- Bu yerda ko'p videolar bor. Tushunguningizgacha ko'ring. Har doim qayta ko'rib chiqishingiz mumkin.
+- Agar bazi maruzalarda murakkab matematika ishlatilsa, pastgi qisimga tushib diskret matematika videolarini ko'rib chiqishingiz mumkin
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (umumiy qisqacha tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - eng yaxshi matematik tushuntirish (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)

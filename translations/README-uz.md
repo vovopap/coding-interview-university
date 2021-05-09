@@ -594,21 +594,21 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
 - ### Queue
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
+    - [ ] linked-list dan foydalangan holda kodda yozaman (tail pointer bilan):
+        - enqueue(value) - qiymatni queue-ni ohiriga qo'yadi
+        - dequeue() - queue-ni boshidagi elementni o'chirib uni qiymatini qaytaradi
         - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
+    - [ ] belgilangan olchamli massivdan foydalangan holda kodda yozaman:
+        - enqueue(value) - mavjud xotirani ohiriga qiymatni qo'yadi
+        - dequeue() - queue-ni boshidagi elementni o'chirib uni qiymatini qaytaradi
         - empty()
         - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] Ish xarajati:
+        - queue uchun linked-list ishlatib, list boshiga enqueue qilish va ohiridan dequeue qilish - bu yomon yondashuv
+            chunki har safar dequeue qilinganda O(n) vaqt ketadi
+        - enqueue: O(1) (amortized, linked list va massiv [probing])
+        - dequeue: O(1) (linked list va massiv)
+        - empty: O(1) (linked list va massiv)
 
 - ### Hash table
     - [ ] Videos:

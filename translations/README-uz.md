@@ -570,19 +570,19 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] Kodda yozaman (tail pointer va tail pointer-siz):
         - [ ] size() - listdagi elementlar sonini qaytaradi
-        - [ ] empty() - agar list bo'sh bolsa true qaytaradi
+        - [ ] empty() - agar list bo'sh bo'lsa true qaytaradi
         - [ ] value_at(index) - n-inchi elementning qiymatini qaytaradi (0 dan boshlab)
         - [ ] push_front(value) - listning boshiga element qo'shadi
         - [ ] pop_front() - birinchi elementni olib tashlab va uni qiymatini qaytaradi
-        - [ ] push_back(value) - ohiriga element qoshadi
-        - [ ] pop_back() - ohirgi elementni olib tashlab va uni qiymatini qaytaradi
+        - [ ] push_back(value) - oxiriga element qoshadi
+        - [ ] pop_back() - oxiriga elementni olib tashlab va uni qiymatini qaytaradi
         - [ ] front() - birinchi elementni qiymatini qaytaradi
-        - [ ] back() - ohirgi elementni qiymatini qaytaradi
+        - [ ] back() - oxiriga elementni qiymatini qaytaradi
         - [ ] insert(index, value) - index-ni joyiga value-ni joylashtiradi
         - [ ] erase(index) - index joyida turgan elementni o'chirib tashlaydi
-        - [ ] value_n_from_end(n) - ohiridan sanaganda n-inchi elementni qiymatini qaytaradi
+        - [ ] value_n_from_end(n) - oxiriga sanaganda n-inchi elementni qiymatini qaytaradi
         - [ ] reverse() - listni teskari safga qo'yadi
-        - [ ] remove_value(value) - value qiymatiga tega bo'lgan birinchi elementni o'chirib tashlaydi
+        - [ ] remove_value(value) - value qiymatiga ega bo'lgan birinchi elementni o'chirib tashlaydi
     - [ ] Doubly-linked List
         - [Tavsif (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - Kodda yozish shart emas

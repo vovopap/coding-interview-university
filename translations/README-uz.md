@@ -595,11 +595,11 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] linked-list dan foydalangan holda kodda yozaman (tail pointer bilan):
-        - enqueue(value) - qiymatni queue-ni ohiriga qo'yadi
+        - enqueue(value) - qiymatni queue-ni oxiriga qo'yadi
         - dequeue() - queue-ni boshidagi elementni o'chirib uni qiymatini qaytaradi
         - empty()
-    - [ ] belgilangan olchamli massivdan foydalangan holda kodda yozaman:
-        - enqueue(value) - mavjud xotirani ohiriga qiymatni qo'yadi
+    - [ ] belgilangan o'lchamli massivdan foydalangan holda kodda yozaman:
+        - enqueue(value) - mavjud xotirani oxiriga qiymatni qo'yadi
         - dequeue() - queue-ni boshidagi elementni o'chirib uni qiymatini qaytaradi
         - empty()
         - full()

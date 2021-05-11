@@ -495,17 +495,17 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
     - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## Algoritmik murakkablik / Big-O / Asimtotik tahlil
 
-- Nothing to implement
-- There are a lot of videos here. Just watch enough until you understand it. You can always come back and review
-- If some lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge
+- Kodda yozadigan narsa yo'q
+- Bu yerda ko'p videolar bor. Tushunguningizgacha ko'ring. Har doim qayta ko'rib chiqishingiz mumkin.
+- Agar bazi maruzalarda murakkab matematika ishlatilsa, pastgi qisimga tushib diskret matematika videolarini ko'rib chiqishingiz mumkin
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Big O Notations (umumiy qisqacha tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Big O Notation (and Omega and Theta) - eng yaxshi matematik tushuntirish (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
     - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [slides](https://archive.org/details/lecture2_202008)
+    - [slaydlar](https://archive.org/details/lecture2_202008)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
 - [ ] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
 - [ ] [Asymptotics (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
@@ -513,10 +513,10 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
 - [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
-- [ ] TopCoder (includes recurrence relations and master theorem):
+- [ ] TopCoder (recurrence relation-larni va master teoremani o'z ichiga oladi):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
-- [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- [ ] [Cheat varaq](http://bigocheatsheet.com/)
 
 ## Ma'lumotlar tuzilmasi (Data structures)
 
@@ -556,61 +556,61 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - bo'sh joy kerak = (massiv hajmi >= n) * element hajmi, agar 2n bo'lsa ham O(n) hisoblanadi
 
 - ### Linked Lists
-    - [ ] Description:
+    - [ ] Tavsif:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation
+            - butun videoni ko'rmang, Node struct va xotira ajratish (memory allocation) qismilarini ko'ring
     - [ ] Linked List vs Arrays:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+    - [ ] [nega linked list-dan foydalanmaganingiz maqul (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] Yodda tuting: siz "pointer to pointer" nimaligini tushuningiz kerak:
+        (funksiyaga pointer berilganda, funksiya pointer ko'rsatib turgan adresni o'zgartirishi mumkin)
+        Bu sahifa "pointer to pointer" ni tushinish uchun foydali. Lekin bunday list traversal stilini tavsiya etmayman chunki kodni o'qish va uni maintain qilish qiyin.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] Implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
+    - [ ] Kodda yozaman (tail pointer va tail pointer-siz):
+        - [ ] size() - listdagi elementlar sonini qaytaradi
+        - [ ] empty() - agar list bo'sh bo'lsa true qaytaradi
+        - [ ] value_at(index) - n-inchi elementning qiymatini qaytaradi (0 dan boshlab)
+        - [ ] push_front(value) - listning boshiga element qo'shadi
+        - [ ] pop_front() - birinchi elementni olib tashlab va uni qiymatini qaytaradi
+        - [ ] push_back(value) - oxiriga element qoshadi
+        - [ ] pop_back() - oxiriga elementni olib tashlab va uni qiymatini qaytaradi
+        - [ ] front() - birinchi elementni qiymatini qaytaradi
+        - [ ] back() - oxiriga elementni qiymatini qaytaradi
+        - [ ] insert(index, value) - index-ni joyiga value-ni joylashtiradi
+        - [ ] erase(index) - index joyida turgan elementni o'chirib tashlaydi
+        - [ ] value_n_from_end(n) - oxiriga sanaganda n-inchi elementni qiymatini qaytaradi
+        - [ ] reverse() - listni teskari safga qo'yadi
+        - [ ] remove_value(value) - value qiymatiga ega bo'lgan birinchi elementni o'chirib tashlaydi
     - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
-        - No need to implement
+        - [Tavsif (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+        - Kodda yozish shart emas
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    - [ ] Will not implement. Implementing with array is trivial
+    - [ ] Kodda yozmayman. Massivada stackni yaratish juda oson.
 
 - ### Queue
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
+    - [ ] linked-list dan foydalangan holda kodda yozaman (tail pointer bilan):
+        - enqueue(value) - qiymatni queue-ni oxiriga qo'yadi
+        - dequeue() - queue-ni boshidagi elementni o'chirib uni qiymatini qaytaradi
         - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
+    - [ ] belgilangan o'lchamli massivdan foydalangan holda kodda yozaman:
+        - enqueue(value) - mavjud xotirani oxiriga qiymatni qo'yadi
+        - dequeue() - queue-ni boshidagi elementni o'chirib uni qiymatini qaytaradi
         - empty()
         - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] Ish xarajati:
+        - queue uchun linked-list ishlatib, list boshiga enqueue qilish va ohiridan dequeue qilish - bu yomon yondashuv
+            chunki har safar dequeue qilinganda O(n) vaqt ketadi
+        - enqueue: O(1) (amortized, linked list va massiv [probing])
+        - dequeue: O(1) (linked list va massiv)
+        - empty: O(1) (linked list va massiv)
 
 - ### Hash table
     - [ ] Videos:

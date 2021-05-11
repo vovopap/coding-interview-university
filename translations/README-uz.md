@@ -518,40 +518,42 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
-## Data Structures
+## Ma'lumotlar tuzilmasi (Data structures)
 
-- ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
-        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] New raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
-        - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+- ### Massivlar
+    - Avtomatik ravishda o'lchamlarini o'zgartiradigan vektorni amalga oshirish.
+    - [ ] Tavsif:
+        - [Massivlar (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [UC Berkeley CS61B - Chiziqli va ko'p o'lchovli massivlar(video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+        - [Dinamik massivlar (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [Qattiq massivlar (Jagged Arrays) (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+    - [ ] Vektorni bajaring (avtomatik o'lchamlarini o'zgartiradigan massiv):
+        - [ ] Massivlar va ko'rsatgichlar(pointerlar) yordamida kod yozishni mashq qiling va massivning indeksiga 
+          o'tish uchun indexing o'rniga pointer matematikasini ishlating.
+        - [ ] Ajratilgan xotiraga ega yangi ma'lumotlar massivi
+            - int massivini hood ostiga ajratishi mumkin, faqat uning xususiyatlaridan foydalanmaslik kerak
+            - 16 dan boshlang, agar boshlanayotgan son kattaroq bo'lsa 2 ning darajalarini ishlating(2 - 16, 32, 64, 128)
+        - [ ] size() - Massivdagi elementlar soni
+        - [ ] capacity() - massiv o'z ichiga olishi mumkin bo'lgan elementlar soni
+        - [ ] is_empty() - Massiv bo'sh yoki yo'qligini tekshirish
+        - [ ] at(index) - Ko'rsatilgan indeksdagi massiv elementini qaytaradi. 
+          Agar berilgan indeks massiv indexlaridan tashqarida bo'lsa xatolik qaytaradi.
         - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [ ] insert(index, item) - Ko'rsatilgan indeksga elementni qo'shadi, indeksdagi eski element(lar)ni esa o'zidan o'ngga ko'chiradi 
+        - [ ] prepend(item) - Massivning birinchi elementidan oldin yangi element qo'shish
+        - [ ] pop() - Massivning oxirgi elementini o'chiradi va o'chirilgan elemntni qaytaradi.
+        - [ ] delete(index) - Massiv elementini indeks bo'yicha o'chiradi, Qolgan elementlar chapga ko'chiriladi
+        - [ ] remove(item) - Berilgan qiymatni izlaydi va shu qiymatga ega indekslarni barchasini o'chiradi
+        - [ ] find(item) - Berilgan qiymatni izlaydi va shu qiymatga ega birinchi indeksni qaytaradi, agar topilmasa -1 qaytaradi
         - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
+            - Massiv hajmi to'lganda, uni ikki baravar oshirish uchun o'lchamini o'zgartiring
+            - Massiv elementini pop qilganda, agar hajmi umumiy hajmning 1/4 ga teng bo'lsa, hajmini yarimiga o'zgartiring
     - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
+        - O(1) Oxiriga qo'shish yoki olib tashlash (ko'proq joy ajratish uchun amortizatsiya qilingan), indeks, yoki o'zgartirish
+        - O(n) boshqa joyga qo'shish yoki olib tashlash
     - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+        - xotiraga juda yaqin, shuning uchun birgalikda ishlashga yordam beradi 
+        - bo'sh joy kerak = (massiv hajmi >= n) * element hajmi, agar 2n bo'lsa ham O(n) hisoblanadi
 
 - ### Linked Lists
     - [ ] Description:

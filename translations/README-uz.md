@@ -628,9 +628,9 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
             - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
     - [ ] Implement with array using linear probing
-    - [ ] 'Linear probing' ishlatgan xolda amalga oshirish (massiv bilan)
+    - [ ] 'Linear probing' ishlatgan holda amalga oshirish (massiv bilan)
         - hash(k, m) - m bu hash table-ning o'lchami
-        - add(key, value) - agar key mavjud bo'lsa, qiymatini yangila
+        - add(key, value) - agar key mavjud bo'lsa, qiymatini yangilaydi
         - exists(key)
         - get(key)
         - remove(key)

@@ -635,15 +635,15 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - get(key)
         - remove(key)
 
-## More Knowledge
+## Qo'shimcha bilimlar
 
 - ### Binary search
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+    - [ ] [batafsil](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+    - [ ] Kodda yozish:
+        - binary search (tartiblangan integer massivlarida)
+        - rekursiv binary search
 
 - ### Bitwise operations
     - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)

@@ -524,7 +524,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - Avtomatik ravishda o'lchamlarini o'zgartiradigan vektorni amalga oshirish.
     - [ ] Tavsif:
         - [Massivlar (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        - [UC Berkeley CS61B - Chiziqli va ko'p o'lchovli massivlar(video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+        - [UC Berkeley CS61B - Chiziqli va ko'p o'lchovli massivlar(video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (15:32 sekunddan boshlab ko'rishni boshlang)
         - [Dinamik massivlar (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Qattiq massivlar (Jagged Arrays) (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Vektorni bajaring (avtomatik o'lchamlarini o'zgartiradigan massiv):
@@ -555,14 +555,14 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - xotiraga juda yaqin, shuning uchun birgalikda ishlashga yordam beradi 
         - bo'sh joy kerak = (massiv hajmi >= n) * element hajmi, agar 2n bo'lsa ham O(n) hisoblanadi
 
-- ### Linked Lists
+- ### Linked Lists (O'zaro bog'langan ro'yxatlar)
     - [ ] Tavsif:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - butun videoni ko'rmang, Node struct va xotira ajratish (memory allocation) qismilarini ko'ring
-    - [ ] Linked List vs Arrays:
+    - [ ] Linked List va Array(massiv)lar:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [nega linked list-dan foydalanmaganingiz maqul (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)

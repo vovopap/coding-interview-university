@@ -674,26 +674,26 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - [ ] Absolute value:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## Trees (daraxtlar)
 
-- ### Trees - Notes & Background
+- ### Trees - Eslatmalar & Kelib chiqishi
     - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
-    - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
-        - BFS notes:
-           - level order (BFS, using queue)
-           - time complexity: O(n)
-           - space complexity: best: O(1), worst: O(n/2)=O(n)
-        - DFS notes:
-            - time complexity: O(n)
-            - space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
-            - inorder (DFS: left, self, right)
-            - postorder (DFS: left, right, self)
-            - preorder (DFS: self, left, right)
+    - tree-ning asosiy tuzilmasi
+    - traversal (o'tish)
+    - manipulyatsiya algoritmlari
+    - [ ] [BFS(breadth-first search) va DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+        - BFS eslatmalari:
+           - darajaning ketma ketligi (BFS, queue ishlatgan holda)
+           - ish vaqti xarajati (time complexity): O(n)
+           - ish joyi xarajati (space complexity): eng yaxshisi: O(1), eng yomoni: O(n/2)=O(n)
+        - DFS eslatmalari:
+            - ish vaqti xarajati: O(n)
+            - ish joyi xarajati:
+                eng yaxshisi: O(log n) - tree ning o'rtacha balandligi
+                eng yomoni: O(n)
+            - inorder(tartiblashda) (DFS: left, self, right)
+            - postorder (tartiblashdan keyin) (DFS: left, right, self)
+            - preorder (tartiblashdan oldin) (DFS: self, left, right)
 
 - ### Binary search trees: BSTs
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    

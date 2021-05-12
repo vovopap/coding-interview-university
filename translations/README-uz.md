@@ -518,49 +518,51 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat varaq](http://bigocheatsheet.com/)
 
-## Data Structures
+## Ma'lumotlar tuzilmasi (Data structures)
 
-- ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
-        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+- ### Massivlar
+    - Avtomatik ravishda o'lchamlarini o'zgartiradigan vektorni amalga oshirish.
+    - [ ] Tavsif:
+        - [Massivlar (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [UC Berkeley CS61B - Chiziqli va ko'p o'lchovli massivlar(video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (15:32 sekunddan boshlab ko'rishni boshlang)
+        - [Dinamik massivlar (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] New raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
-        - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+    - [ ] Vektorni bajaring (o'lchamini o'zgartiradigan massiv):
+        - [ ] Massivlar va ko'rsatgichlar(pointerlar) yordamida kod yozishni mashq qiling va massivning index-iga 
+          o'tish uchun indexing o'rniga pointer matematikasini ishlating.
+        - [ ] Massivimiz elementlarini ushlab turadigan ichki (private) massiv
+            - int massivni elementlarni saqlash uchun ishlatsak bo'ladi, faqat uning xususiyatlaridan foydalanmaslik kerak
+            - 16 dan boshlang, agar boshlanayotgan son kattaroq bo'lsa 2 ning darajalarini ishlating(2 - 16, 32, 64, 128)
+        - [ ] size() - Massivdagi elementlar soni
+        - [ ] capacity() - massiv o'z ichiga olishi mumkin bo'lgan elementlar soni
+        - [ ] is_empty() - Massiv bo'sh yoki yo'qligini tekshirish
+        - [ ] at(index) - Ko'rsatilgan index-dagi massiv elementini qaytaradi. 
+          Agar berilgan index massiv indexlaridan tashqarida bo'lsa xatolik qaytaradi.
         - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [ ] insert(index, item) - Ko'rsatilgan index-ga elementni qo'shadi, index-dagi eski element(lar)ni esa o'zidan o'ngga ko'chiradi 
+        - [ ] prepend(item) - Massivning birinchi elementidan oldin yangi element qo'shish
+        - [ ] pop() - Massivning oxirgi elementini o'chiradi va o'chirilgan elemntni qaytaradi.
+        - [ ] delete(index) - Massiv elementini index bo'yicha o'chiradi, Qolgan elementlar chapga ko'chiriladi
+        - [ ] remove(item) - Berilgan qiymatni izlaydi va shu qiymatga ega index-larni barchasini o'chiradi
+        - [ ] find(item) - Berilgan qiymatni izlaydi va shu qiymatga ega birinchi index-ni qaytaradi, agar topilmasa -1 qaytaradi
         - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+            - Massiv hajmi to'lganda, uni ikki baravar oshirish uchun o'lchamini o'zgartiring
+            - Massivda element olib tashlanganda, agar hajmi umumiy hajmning 1/4 ga teng bo'lsa, hajmini yarimiga o'zgartiring
+    - [ ] Ish vaqt xarajati (Time)
+        - O(1) Oxiriga qo'shish yoki olib tashlash (ko'proq joy ajratish uchun amortizatsiya qilingan), index, yoki o'zgartirish
+        - O(n) boshqa joyga qo'shish yoki olib tashlash
+    - [ ] Ish joy xarajati (Space)
+        - elementlar xotirada yonma yon joylashgan, shuning uchun yaqinlik yordam beradi 
+        - bo'sh joy kerak = (massiv hajmi >= n) * element hajmi, agar 2n bo'lsa ham O(n) hisoblanadi
 
-- ### Linked Lists
+- ### Linked Lists (O'zaro bog'langan ro'yxatlar)
     - [ ] Tavsif:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - butun videoni ko'rmang, Node struct va xotira ajratish (memory allocation) qismilarini ko'ring
-    - [ ] Linked List vs Arrays:
+    - [ ] Linked List va Array(massiv)lar:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [nega linked list-dan foydalanmaganingiz maqul (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)

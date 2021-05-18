@@ -724,7 +724,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - [ ] get_successor // berilgan qiymatdan keyingi katta qiymatni qaytaradi, agar bunday qiymat bo'lmasa -1 qaytaradi
 
 - ### Heap / Priority Queue / Binary Heap
-    - tree (daraxt) dek tasvirlansada, xotirada ketma ket tarizda saqlanadi (massiv, linked list)
+    - tree (daraxt) dek tasvirlansada, xotirada ketma ket tarzida saqlanadi (massiv, linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
@@ -749,7 +749,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - [ ] sift_down - extract_max operatsiyasi uchun kerak
         - [ ] remove(i) - x indeksda joylashgan elementni o'chiradi
         - [ ] heapify - massivdan heap yaratadi, heap_sort operatsiyasi uchun kerak
-        - [ ] heap_sort() - tartiblanmagan massiv olib, max heap yoki min heap dan foydalangan holda uni joyida tartiblangan massivga aylantiradi
+        - [ ] heap_sort() - tartiblanmagan massivni olib, max heap yoki min heap dan foydalangan holda uni joyida tartiblangan massivga aylantiradi
 
 ## Sorting
 

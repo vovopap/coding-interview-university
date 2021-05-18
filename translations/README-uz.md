@@ -826,25 +826,24 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
 As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
 If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
-## Graphs
+## Graflar
 
-Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
-
-- Notes:
-    - There are 4 basic ways to represent a graph in memory:
-        - objects and pointers
-        - adjacency matrix
+Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shuning uchun tree va tartiblash algoritlari kabi bu qism yetarlicha uzun
+- Eslatmalar:
+    - grafni xotirada ushlashni 4ta asosiy yo'li bor:
+        - obyektlar va pointerlar
+        - adjacency matritsa
         - adjacency list
         - adjacency map
-    - Familiarize yourself with each representation and its pros & cons
-    - BFS and DFS - know their computational complexity, their trade offs, and how to implement them in real code
-    - When asked a question, look for a graph-based solution first, then move on if none
+    - Har bir usulni va ularni yaxshi & yomon tomonlarini o'rganib chiqing
+    - BFS va DFS - bu algoritmlarini tezligini (time & space complexity), yaxshi & yomon tomonlarini, va ularni kodda yozishni biling
+    - Masala berilganda, birinchi grafga asoslangan yechim qidiring. Bunday yechim ko'rmasangiz, boshqa yechimlarni qidiring
 
-- [ ] MIT(videos):
+- [ ] MIT(videolar):
     - [ ] [Breadth-First Search](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
     - [ ] [Depth-First Search](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
 
-- [ ] Skiena Lectures - great intro:
+- [ ] Skiena maruzalari - ajoyib intro:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
@@ -852,7 +851,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
-- [ ] Graphs (review and more):
+- [ ] Graflar (tahlil va boshqa ko'p narsalar):
 
     - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -867,24 +866,24 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
 
-- Full Coursera Course:
+- To'liq Coursera kursi:
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
-- I'll implement:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
+- Kodda yozaman:
+    - [ ] DFS, adjacency list bilan (recursive)
+    - [ ] DFS, adjacency list bilan (iterative, stackdan foydalangan holda)
+    - [ ] DFS, adjacency matritsa bilan (recursive)
+    - [ ] DFS, adjacency matritsa bilan (iterative, stackdan foydalangan holda)
+    - [ ] BFS, adjacency list bilan
+    - [ ] BFS, adjacency matritsa bilan
     - [ ] single-source shortest path (Dijkstra)
     - [ ] minimum spanning tree
-    - DFS-based algorithms (see Aduni videos above):
-        - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
+    - DFS-ga asoslangan algoritmlar (Aduni videolarini tepada ko'ring):
+        - [ ] cycle borligini tekshirish (topological sort uchun kerak, chunki boshlashdan oldin cycle bor yoki yo'qligini tekshiramiz)
         - [ ] topological sort
-        - [ ] count connected components in a graph
-        - [ ] list strongly connected components
-        - [ ] check for bipartite graph
+        - [ ] grafdagi bog'liq componentlarni sanash (connected components)
+        - [ ] mustahkam bog'liq componentlarni sanash (strongly connected components)
+        - [ ] bipartite grafni aniqlash
 
 ## Even More Knowledge
 

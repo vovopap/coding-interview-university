@@ -828,7 +828,7 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 ## Graflar
 
-Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shuning uchun tree va tartiblash algoritlari kabi bu qism yetarlicha uzun
+Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shuning uchun tree va tartiblash algoritmlari kabi bu qism yetarlicha uzun
 - Eslatmalar:
     - grafni xotirada ushlashni 4ta asosiy yo'li bor:
         - obyektlar va pointerlar

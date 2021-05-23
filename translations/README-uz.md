@@ -683,7 +683,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - manipulyatsiya algoritmlari
     - [ ] [BFS(breadth-first search) va DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
         - BFS eslatmalari:
-           - darajaning ketma ketligi (BFS, queue ishlatgan holda)
+           - level order (BFS, queue ishlatgan holda)
            - ish vaqti xarajati (time complexity): O(n)
            - ish joyi xarajati (space complexity): eng yaxshisi: O(1), eng yomoni: O(n/2)=O(n)
         - DFS eslatmalari:
@@ -691,9 +691,9 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
             - ish joyi xarajati:
                 eng yaxshisi: O(log n) - tree ning o'rtacha balandligi
                 eng yomoni: O(n)
-            - inorder(tartiblashda) (DFS: left, self, right)
-            - postorder (tartiblashdan keyin) (DFS: left, right, self)
-            - preorder (tartiblashdan oldin) (DFS: self, left, right)
+            - inorder (DFS: left, self, right)
+            - postorder (DFS: left, right, self)
+            - preorder (DFS: self, left, right)
 
 - ### Binary search tree lar: BST lar
     - [ ] [Binary Search Tree Tahlili (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    

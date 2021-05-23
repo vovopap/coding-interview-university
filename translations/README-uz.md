@@ -928,7 +928,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
     - [ ] SOLID OOP Principles: [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
 
-- ### Dezayn patternlar
+- ### Dizayn patternlar
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
     - [ ] Quyidagi patternlarni o'rganing:
         - [ ] strategy
@@ -953,7 +953,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
-        - "Design Patterns: Elements of Reusable Object-Oriented Software" kitobi desayn patternlar uchun defakto resursligini bilaman, lekin Head First kitobi yangi o'rganuvchilar uchun ancha yaxshiroq.
+        - "Design Patterns: Elements of Reusable Object-Oriented Software" kitobi dizayn patternlar uchun defakto resursligini bilaman, lekin Head First kitobi yangi o'rganuvchilar uchun ancha yaxshiroq.
     - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
     - [ ] [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
 

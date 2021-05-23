@@ -637,15 +637,15 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - get(key)
         - remove(key)
 
-## More Knowledge
+## Qo'shimcha bilimlar
 
 - ### Binary search
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+    - [ ] [batafsil](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+    - [ ] Kodda yozish:
+        - binary search (tartiblangan integer massivlarida)
+        - rekursiv binary search
 
 - ### Bitwise operations
     - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
@@ -695,9 +695,9 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
             - postorder (tartiblashdan keyin) (DFS: left, right, self)
             - preorder (tartiblashdan oldin) (DFS: self, left, right)
 
-- ### Binary search trees: BSTs
-    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+- ### Binary search tree lar: BST lar
+    - [ ] [Binary Search Tree Tahlili (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    
+    - [ ] [Kirish (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
         - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -710,21 +710,21 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
+    - [ ] Kodda yozish:
+        - [ ] insert    // qiymatni treega joylaydi
+        - [ ] get_node_count // treedagi elementlar sonini qaytaradi
+        - [ ] print_values // treedagi hamma qiymatlarini, mindan maxgacha, yozib chiqaradi
         - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
+        - [ ] is_in_tree // true qaytaradi agar qiymat treeda mavjud bo'lsa
+        - [ ] get_height // treeni balandligini qaytaradi (bitta node-ning balandligi 1 xisoblanadi)
+        - [ ] get_min   // treedagi minimum qiymatni qaytaradi
+        - [ ] get_max   // treedagi maximum qiymatni qaytaradi
         - [ ] is_binary_search_tree
         - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [ ] get_successor // berilgan qiymatdan keyingi katta qiymatni qaytaradi, agar bunday qiymat bo'lmasa -1 qaytaradi
 
 - ### Heap / Priority Queue / Binary Heap
-    - visualized as a tree, but is usually linear in storage (array, linked list)
+    - tree (daraxt) dek tasvirlansada, xotirada ketma ket tarzida saqlanadi (massiv, linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
@@ -733,23 +733,23 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
     - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
     - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
-    - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
+    - [ ] [Heap Sort - boshiga sakraydi (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
     - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
     - [ ] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
     - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] Implement a max-heap:
+    - [ ] max-heap ni kodda yozish:
         - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap or min heap
+        - [ ] sift_up - insert operatsiyasi uchun kerak
+        - [ ] get_max - o'chirmagan holda, max elementni qaytaradi
+        - [ ] get_size() - mavjud elementlar sonini qaytaradi
+        - [ ] is_empty() - true qaytaradi agar heap bo'sh bo'lsa
+        - [ ] extract_max - o'chirgan holda, max elementni qaytaradi
+        - [ ] sift_down - extract_max operatsiyasi uchun kerak
+        - [ ] remove(i) - x indeksda joylashgan elementni o'chiradi
+        - [ ] heapify - massivdan heap yaratadi, heap_sort operatsiyasi uchun kerak
+        - [ ] heap_sort() - tartiblanmagan massivni olib, max heap yoki min heap dan foydalangan holda uni joyida tartiblangan massivga aylantiradi
 
 ## Sorting (Saralash)
 
@@ -826,25 +826,24 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
 Xulosada, vizual tarzda ma'lumot olish uchun [15 ta saralash algoritmlari](https://www.youtube.com/watch?v=kPRA0W1kECg).
 Agar sizga ushbu mavzu bo'yicha batafsil ma'lumot kerak bo'lsa, "Saralash" bo'limiga qarang [Ba'zi mavzular bo'yicha qo'shimcha ma'lumot](#additional-detail-on-some-subjects)
 
-## Graphs
+## Graflar
 
-Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
-
-- Notes:
-    - There are 4 basic ways to represent a graph in memory:
-        - objects and pointers
-        - adjacency matrix
+Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shuning uchun tree va tartiblash algoritmlari kabi bu qism yetarlicha uzun
+- Eslatmalar:
+    - grafni xotirada ushlashni 4ta asosiy yo'li bor:
+        - obyektlar va pointerlar
+        - adjacency matritsa
         - adjacency list
         - adjacency map
-    - Familiarize yourself with each representation and its pros & cons
-    - BFS and DFS - know their computational complexity, their trade offs, and how to implement them in real code
-    - When asked a question, look for a graph-based solution first, then move on if none
+    - Har bir usulni va ularni yaxshi & yomon tomonlarini o'rganib chiqing
+    - BFS va DFS - bu algoritmlarini tezligini (time & space complexity), yaxshi & yomon tomonlarini, va ularni kodda yozishni biling
+    - Masala berilganda, birinchi grafga asoslangan yechim qidiring. Bunday yechim ko'rmasangiz, boshqa yechimlarni qidiring
 
-- [ ] MIT(videos):
+- [ ] MIT(videolar):
     - [ ] [Breadth-First Search](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
     - [ ] [Depth-First Search](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
 
-- [ ] Skiena Lectures - great intro:
+- [ ] Skiena maruzalari - ajoyib intro:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
@@ -852,7 +851,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
-- [ ] Graphs (review and more):
+- [ ] Graflar (tahlil va boshqa ko'p narsalar):
 
     - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -867,35 +866,35 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
 
-- Full Coursera Course:
+- To'liq Coursera kursi:
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
-- I'll implement:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
+- Kodda yozaman:
+    - [ ] DFS, adjacency list bilan (recursive)
+    - [ ] DFS, adjacency list bilan (iterative, stackdan foydalangan holda)
+    - [ ] DFS, adjacency matritsa bilan (recursive)
+    - [ ] DFS, adjacency matritsa bilan (iterative, stackdan foydalangan holda)
+    - [ ] BFS, adjacency list bilan
+    - [ ] BFS, adjacency matritsa bilan
     - [ ] single-source shortest path (Dijkstra)
     - [ ] minimum spanning tree
-    - DFS-based algorithms (see Aduni videos above):
-        - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
+    - DFS-ga asoslangan algoritmlar (Aduni videolarini tepada ko'ring):
+        - [ ] cycle borligini tekshirish (topological sort uchun kerak, chunki boshlashdan oldin cycle bor yoki yo'qligini tekshiramiz)
         - [ ] topological sort
-        - [ ] count connected components in a graph
-        - [ ] list strongly connected components
-        - [ ] check for bipartite graph
+        - [ ] grafdagi bog'liq componentlarni sanash (connected components)
+        - [ ] mustahkam bog'liq componentlarni sanash (strongly connected components)
+        - [ ] bipartite grafni aniqlash
 
-## Even More Knowledge
+## Yanada ko'proq bilim
 
-- ### Recursion
-    - [ ] Stanford lectures on recursion & backtracking:
+- ### Rekursiya
+    - [ ] rekursiya & backtracking-ga oid Stanford
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - When it is appropriate to use it?
-    - How is tail recursion better than not?
+    - Rekursiyani qachon ishlatish yaxshi?
+    - Nega tail rekursiya (tail recursion) yaxshi narsa?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 

@@ -674,23 +674,23 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - [ ] Absolute value:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## Trees (daraxtlar)
 
-- ### Trees - Notes & Background
+- ### Trees - Eslatmalar & Kelib chiqishi
     - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
-    - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
-        - BFS notes:
-           - level order (BFS, using queue)
-           - time complexity: O(n)
-           - space complexity: best: O(1), worst: O(n/2)=O(n)
-        - DFS notes:
-            - time complexity: O(n)
-            - space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
+    - tree-ning asosiy tuzilmasi
+    - traversal (o'tish)
+    - manipulyatsiya algoritmlari
+    - [ ] [BFS(breadth-first search) va DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+        - BFS eslatmalari:
+           - level order (BFS, queue ishlatgan holda)
+           - ish vaqti xarajati (time complexity): O(n)
+           - ish joyi xarajati (space complexity): eng yaxshisi: O(1), eng yomoni: O(n/2)=O(n)
+        - DFS eslatmalari:
+            - ish vaqti xarajati: O(n)
+            - ish joyi xarajati:
+                eng yaxshisi: O(log n) - tree ning o'rtacha balandligi
+                eng yomoni: O(n)
             - inorder (DFS: left, self, right)
             - postorder (DFS: left, right, self)
             - preorder (DFS: self, left, right)
@@ -751,21 +751,21 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - [ ] heapify - massivdan heap yaratadi, heap_sort operatsiyasi uchun kerak
         - [ ] heap_sort() - tartiblanmagan massivni olib, max heap yoki min heap dan foydalangan holda uni joyida tartiblangan massivga aylantiradi
 
-## Sorting
+## Sorting (Saralash)
 
-- [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] Stability in sorting algorithms ("Is Quicksort stable?")
+- [ ] Eslatmalar:
+        - sorting bilan ishlang va eng yaxshi/eng yomon holatlarni, har birining o'rtacha murakkabligini biling:
+        - bubble sort ishlatmang - agar n <= 16 bo'lmasa, O(n^2)-bu juda yomon
+        - [ ] Algoritmlarni saralashdagi barqarorlik (stability) ("Quicksort barqarormi?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
+    - [ ] Linked list-da qaysi algoritmlardan foydalanish mumkin? Qaysi massivlarda? Qaysilarini ikkalasida ham ishlatsa bo'ladi?
+        - Men linked listni saralashni maslahat bermayman, lekin merge tartiblash algoritmini qilsa bo'ladi.
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- For heapsort, see Heap data structure above. Heap sort is great, but not stable
+- Heapsort uchun yuqorida berilgan ma'lumotlar tuzilmasini ko'ring, Heap sort ajoyib lekin barqaror emas.
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
@@ -794,23 +794,23 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
 - [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
 - [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] Merge sort code:
+- [ ] Merge sort kodda:
     - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
     - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-- [ ] Quick sort code:
+- [ ] Quick sort uchun kod:
     - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-- [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
-    - Selection sort and insertion sort are both O(n^2) average and worst case
-    - For heapsort, see Heap data structure above
+- [ ] Kodda yozish:
+    - [ ] Mergesort: O(n log n) o'rtacha va eng yomon holat
+    - [ ] Quicksort O(n log n) o'rtacha
+    - Selection sort va insertion sort-larning ikkalalarini ham o'rtacha va eng yomon holati O(n^2) bo'ladi
+    - Heapsort uchun yuqoridagi Heap ma'lumotlar tuzilmasini ko'ring
 
-- [ ] Not required, but I recommended them:
-    - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
+- [ ] Quyidagilar talab qilinmaydi lekin shaxsan men ularni tavsiya qilaman:
+    - [ ] [Sedgewick - Radix Sorts (6 ta video)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
         - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
         - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
@@ -823,8 +823,8 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
-If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+Xulosada, vizual tarzda ma'lumot olish uchun [15 ta saralash algoritmlari](https://www.youtube.com/watch?v=kPRA0W1kECg).
+Agar sizga ushbu mavzu bo'yicha batafsil ma'lumot kerak bo'lsa, "Saralash" bo'limiga qarang [Ba'zi mavzular bo'yicha qo'shimcha ma'lumot](#additional-detail-on-some-subjects)
 
 ## Graflar
 
@@ -958,20 +958,21 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - [ ] [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
 
 
-- ### Combinatorics (n choose k) & Probability
-    - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
-    - [ ] [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
-    - [ ] [Make School: More Probability and Markov Chains (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
+- ### Kombinatorikalar & Ehtimollik nazariyasi
+    - [ ] [Math Skills: Faktorial, Permutatsiya va kombinatsiyalarni qanday topish haqida(video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+    - [ ] [Make School: Ehtimollik nazariyasi (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
+    - [ ] [Make School: Ko'proq ehtimollik nazariyasi va Markov zanjirlari (Markov Chains) (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
     - [ ] Khan Academy:
-        - Course layout:
-            - [ ] [Basic Theoretical Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
-        - Just the videos - 41 (each are simple and each are short):
-            - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
+        - Kurs tartibi:
+            - [ ] [Ehtimollik nazariyasining asoslari](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
+        - Faqat videolar - 41 (har biri qisqa va tushunishga oson):
+            - [ ] [Ehtimollik nazariyasi haqida (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
-- ### NP, NP-Complete and Approximation Algorithms
-    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
-        and be able to recognize them when an interviewer asks you them in disguise.
-    - Know what NP-complete means.
+- ### NP, NP to'liq va taxminiy algoritmlari
+    - Sotuvchi sotuvchi va ryukzak muammosi kabi NP-ning eng mashhur klasslari haqida bilish,
+        va intervyu beruvchisi ularni niqob bilan so'raganda ularni taniy olish.
+        
+    - NP-complete nima ekanligini biling.
     - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
         - [ ] [Greedy Algs. II & Intro to NP Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
@@ -985,16 +986,16 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
     - [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
     - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - Peter Norvig discusses near-optimal solutions to traveling salesman problem:
+    - Piter Norvig sotuvchi sayohatchining sayohatchi masalasining maqbul yechimlarini muhokama qiladi:
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
-    - Pages 1048 - 1140 in CLRS if you have it.
+    - 1048 - 1140 sahifalari  CLRS da Agar bu sizda bo'lsa.
 
-- ### Caches
-    - [ ] LRU cache:
+- ### Keshlar
+    - [ ] LRU keshi haqida:
         - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
         - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
         - [ ] [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
-    - [ ] CPU cache:
+    - [ ] CPU keshi haqida:
         - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
         - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 

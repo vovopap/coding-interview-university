@@ -756,13 +756,13 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
 - [ ] Eslatmalar:
         - sorting bilan ishlang va eng yaxshi/eng yomon holatlarni, har birining o'rtacha murakkabligini biling:
         - bubble sort ishlatmang - agar n <= 16 bo'lmasa, O(n^2)-bu juda yomon
-        - [ ] Algoritmlarni saralashdagi barqarorlik ("Quicksort barqarormi?")
+        - [ ] Algoritmlarni saralashdagi barqarorlik (stability) ("Quicksort barqarormi?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Linked list-da qaysi algoritmlardan foydalanish mumkin? Qaysi massivlarda? Ikkalasining qaysi birida?
-        - Men linked listni saralashni maslahat bermayman, lekin merge qilish tartibini bajarish mumkin.
+    - [ ] Linked list-da qaysi algoritmlardan foydalanish mumkin? Qaysi massivlarda? Qaysilarini ikkalasida ham ishlatsa bo'ladi?
+        - Men linked listni saralashni maslahat bermayman, lekin merge tartiblash algoritmini qilsa bo'ladi.
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
 - Heapsort uchun yuqorida berilgan ma'lumotlar tuzilmasini ko'ring, Heap sort ajoyib lekin barqaror emas.
@@ -794,7 +794,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
 - [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
 - [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] Saralash kodini birlashtirish:
+- [ ] Merge sort kodda:
     - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
     - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
@@ -806,7 +806,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
 - [ ] Kodda yozish:
     - [ ] Mergesort: O(n log n) o'rtacha va eng yomon holat
     - [ ] Quicksort O(n log n) o'rtacha
-    - Selection sort va insertion sort-larning ikkalalari ham O(n^2) o'rtacha va eng yomon holat
+    - Selection sort va insertion sort-larning ikkalalarini ham o'rtacha va eng yomon holati O(n^2) bo'ladi
     - Heapsort uchun yuqoridagi Heap ma'lumotlar tuzilmasini ko'ring
 
 - [ ] Quyidagilar talab qilinmaydi lekin shaxsan men ularni tavsiya qilaman:

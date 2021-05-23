@@ -53,7 +53,7 @@ Asl versiyasi: [Inglizcha](../README.md)
 Bu mening web dasturchisi (web developer) darajasidan katta kompaniyada ishlaydigan dastur injineri (software engineer) darajasiga chiqish uchun qilgan ko'p oylik o'qish rejam.
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-Bu proyekt **yangi dasturchi injinerlar** uchun juda forydali. Va yana, oddiy programmistlikdan (masalan web yoki mobildan) dastur injinerlikka (dastur injinerlaridan computer science bilimlari talab qilinadi) o'tmoqchi bulganlar uchun foydali.
+Bu proyekt **yangi dasturchi injinerlar** uchun juda forydali. Va yana, oddiy programmistlikdan (masalan web yoki mobildan) dastur injinerlikka (dastur injinerlaridan computer science bilimlari talab qilinadi) o'tmoqchi bo'lganlar uchun foydali.
 
 
 Agar sizda dasturchilik bo'yicha ko'p yillik tajribangiz bo'lsa, shuni bilingki: Google, Amazon, Facebook, va Microsoftga o'xshagan katta kompaniyalar dastur injinerlikni (software engineer) oddiy dasturchilikdan (software/web developer) farqli deb kuradi va ular computer science bilimini talab qiladi.
@@ -901,9 +901,9 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 - ### Dinamik dasturlash (Dynamic Programming)
     - Katta ehtimollik bilan sizni intervyuingizda dinamik dasturlash masalalari bo'lmaydi, lekin shunday masalani dinamik dasturlashga mosligini aniqlay olishni o'rganish arzigulik
     - Bu mavzu qiyin bo'lishi mumkin. Chunki har bir DP bilan yechsa bo'ladigan masala uchun "recursion relation" o'ylab topish kerak va bu narsa qiyin bo'lishi mumkin
-    - kerakli patternni tushinib yetguncha ko'p DP masalalarni ko'rib chiqishni maslaxat beraman
+    - kerakli patternni tushinib yetguncha ko'p DP masalalarni ko'rib chiqishni maslahat beraman
     - [ ] Videolar:
-        - Skiena videolarnini kuzatib tushinish qiyin bo'lishi mumkin chunki u ko'rish uchun juda kichik bol'gan doskadan bazida foydalanadi
+        - Skiena videolarini kuzatib tushinish qiyin bo'lishi mumkin chunki u ko'rish uchun juda kichik bo'lgan doskadan bazida foydalanadi
         - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
         - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
         - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
@@ -911,7 +911,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
         - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
         - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
-        - [ ] DP masalalarini listi (har biri qisqa):
+        - [ ] DP masalalarini ro'yxati (har biri qisqa):
             [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
     - [ ] Yale ma'ruza yozuvlari:
         - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)

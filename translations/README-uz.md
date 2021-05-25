@@ -1001,7 +1001,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 
 - ### Processlar va Threadlar
     - [ ] Computer Science 162 - Operatsion tizimlar (25ta video):
-        - processlar va threadlar uchun 1chidan 11chigacha bo'lgan videolarni ko'ring
+        - processlar va threadlar uchun 1-chidan 11-chigacha bo'lgan videolarni ko'ring
         - [Operating Systems and System Programming (video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
     - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
     - o'z ichiga oladi:
@@ -1022,7 +1022,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
         - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
         - Process uchun kerakli resurslar (xotira: kod, statik xotira, stack, heap, va hamda file descriptorlar, i/o)
         - Thread uchun kerakli resurslar (tepadagilarni (stackdan tashqari) bitta processda bo'lgan boshqa threadlar bilan baham ko'radi, lekin har birini o'zini pc, stack counter, registerlar, and stacklari bor)
-        - Forklar bu aslida "copy on write" operatsiya. Bu degani fork qilingan processdan nusxa ko'chirish fork process birinchi marta xotiraga yozganda bo'ladi.
+        - Forklash bu aslida "copy on write" operatsiya. Bu degani fork qilingan processdan nusxa ko'chirish fork process birinchi marta xotiraga yozganda bo'ladi.
         - Context almashtirish
             - Operatsion tizm va uni ushlab turgan hardware context almashtirishni qanday qiladi?
     - [ ] [threads in C++ (to'plam - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)

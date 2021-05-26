@@ -999,34 +999,34 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
         - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
         - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- ### Processes and Threads
-    - [ ] Computer Science 162 - Operating Systems (25 videos):
-        - for processes and threads see videos 1-11
+- ### Processlar va Threadlar
+    - [ ] Computer Science 162 - Operatsion tizimlar (25ta video):
+        - processlar va threadlar uchun 1-chidan 11-chigacha bo'lgan videolarni ko'ring
         - [Operating Systems and System Programming (video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
     - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
-    - Covers:
-        - Processes, Threads, Concurrency issues
-            - Difference between processes and threads
-            - Processes
-            - Threads
-            - Locks
-            - Mutexes
-            - Semaphores
-            - Monitors
-            - How they work?
+    - o'z ichiga oladi:
+        - Processlar, Threadlar, Concurrency muammolari
+            - processlar va threadlarni bir biridan farqi
+            - Processlar
+            - Threadlar
+            - Locklar
+            - Mutexlar
+            - Semaphorelar
+            - Monitorlar
+            - Ular qanday ishlaydi?
             - Deadlock
             - Livelock
-        - CPU activity, interrupts, context switching
-        - Modern concurrency constructs with multicore processors
+        - CPU faoliyati, interruptlar, context almashtirish (context switching)
+        - Ko'p yadrolik processorlar bilan ishlaydigan zamonaviy concurrency constructlari
         - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
         - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
-        - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
-        - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
-        - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
-        - Context switching
-            - How context switching is initiated by the operating system and underlying hardware?
-    - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
-    - [ ] concurrency in Python (videos):
+        - Process uchun kerakli resurslar (xotira: kod, statik xotira, stack, heap, va hamda file descriptorlar, i/o)
+        - Thread uchun kerakli resurslar (tepadagilarni (stackdan tashqari) bitta processda bo'lgan boshqa threadlar bilan baham ko'radi, lekin har birini o'zini pc, stack counter, registerlar, and stacklari bor)
+        - Forklash bu aslida "copy on write" operatsiya. Bu degani fork qilingan processdan nusxa ko'chirish fork process birinchi marta xotiraga yozganda bo'ladi.
+        - Context almashtirish
+            - Operatsion tizm va uni ushlab turgan hardware context almashtirishni qanday qiladi?
+    - [ ] [threads in C++ (to'plam - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+    - [ ] Pythonda concurrency (videolar):
         - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
         - [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
         - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)

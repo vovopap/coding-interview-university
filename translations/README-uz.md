@@ -1116,26 +1116,25 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
-## System Design, Scalability, Data Handling
+## Tizim Dizayn, Scalability, Ma'lumotlar bilan ishlash
 
-**You can expect system design questions if you have 4+ years of experience.**
-
-- Scalability and System Design are very large topics with many topics and resources, since
-      there is a lot to consider when designing a software/hardware system that can scale.
-      Expect to spend quite a bit of time on this
-- Considerations:
+**agar sizda 4+ yil ish tajribasi bo'lsa intervyularda sizga tizim dizayn savolli tushadi**
+- Scalability va Tizim Dizayn juda katta mavzular hisoblanadi.
+      Chunki katta ko'lamni traffikni ko'taraladigan software/hardware- ni dizayn qilish uni ko'p qirralarini e'tiborga olishni talab qiladi
+      Buni ustida bir talay vaqt o'tkazasiz
+- Qirralar:
     - Scalability
-        - Distill large data sets to single values
-        - Transform one data set to another
-        - Handling obscenely large amounts of data
-    - System design
-        - features sets
-        - interfaces
-        - class hierarchies
-        - designing a system under certain constraints
-        - simplicity and robustness
-        - tradeoffs
-        - performance analysis and optimization
+        - Katta miqdordagi data to'plamlarni bitta qiymatga aggregatlash
+        - bitta data to'plamni boshqasiga o'tqazish
+        - Haddan tashqari katta miqdordagi data bilan ishlash
+    - Tizim dizayn
+        - funksional to'plami
+        - interfeyslar
+        - klaslar ierarxiya
+        - malum bir cheklovlar bilan tizimni dizayn qilish
+        - soddaligi va mustahkamligi
+        - Afzalliklar va kamchiliklar o'rtasidagi muvozanat
+        - ijro tahlili (performance analysis) va optimallashtirish
 - [ ] **START HERE**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)

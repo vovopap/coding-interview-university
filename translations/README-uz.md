@@ -1120,20 +1120,20 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 
 **agar sizda 4+ yil ish tajribasi bo'lsa intervyularda sizga tizim dizayn savolli tushadi**
 - Scalability va Tizim Dizayn juda katta mavzular hisoblanadi.
-      Chunki katta ko'lamni traffikni ko'taraladigan software/hardware- ni dizayn qilish uni ko'p qirralarini e'tiborga olishni talab qiladi
+      Chunki katta ko'lamni traffikni ko'tara oladigan software/hardware- ni dizayn qilish uni ko'p qirralarini e'tiborga olishni talab qiladi
       Buni ustida bir talay vaqt o'tkazasiz
 - Qirralar:
     - Scalability
-        - Katta miqdordagi data to'plamlarni bitta qiymatga aggregatlash
+        - Katta miqdordagi data to'plamlarni bitta qiymatga agregatlash
         - bitta data to'plamni boshqasiga o'tqazish
         - Haddan tashqari katta miqdordagi data bilan ishlash
     - Tizim dizayn
         - funksional to'plami
         - interfeyslar
-        - klaslar ierarxiya
-        - malum bir cheklovlar bilan tizimni dizayn qilish
+        - klaslar ierarxiyasi
+        - malum bir cheklovlar ostida tizimni dizayn qilish
         - soddaligi va mustahkamligi
-        - Afzalliklar va kamchiliklar o'rtasidagi muvozanat
+        - afzalliklar va kamchiliklar o'rtasidagi muvozanat
         - ijro tahlili (performance analysis) va optimallashtirish
 - [ ] **Bu yerdan boshlang**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
@@ -1141,7 +1141,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Bu yerda juda ko'p resurslar bor. Berilgan artikllarni va namunalarni kurib chiqing. Bir ikkitasini pastda topasiz
+- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Bu yerda juda ko'p resurslar bor. Berilgan artikllarni va namunalarni ko'rib chiqing. Bir ikkitasini pastda topasiz
 - [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
 - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
@@ -1209,31 +1209,30 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
     - Bundanda ko'proq narsa o'rganish, [Video Seriyalar](#video-series) seksiyadagi "Ulkan Datasetlarni Qazish" video seriyasini ko'ring
-- [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
 - [ ] Tizim dizayn qilish jarayonini mashq qilish: Bu yerda qog'ozda yozib yechish uchun bir nechta misollar bor. Har birini real proyektlarda qanday yechishgani haqida artikllari ham bor:
     - tahlil: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
-    - flow:
-        1. Understand the problem and scope:
-            - Define the use cases, with interviewer's help
-            - Suggest additional features
-            - Remove items that interviewer deems out of scope
-            - Assume high availability is required, add as a use case
-        2. Think about constraints:
-            - Ask how many requests per month
-            - Ask how many requests per second (they may volunteer it or make you do the math)
-            - Estimate reads vs. writes percentage
-            - Keep 80/20 rule in mind when estimating
-            - How much data written per second
-            - Total storage required over 5 years
-            - How much data read per second
-        3. Abstract design:
-            - Layers (service, data, caching)
-            - Infrastructure: load balancing, messaging
-            - Rough overview of any key algorithm that drives the service
-            - Consider bottlenecks and determine solutions
-    - Exercises:
+    - jarayon:
+        1. Muammo va uning qamrov doirasini tushuning
+            - Intervyuverni yordami bilan usecase-larni belgilab oling
+            - Qo'shimcha funksional taklif qiling
+            - Intervyuver qamrov doirasidan tashqarida deb bilgan punktlarni olib tashlang
+            - High availability kerak deb biling va uni usecase-lar qatoriga qo'shing
+        2. Checklovlar haqida o'ylang
+            - Oyiga nechta requestlar bo'lishini so'rang
+            - Sekundiga nechta requestlar bo'lishini so'rang (intervyuver javob berishi yoki o'zizdan xisoblashni so'rashi mumkin)
+            - O'qishlar (reads) va yozishlar (writes) foizini baholang
+            - Baholashda 80/20 qoidasini yodda tuting
+            - Sekundiga qancha data yoziladi
+            - 5 yil davomida jami qancha xotira kerak bo'ladi
+            - Sekundiga qancha data o'qiladi
+        3. Abstrakt dizayn:
+            - Qatlamalar (servis, data, kesh)
+            - Infrastruktura: load balancing, habar almashish (messaging)
+            - Servis ishlashi uchun kerak bo'lgan muhum algoritmlarni tahlili
+            - Bottleneck-larni e'tiborga oling va ularga yechim toping
+    - Mashqlar:
         - [Design a CDN network: old article](https://kilthub.cmu.edu/articles/Globally_distributed_content_delivery/6605972)
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
         - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)

@@ -1095,12 +1095,12 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - [ ] [Big And Little Endian](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html)
     - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
     - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-        - Yadro dasturchilari uchun juda texnik muloqot. Agar ko'pchilik sizning boshingizdan o'tgan bo'lsa, tashvishlanmang.
+        - Kernel dasturchilari uchun juda texnik muloqot. Agar ko'pini tushunmasangiz, tashvishlanmang
         - Birinchi yarmi yetarli bo'ladi.
 
 - ### Networking
-    - **Agar siz networkingda tajribaga ega bo'lsangiz yoki ishonchli injiner yoki operatsiyalar bo'yicha injiner bo'lishni xohlasangiz, savollarni kuting**
-    - Agar bunday bo'lmasa, bularni bilishni o'zi ham yaxshi
+    - **Agar siz networkingda tajribaga ega bo'lsangiz yoki reliability injineri yoki operations injineri bo'lishni xohlasangiz, shu mavzuda savollarni kuting**
+    - Agar bunday bo'lmasa, baribir bularni bilib qo'ygan yaxshi
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/computers-and-internet-code-org)
     - [ ] [UDP and TCP: Comparison of Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
     - [ ] [TCP/IP and the OSI Model Explained! (video)](https://www.youtube.com/watch?v=e5DEVa9eSN0)

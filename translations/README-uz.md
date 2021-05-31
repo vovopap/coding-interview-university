@@ -148,7 +148,7 @@ Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, un
     - [Computer Security](#computer-security)
     - [Garbage collection](#garbage-collection)
     - [Parallel Programming](#parallel-programming)
-    - [Habar almashish, Serializatsiya, va Queue Tizimlar](#messaging-serialization-and-queueing-systems)
+    - [Xabar almashish, Serializatsiya, va Queue Tizimlar](#messaging-serialization-and-queueing-systems)
     - [A*](#a)
     - [Fast Fourier Transform](#fast-fourier-transform)
     - [Bloom Filter](#bloom-filter)
@@ -1116,7 +1116,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
-## Tizim Dizayn, Scalability, Ma'lumotlar bilan ishlash
+## Tizim Dizayni, Scalability, Ma'lumotlar bilan ishlash
 
 **agar sizda 4+ yil ish tajribasi bo'lsa intervyularda sizga tizim dizayn savolli tushadi**
 - Scalability va Tizim Dizayn juda katta mavzular hisoblanadi.
@@ -1125,7 +1125,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 - Qirralar:
     - Scalability
         - Katta miqdordagi data to'plamlarni bitta qiymatga agregatlash
-        - bitta data to'plamni boshqasiga o'tqazish
+        - bitta data to'plamni boshqasiga o'tkazish
         - Haddan tashqari katta miqdordagi data bilan ishlash
     - Tizim dizayn
         - funksional to'plami
@@ -1141,7 +1141,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Bu yerda juda ko'p resurslar bor. Berilgan artikllarni va namunalarni ko'rib chiqing. Bir ikkitasini pastda topasiz
+- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Bu yerda juda ko'p resurslar bor. Berilgan maqolalarni va namunalarni ko'rib chiqing. Bir ikkitasini pastda topasiz
 - [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
 - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
@@ -1157,7 +1157,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 - [ ] Scalability:
     - Bularni hammasi kerak bo'lmaydi. Sizi qiziqtirgan bir ikkitasini tanlang.
     - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
-    - [ ] Qisqa serialar:
+    - [ ] Qisqa seriyalar:
         - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
         - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
         - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
@@ -1204,12 +1204,12 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - [ ] [PlentyOfFish Architecture](http://highscalability.com/plentyoffish-architecture)
     - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
     - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
-    - [ ] Servislarni bir biriga bog'laydigan texnologiyalar haqida o'rganish uchun pastroqdagi "Habar almashish, Serializatsiya, va Queue Tizimlar" qismni ko'ring
+    - [ ] Servislarni bir biriga bog'laydigan texnologiyalar haqida o'rganish uchun pastroqdagi "Xabar almashish, Serializatsiya, va Queue Tizimlar" qismni ko'ring
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
     - Bundanda ko'proq narsa o'rganish, [Video Seriyalar](#video-series) seksiyadagi "Ulkan Datasetlarni Qazish" video seriyasini ko'ring
-- [ ] Tizim dizayn qilish jarayonini mashq qilish: Bu yerda qog'ozda yozib yechish uchun bir nechta misollar bor. Har birini real proyektlarda qanday yechishgani haqida artikllari ham bor:
+- [ ] Tizim dizayn qilish jarayonini mashq qilish: Bu yerda qog'ozda yozib yechish uchun bir nechta misollar bor. Har birini real proyektlarda qanday yechishgani haqida maqolalari ham bor:
     - tahlil: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
@@ -1229,7 +1229,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
             - Sekundiga qancha data o'qiladi
         3. Abstrakt dizayn:
             - Qatlamalar (servis, data, kesh)
-            - Infrastruktura: load balancing, habar almashish (messaging)
+            - Infrastruktura: load balancing, xabar almashish (messaging)
             - Servis ishlashi uchun kerak bo'lgan muhum algoritmlarni tahlili
             - Bottleneck-larni e'tiborga oling va ularga yechim toping
     - Mashqlar:
@@ -1584,7 +1584,7 @@ You're never really done.
     - [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Habar almashish, Serializatsiya, va Queue Tizimlar
+- ### Xabar almashish, Serializatsiya, va Queue Tizimlar
     - [Thrift](https://thrift.apache.org/)
         - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [Protocol Buffers](https://developers.google.com/protocol-buffers/)

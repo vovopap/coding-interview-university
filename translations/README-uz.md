@@ -148,7 +148,7 @@ Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, un
     - [Computer Security](#computer-security)
     - [Garbage collection](#garbage-collection)
     - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+    - [Xabar almashish, Serializatsiya, va Queue Tizimlar](#messaging-serialization-and-queueing-systems)
     - [A*](#a)
     - [Fast Fourier Transform](#fast-fourier-transform)
     - [Bloom Filter](#bloom-filter)
@@ -175,7 +175,7 @@ Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, un
     - [Discrete math](#discrete-math)
     - [Machine Learning](#machine-learning)
 - [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
+- [Video Seriyalar](#video-series)
 - [Computer Science Courses](#computer-science-courses)
 - [Papers](#papers)
 
@@ -1115,39 +1115,38 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
-## System Design, Scalability, Data Handling
+## Tizim Dizayni, Scalability, Ma'lumotlar bilan ishlash
 
-**You can expect system design questions if you have 4+ years of experience.**
-
-- Scalability and System Design are very large topics with many topics and resources, since
-      there is a lot to consider when designing a software/hardware system that can scale.
-      Expect to spend quite a bit of time on this
-- Considerations:
+**agar sizda 4+ yil ish tajribasi bo'lsa intervyularda sizga tizim dizayn savolli tushadi**
+- Scalability va Tizim Dizayn juda katta mavzular hisoblanadi.
+      Chunki katta ko'lamni traffikni ko'tara oladigan software/hardware- ni dizayn qilish uni ko'p qirralarini e'tiborga olishni talab qiladi
+      Buni ustida bir talay vaqt o'tkazasiz
+- Qirralar:
     - Scalability
-        - Distill large data sets to single values
-        - Transform one data set to another
-        - Handling obscenely large amounts of data
-    - System design
-        - features sets
-        - interfaces
-        - class hierarchies
-        - designing a system under certain constraints
-        - simplicity and robustness
-        - tradeoffs
-        - performance analysis and optimization
-- [ ] **START HERE**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+        - Katta miqdordagi data to'plamlarni bitta qiymatga agregatlash
+        - bitta data to'plamni boshqasiga o'tkazish
+        - Haddan tashqari katta miqdordagi data bilan ishlash
+    - Tizim dizayn
+        - funksional to'plami
+        - interfeyslar
+        - klaslar ierarxiyasi
+        - malum bir cheklovlar ostida tizimni dizayn qilish
+        - soddaligi va mustahkamligi
+        - afzalliklar va kamchiliklar o'rtasidagi muvozanat
+        - ijro tahlili (performance analysis) va optimallashtirish
+- [ ] **Bu yerdan boshlang**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below
+- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Bu yerda juda ko'p resurslar bor. Berilgan maqolalarni va namunalarni ko'rib chiqing. Bir ikkitasini pastda topasiz
 - [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
 - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
 - [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk)
 - [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem)
-- [ ] Consensus Algorithms:
+- [ ] Consensus algoritmlari:
     - [ ] Paxos - [Paxos Agreement - Computerphile (video)](https://www.youtube.com/watch?v=s8JqcZtvnsM)
     - [ ] Raft - [An Introduction to the Raft Distributed Consensus Algorithm (video)](https://www.youtube.com/watch?v=P9Ydif5_qvE)
         - [ ] [Easy-to-read paper](https://raft.github.io/)
@@ -1155,9 +1154,9 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
 - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
 - [ ] Scalability:
-    - You don't need all of these. Just pick a few that interest you.
+    - Bularni hammasi kerak bo'lmaydi. Sizi qiziqtirgan bir ikkitasini tanlang.
     - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
-    - [ ] Short series:
+    - [ ] Qisqa seriyalar:
         - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
         - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
         - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
@@ -1204,35 +1203,35 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - [ ] [PlentyOfFish Architecture](http://highscalability.com/plentyoffish-architecture)
     - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
     - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
-    - [ ] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
+    - [ ] Servislarni bir biriga bog'laydigan texnologiyalar haqida o'rganish uchun pastroqdagi "Xabar almashish, Serializatsiya, va Queue Tizimlar" qismni ko'ring
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - For even more, see "Mining Massive Datasets" video series in the [Video Series](#video-series) section
-- [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+    - Bundanda ko'proq narsa o'rganish, [Video Seriyalar](#video-series) seksiyadagi "Ulkan Datasetlarni Qazish" video seriyasini ko'ring
+- [ ] Tizim dizayn qilish jarayonini mashq qilish: Bu yerda qog'ozda yozib yechish uchun bir nechta misollar bor. Har birini real proyektlarda qanday yechishgani haqida maqolalari ham bor:
+    - tahlil: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
-    - flow:
-        1. Understand the problem and scope:
-            - Define the use cases, with interviewer's help
-            - Suggest additional features
-            - Remove items that interviewer deems out of scope
-            - Assume high availability is required, add as a use case
-        2. Think about constraints:
-            - Ask how many requests per month
-            - Ask how many requests per second (they may volunteer it or make you do the math)
-            - Estimate reads vs. writes percentage
-            - Keep 80/20 rule in mind when estimating
-            - How much data written per second
-            - Total storage required over 5 years
-            - How much data read per second
-        3. Abstract design:
-            - Layers (service, data, caching)
-            - Infrastructure: load balancing, messaging
-            - Rough overview of any key algorithm that drives the service
-            - Consider bottlenecks and determine solutions
-    - Exercises:
+    - jarayon:
+        1. Muammo va uning qamrov doirasini tushuning
+            - Intervyuverni yordami bilan usecase-larni belgilab oling
+            - Qo'shimcha funksional taklif qiling
+            - Intervyuver qamrov doirasidan tashqarida deb bilgan punktlarni olib tashlang
+            - High availability kerak deb biling va uni usecase-lar qatoriga qo'shing
+        2. Checklovlar haqida o'ylang
+            - Oyiga nechta requestlar bo'lishini so'rang
+            - Sekundiga nechta requestlar bo'lishini so'rang (intervyuver javob berishi yoki o'zizdan xisoblashni so'rashi mumkin)
+            - O'qishlar (reads) va yozishlar (writes) foizini baholang
+            - Baholashda 80/20 qoidasini yodda tuting
+            - Sekundiga qancha data yoziladi
+            - 5 yil davomida jami qancha xotira kerak bo'ladi
+            - Sekundiga qancha data o'qiladi
+        3. Abstrakt dizayn:
+            - Qatlamalar (servis, data, kesh)
+            - Infrastruktura: load balancing, xabar almashish (messaging)
+            - Servis ishlashi uchun kerak bo'lgan muhum algoritmlarni tahlili
+            - Bottleneck-larni e'tiborga oling va ularga yechim toping
+    - Mashqlar:
         - [Design a CDN network: old article](https://kilthub.cmu.edu/articles/Globally_distributed_content_delivery/6605972)
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
         - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
@@ -1584,7 +1583,7 @@ You're never really done.
     - [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Messaging, Serialization, and Queueing Systems
+- ### Xabar almashish, Serializatsiya, va Queue Tizimlar
     - [Thrift](https://thrift.apache.org/)
         - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [Protocol Buffers](https://developers.google.com/protocol-buffers/)
@@ -1891,7 +1890,7 @@ You're never really done.
         - [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
         - [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-## Video Series
+## Video Seriyalar
 
 Sit back and enjoy. "Netflix and skill" :P
 

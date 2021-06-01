@@ -1256,46 +1256,47 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 
 ---
 
-## Coding Question Practice
+## Coding bo'yicha savollar ustida ishlash
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+Yuqoridagi barcha "computer science" mavzularini bilb oldingiz, endi coding bo'yicha masalalarga javob berishni mashq qilish vaqti keldi.
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**Coding masalalarini yechishga tayyorlanish bu javoblarni yodlab qolish emas **
 
-Why you need to practice doing programming problems:
-- Problem recognition, and where the right data structures and algorithms fit in
-- Gathering requirements for the problem
-- Talking your way through the problem like you will in the interview
-- Coding on a whiteboard or paper, not a computer
-- Coming up with time and space complexity for your solutions
-- Testing your solutions
+Masalalar yechishni mashq qilish nima uchun zarur:
+- Muammoni aniqlash va kerakli ma'lumotlar tuzilmalari va algoritmlari mos keladigan joyni topa olish
+- Masala uchun kerakli talablarni to'plash
+- Xuddi intervyudagi kabi muammoni yechish uchun qadam baqadam yurish
+- Doskada yoki qog'ozda kod yozish, kompyuterda emas
+- Yechimlarizga ish joyi xarajati va ish vaqti xarajatini aniqlash
+- Yechimlaringizni testlash
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
+Suhbatda metodik, kommunikativ muammolarni hal qilish uchun ajoyib kirish qismi mavjud. 
+Siz buni dasturlash uchun intervyu kitoblaridan ham topa olishingiz mumkin
+lekin men buni ular ichida juda foydali deb topdim:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick. I use a pencil
-and eraser.
+Uyingizda doska yo'qmi? Bu tabiy. Men o'zgacha insonman, menda kotta doskam bor. Doska o'rniga, rasm chizish uchun 
+mo'ljallangan daftar ishlating. Shunda divanda o'tirib, mashq qilishingiz mumkin. Bu mening "divanga mo'ljallangan doskam".
+Men rasmda qalamimni ham qo'shganman qulaylik uchun. Agar siz ruchkadan foydalansangiz, o'chirish istagi paydo bo'lishi mumkin. 
+Tez Chalkashib ketadi. Shuning uchun men qalam va o'chirg'ichdan foydalanaman.
 
-![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+![mening divan uchun doskam](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
-Supplemental:
+Qo'shimcha:
 
 - [Mathematics for Topcoders](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 - [Exercises for getting better at a given language](http://exercism.io/languages)
 
-**Read and Do Programming Problems (in this order):**
+**Dasturlash masalalarini o'qing va bajaring (ketma ketlikda):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C, C++ and Java
+    - C, C++ va Java da javoblar
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - Javada javoblar
 
-See [Book List above](#book-list)
+Ko'ring [Book List above](#book-list)
 
 
 ## Coding exercises/challenges

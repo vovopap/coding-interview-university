@@ -1261,14 +1261,14 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 
 Yuqoridagi barcha "computer science" mavzularini bilb oldingiz, endi coding bo'yicha masalalarga javob berishni mashq qilish vaqti keldi.
 
-**Codingda masalalarini yechishga tayyorlanish bu javoblarni yodlab qolish emas **
+**Coding masalalarini yechishga tayyorlanish bu javoblarni yodlab qolish emas **
 
 Masalalar yechishni mashq qilish nima uchun zarur:
 - Muammoni aniqlash va kerakli ma'lumotlar tuzilmalari va algoritmlari mos keladigan joyni topa olish
 - Masala uchun kerakli talablarni to'plash
-- Xuddi intervyudagi kabi o'zingizni usulingizni muammoni hal qilishda ko'rsatish
+- Xuddi intervyudagi kabi muammoni yechish uchun qadam baqadam yurish
 - Doskada yoki qog'ozda kod yozish, kompyuterda emas
-- Ish joyi xarajati va ish vaqti xarajatini inobatga olgan holda masalaga yechim topish
+- Yechimlarizga ish joyi xarajati va ish vaqti xarajatini aniqlash
 - Yechimlaringizni testlash
 
 Suhbatda metodik, kommunikativ muammolarni hal qilish uchun ajoyib kirish qismi mavjud. 
@@ -1277,11 +1277,11 @@ lekin men buni ular ichida juda foydali deb topdim:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
 Uyingizda doska yo'qmi? Bu tabiy. Men o'zgacha insonman, menda kotta doskam bor. Doska o'rniga, rasm chizish uchun 
-mo'ljallangan planshet oling. SHunda divanda o'tirib, mashq qilishingiz mumkin. Bu mening "divanga mo'ljallangan doskam".
+mo'ljallangan daftar ishlating. Shunda divanda o'tirib, mashq qilishingiz mumkin. Bu mening "divanga mo'ljallangan doskam".
 Men rasmda qalamimni ham qo'shganman qulaylik uchun. Agar siz ruchkadan foydalansangiz, o'chirish istagi paydo bo'lishi mumkin. 
 Tez Chalkashib ketadi. Shuning uchun men qalam va o'chirg'ichdan foydalanaman.
 
-![mening_divan_uchun doskam](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+![mening divan uchun doskam](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
 Qo'shimcha:
 
@@ -1290,7 +1290,7 @@ Qo'shimcha:
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 - [Exercises for getting better at a given language](http://exercism.io/languages)
 
-**Dasturlash uchun muammolarni o'qing va bajaring (ketma ketlikda):**
+**Dasturlash masalalarini o'qing va bajaring (ketma ketlikda):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
     - C, C++ va Java da javoblar

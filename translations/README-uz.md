@@ -1243,14 +1243,13 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 
 ---
 
-## Final Review
+## Yakuniy tahlil
 
-    This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    Bu qismda ko'p muhim tushunchalarni tez qaytarib olish uchun kerak bo'ladigan qisqa videolar bor
 
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
+- [ ] 2-3 minutlik qisqa mavzuga oid videolar seriyasi (23 video)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
+- [ ] 2-5 minutlik qisqa mavzuga oid videolar seriyasi - Michael Sambol (18 video):
     - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)

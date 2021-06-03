@@ -1376,37 +1376,37 @@ Have a story, not just data, about something you accomplished.
 - What did you learn at [job x / project y]?
 - What would you have done better at [job x / project y]?
 
-## Have questions for the interviewer
+## Intervyuver uchun savollaringizni tayyorlab qo'ying
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+    Mening savollarimning bazilari (Bu savollarga javobni bilsam ham ularni fikrlarini yoki jamoaviy istiqbollarini bilishni xoxlayman):
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
-- How is work/life balance?
+- Jamoangiz qanchalik katta?
+- Sizning dasturlash siklingiz qanday tarzda o'tadi? waterfall/sprintlar/ yoki agile ishlatasizmi?
+- Deadline-lar ga shoshilish odatiy holmi? Yoki moslashuvchanlik bormi?
+- Jamoangizda qarorlar qanday qabul qilinadi?
+- Haftasiga nechii marta jamooaviy meeting-lar tashkil etiladi?
+- Sizning ishdagi atmosferangiz sizga konsentratsiya qilishga yordam beradimi?
+- Hozirda nima ustida ishlayapsizlar?
+- Bunda sizga nima ko'proq yoqadi?
+- Ish hayoti qanday tarzda o'tadi?
+- Ish va shaxsiy hayot balansi qanday yo'lga qo'yilgan?
 
-## Once You've Got The Job
+## Ishga qabul qilinganingizdan so'ng
 
-Congratulations!
+Tabriklaymiz!
 
-Keep learning.
+O'rganishda davom eting.
 
-You're never really done.
+Hech qachon hali tugatgan bo'lmaymiz.
 
 ---
 
     *****************************************************************************************************
     *****************************************************************************************************
 
-    Everything below this point is optional.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
+    Ushbu bandning ostidagi hamma narsalar ixtiyoriydir.
+    Ularni o'rganish orqali siz ko'proq CS tushunchalariga ega bo'lasiz va har qanday dasturiy injinerlik
+    ishi uchun yaxshi tayyorlangan bo'lasiz. Siz ancha mukammal dasturchi darajasiga erishasiz.
 
     *****************************************************************************************************
     *****************************************************************************************************

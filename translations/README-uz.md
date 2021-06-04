@@ -1299,28 +1299,28 @@ Qo'shimcha:
 Ko'ring [Book List above](#book-list)
 
 
-## Coding exercises/challenges
+## Coding mashqlar/savollar
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+Miyyangiz og'rigunicha o'rganib bo'lganizdan keyin o'sha miyyangizni ishga soling
+Har kuni coding savollar ishlang, qancha ko'p bo'lsa shuncha yaxshi
 
 - [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
 - [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Coding Interview Question Videos:
+Coding Intervyu Savollar Videolari:
 - [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
-    - Super for walkthroughs of problem solutions
+    - Qadam baqadam yechimlar tahlili uchun juda zo'r
 - [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
-    - Good explanations of solution and the code
-    - You can watch several in a short time
+    - Yechimlar va ularni kodi uchun yaxshi tushuntirish
+    - Qisqa vaqtda ularni bir qanchasini ko'rib tugatsangiz bo'ladi
 - [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
 
-Challenge sites:
+Mashq saytlari:
 - [LeetCode](https://leetcode.com/)
-    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing
+    - Mening sevimli saytim. 1-2 oy tayorgarlik paytida obuna puliga arzidi.
     - [LeetCode solutions from FisherCoder](https://github.com/fishercoder1534/Leetcode)
-    - See Nick White Videos above for short code-throughs
+    - Qisqa kod tahlillari uchun tepadagi Nick White videolarini ko'ring
 - [HackerRank](https://www.hackerrank.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [InterviewCake](https://www.interviewcake.com/)
@@ -1329,7 +1329,7 @@ Challenge sites:
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
 - [Code Exercises](https://code-exercises.com)
 
-Language-learning sites, with challenges:
+Til o'rganish saytlari, mashqlari bilan
 - [Codewars](http://www.codewars.com)
 - [Codility](https://codility.com/programmers/)
 - [HackerEarth](https://www.hackerearth.com/)
@@ -1337,14 +1337,14 @@ Language-learning sites, with challenges:
 - [Codechef](https://www.codechef.com/)
 - [Codeforces](https://codeforces.com/)
 
-Challenge repos:
+Mashqlar repolari
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
 
-Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview
-- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
-- [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies
-- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously.
+Mock intervyular
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - Men buni ishlatdim va u menga phone screen va on-site intervyularga ruhan tayyorladi
+- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - foydalanuvchilararo intervyuga tayyorlanish modeli
+- [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - kandidatlarga tech kompaniyalar bilan bo'ladigan bir nechta intervyulardan sakrab o'tishga ham yordam beradi
+- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - FAANGdan senior injinerlar bilan anonim algoritm/tizim dizayn intervyulari
 
 
 ## Once you're closer to the interview

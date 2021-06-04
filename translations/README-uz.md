@@ -1347,34 +1347,34 @@ Mock intervyular
 - [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - FAANGdan senior injinerlar bilan anonim algoritm/tizim dizayn intervyulari
 
 
-## Once you're closer to the interview
+## Intervyuga yaqin kelganizda
 
-- Cracking The Coding Interview Set 2 (videos):
+- Cracking The Coding Interview Set 2 (videolar):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
 
-## Your Resume
+## Sizni rezyumeingiz
 
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- 'Cracking The Coding Interview' kitobini Resume prep qismini va 'Programming Interviews Exposed' kitobini orqasini ko'ring
 
 
-## Be thinking of for when the interview comes
+## Intervyuga yaqin kelganda quydagilar haqida o'ylab yuring
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+Sizdan so'rashlari mumkin bo'lgan 20 tacha intervyu savollarini o'ylab toping (pastagi savollarga o'xshagan). Har biri uchun 2-3 javobiz bo'lsin.
+Siz amalga oshirgan biror narsa haqida hikoyangiz bo'lsin
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing product
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- Nega bu ishni xohlayapsiz?
+- Siz yechgan mushkul masala/muammo?
+- Qanday qiyinchiliklar bo'lgan?
+- Siz ko'rgan eng yaxshi/eng yomon dizaynlar?
+- Mavjud produktni takomillashtirish uchun g'oyalar?
+- Qanday holda yaxshi ishlaysiz, yolg'iz yoki jamoda?
+- Sizni qanday ko'nikmalaringiz/mahoratlaringiz bu ish o'rinida katta foyda bo'ladi va nega?
+- [x ishda / y proyektda] sizni eng ko'p zavqlantirgan narsa?
+- [x ishda / y proyektda] siz duch kelgan eng katta muammo?
+- [x ishda / y proyektda] siz duch kelgan eng mashaqqatli bug?
+- [x ishda / y proyektda] siz nima o'rgandingiz?
+- [x ishda / y proyektda] siz nimani yaxshiroq qilgan bo'lardingiz?
 
 ## Have questions for the interviewer
 

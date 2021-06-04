@@ -1413,20 +1413,20 @@ You're never really done.
 
 ---
 
-## Additional Books
+## Qo'shimcha kitoblar
 
-    These are here so you can dive into a topic you find interesting.
+    Siz qiziqtirgan mavzuga chuqur sho'ng'ishingiz uchun resurslar
 
 - [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
-    - An oldie but a goodie
+    - Eski lekin yaxshi
 - [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
-    - A modern option
+    - Zamonaviy variant
 - [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - A gentle introduction to design patterns
+    - Dizayn patternlarga yengil kirish
 - [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-    - AKA the "Gang Of Four" book, or GOF
-    - The canonical design patterns book
+    - Shuningdek, "Gang Of Four" yoki "GOF" nomi bilan tanilgan
+    - Qoidaga aylangan dizayn pattern kitobi
 - [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
 - [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - As a review and problem recognition

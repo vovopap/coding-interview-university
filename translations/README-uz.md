@@ -1372,7 +1372,7 @@ Siz amalga oshirgan biror narsa haqida hikoyangiz bo'lsin
 - Sizni qanday ko'nikmalaringiz/mahoratlaringiz bu ish o'rinida katta foyda bo'ladi va nega?
 - [x ishda / y proyektda] sizni eng ko'p zavqlantirgan narsa?
 - [x ishda / y proyektda] siz duch kelgan eng katta muammo?
-- [x ishda / y proyektda] siz duch kelgan eng mashaqatli bug?
+- [x ishda / y proyektda] siz duch kelgan eng mashaqqatli bug?
 - [x ishda / y proyektda] siz nima o'rgandingiz?
 - [x ishda / y proyektda] siz nimani yaxshiroq qilgan bo'lardingiz?
 

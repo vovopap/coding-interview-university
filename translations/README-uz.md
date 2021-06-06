@@ -1378,13 +1378,13 @@ Have a story, not just data, about something you accomplished.
 
 ## Intervyuver uchun savollaringizni tayyorlab qo'ying
 
-    Mening savollarimning bazilari (Bu savollarga javobni bilsam ham ularni fikrlarini yoki jamoaviy istiqbollarini bilishni xoxlayman):
+    Mening savollarimning bazilari (Bu savollarga javobni bilsam ham ularni fikrlarini yoki jamoaviy nuqtai nazarlarini bilishni xoxlayman):
 
 - Jamoangiz qanchalik katta?
 - Sizning dasturlash siklingiz qanday tarzda o'tadi? waterfall/sprintlar/ yoki agile ishlatasizmi?
-- Deadline-lar ga shoshilish odatiy holmi? Yoki moslashuvchanlik bormi?
+- Deadline-lar ga shoshilish odatiy holmi? Yoki erkinlik ko'proqmi?
 - Jamoangizda qarorlar qanday qabul qilinadi?
-- Haftasiga nechii marta jamooaviy meeting-lar tashkil etiladi?
+- Haftasiga nechi marta jamooaviy meeting-lar tashkil etiladi?
 - Sizning ishdagi atmosferangiz sizga konsentratsiya qilishga yordam beradimi?
 - Hozirda nima ustida ishlayapsizlar?
 - Bunda sizga nima ko'proq yoqadi?
@@ -1397,7 +1397,7 @@ Tabriklaymiz!
 
 O'rganishda davom eting.
 
-Hech qachon hali tugatgan bo'lmaymiz.
+Hech qachon tugatgan bo'lmaymiz.
 
 ---
 

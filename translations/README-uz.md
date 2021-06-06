@@ -1299,28 +1299,28 @@ Qo'shimcha:
 Ko'ring [Book List above](#book-list)
 
 
-## Coding exercises/challenges
+## Coding mashqlar/savollar
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+Miyyangiz og'rigunicha o'rganib bo'lganizdan keyin o'sha miyyangizni ishga soling
+Har kuni coding savollar ishlang, qancha ko'p bo'lsa shuncha yaxshi
 
 - [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
 - [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Coding Interview Question Videos:
+Coding Intervyu Savollar Videolari:
 - [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
-    - Super for walkthroughs of problem solutions
+    - Qadam baqadam yechimlar tahlili uchun juda zo'r
 - [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
-    - Good explanations of solution and the code
-    - You can watch several in a short time
+    - Yechimlar va ularni kodi uchun yaxshi tushuntirish
+    - Qisqa vaqtda ularni bir qanchasini ko'rib tugatsangiz bo'ladi
 - [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
 
-Challenge sites:
+Mashq saytlari:
 - [LeetCode](https://leetcode.com/)
-    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing
+    - Mening sevimli saytim. 1-2 oy tayorgarlik paytida obuna puliga arzidi.
     - [LeetCode solutions from FisherCoder](https://github.com/fishercoder1534/Leetcode)
-    - See Nick White Videos above for short code-throughs
+    - Qisqa kod tahlillari uchun tepadagi Nick White videolarini ko'ring
 - [HackerRank](https://www.hackerrank.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [InterviewCake](https://www.interviewcake.com/)
@@ -1329,7 +1329,7 @@ Challenge sites:
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
 - [Code Exercises](https://code-exercises.com)
 
-Language-learning sites, with challenges:
+Til o'rganish saytlari, mashqlari bilan
 - [Codewars](http://www.codewars.com)
 - [Codility](https://codility.com/programmers/)
 - [HackerEarth](https://www.hackerearth.com/)
@@ -1337,44 +1337,44 @@ Language-learning sites, with challenges:
 - [Codechef](https://www.codechef.com/)
 - [Codeforces](https://codeforces.com/)
 
-Challenge repos:
+Mashqlar repolari
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
 
-Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview
-- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
-- [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies
-- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously.
+Mock intervyular
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - Men buni ishlatdim va u menga phone screen va on-site intervyularga ruhan tayyorladi
+- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - foydalanuvchilararo intervyuga tayyorlanish modeli
+- [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - kandidatlarga tech kompaniyalar bilan bo'ladigan bir nechta intervyulardan sakrab o'tishga ham yordam beradi
+- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - FAANGdan senior injinerlar bilan anonim algoritm/tizim dizayn intervyulari
 
 
-## Once you're closer to the interview
+## Intervyuga yaqin kelganizda
 
-- Cracking The Coding Interview Set 2 (videos):
+- Cracking The Coding Interview Set 2 (videolar):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
 
-## Your Resume
+## Sizni rezyumeingiz
 
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- 'Cracking The Coding Interview' kitobini Resume prep qismini va 'Programming Interviews Exposed' kitobini orqasini ko'ring
 
 
-## Be thinking of for when the interview comes
+## Intervyuga yaqin kelganda quydagilar haqida o'ylab yuring
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+Sizdan so'rashlari mumkin bo'lgan 20 tacha intervyu savollarini o'ylab toping (pastagi savollarga o'xshagan). Har biri uchun 2-3 javobiz bo'lsin.
+Siz amalga oshirgan biror narsa haqida hikoyangiz bo'lsin
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing product
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- Nega bu ishni xohlayapsiz?
+- Siz yechgan mushkul masala/muammo?
+- Qanday qiyinchiliklar bo'lgan?
+- Siz ko'rgan eng yaxshi/eng yomon dizaynlar?
+- Mavjud produktni takomillashtirish uchun g'oyalar?
+- Qanday holda yaxshi ishlaysiz, yolg'iz yoki jamoda?
+- Sizni qanday ko'nikmalaringiz/mahoratlaringiz bu ish o'rinida katta foyda bo'ladi va nega?
+- [x ishda / y proyektda] sizni eng ko'p zavqlantirgan narsa?
+- [x ishda / y proyektda] siz duch kelgan eng katta muammo?
+- [x ishda / y proyektda] siz duch kelgan eng mashaqqatli bug?
+- [x ishda / y proyektda] siz nima o'rgandingiz?
+- [x ishda / y proyektda] siz nimani yaxshiroq qilgan bo'lardingiz?
 
 ## Intervyuver uchun savollaringizni tayyorlab qo'ying
 

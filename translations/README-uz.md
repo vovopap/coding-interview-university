@@ -1618,7 +1618,7 @@ Hech qachon tugatgan bo'lmaymiz.
     - [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 - ### Bloom Filter
-    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
+    - m-ta bitlik va k-ta hashlash funksiyalik Bloom filterda elementni joylash va tekshirish O(k) ish vaqtini oladi
     - [Bloom Filters (video)](https://www.youtube.com/watch?v=-SuTGoFYjZs)
     - [Bloom Filters | Mining of Massive Datasets | Stanford University (video)](https://www.youtube.com/watch?v=qBTdukbzc78)
     - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
@@ -1627,16 +1627,16 @@ Hech qachon tugatgan bo'lmaymiz.
 - ### HyperLogLog
     - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
-- ### Locality-Sensitive Hashing
-    - Used to determine the similarity of documents
-    - The opposite of MD5 or SHA which are used to determine if 2 documents/strings are exactly the same
+- ### Locality-Sensitive Hashlash
+    - dokumentlarni o'xshashligini tekshirish uchun ishlatiladi
+    - MD5 va SHA teskarisi. MD5 va SHA esa dokumentlar/stringlarni bir xilligini tekshirish uchun ishlatiladi
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
-- ### van Emde Boas Trees
+- ### van Emde Boas Tree-lari
     - [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
     - [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
-- ### Augmented Data Structures
+- ### Kattalashtirilgan Data Strukturalari
     - [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
 - ### Balanced search trees

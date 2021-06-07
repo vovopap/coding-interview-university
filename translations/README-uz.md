@@ -1413,46 +1413,46 @@ Hech qachon tugatgan bo'lmaymiz.
 
 ---
 
-## Additional Books
+## Qo'shimcha kitoblar
 
-    These are here so you can dive into a topic you find interesting.
+    O'zingizni qiziqtirgan mavzuga chuqur sho'ng'ishingiz uchun resurslar
 
 - [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
-    - An oldie but a goodie
+    - Eski lekin yaxshi
 - [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
-    - A modern option
+    - Zamonaviy variant
 - [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - A gentle introduction to design patterns
+    - Dizayn patternlarga yengil kirish
 - [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-    - AKA the "Gang Of Four" book, or GOF
-    - The canonical design patterns book
+    - Shuningdek, "Gang Of Four" yoki "GOF" nomi bilan tanilgan
+    - Qoidaga aylangan dizayn pattern kitobi
 - [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
 - [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview
-    - This book has 2 parts:
-        - Class textbook on data structures and algorithms
-            - Pros:
-                - Is a good review as any algorithms textbook would be
-                - Nice stories from his experiences solving problems in industry and academia
-                - Code examples in C
-            - Cons:
-                - Can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
-                - Chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - Don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material
-        - Algorithm catalog:
-            - This is the real reason you buy this book
-            - About to get to this part. Will update here once I've made my way through it
-    - Can rent it on kindle
-    - Answers:
+    - Qaytarish uchun va muammoni tanib olish uchun
+    - Algoritm katalog qismi intervyularda tushadigan savollardan ancha qiyin
+    - Bu kitob ikki qismdan iborat:
+        - Data strukturalar va algoritmlar bo'yicha sinf darslik kitobi
+            - Yaxshi taraflari:
+                - Boshqa algoritm sinf darsliklari kabi qaytarish uchun yaxshi
+                - Ishda va akademiyada bo'lgan o'zining masala yechish tajribasidan yaxshi hikoyalar bor
+                - Kod namunalari C da
+            - Yomon taraflari:
+                - CLRS kabi zich va tushinishga qiyin bo'lishi mumkin, va hatto bir xil mavzularga CLRS yaxshiroq bo'lishi mumkin
+                - Bazi narsalar yetarlicha yoritilmagani uchun, 7, 8, 9-boblar tushunishga qiyin (Ehtimol menikidan aqlliroq kalla kerakdir)
+                - Meni noto'g'ri tushunmang: Menga Skiena, uni o'qitish uslubi, va mannerizmi yoqadi, lekin men Stony Brook universitetdagilar kabi emasman
+        - Algoritm katalogi:
+            - Bu kitobni sotib olishingizni asl sababi
+            - Bu qismga yetib qoldim. Tugatganimdan so'ng bu yerni yangilab qo'yaman
+    - kindleda ijaraga olsangiz bo'ladi
+    - Javoblar
         - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 - [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief
-    - The author invented [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly), so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like
-    - These chapters are worth the read to give you a nice foundation:
+    - Kitob 2004-yilda nashr etilgan va bir oz eskirgan, lekin kompyuterni qisqa vaqta tushunish uchun zo'r resurs
+    - Muallif [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly) ni kashf etgan. Shunday ekan, HLA haqida gaplar va namunalarga skeptik qarang. Keng ishlatilmaydi lekin assembly qanday ko'rinishini ko'rsatadigan namunalar
+    - Bu boblar sizga kompyuterni tushunishda yaxshi bilim poydevori bo'ladi
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -1463,15 +1463,15 @@ Hech qachon tugatgan bo'lmaymiz.
         - Chapter 10 - Instruction Set Architecture
         - Chapter 11 - Memory Architecture and Organization
 - [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently
-    - AKA CLR, sometimes CLRS, because Stein was late to the game
+    - **Muhim:** Bu kitobni o'qish siz uchun cheklangan qiymatga ega. Bu kitob algoritmlar va data strukturalar tahlili uchun zo'r, lekin yaxshi kod yozishni o'rgatmaydi. O'zingiz to'g'ri yechim topishingiz kerak bo'ladi
+    - CLR nomi bilan ham tanilgan (bazida CLRS chunki Stein keyinroq kitob mualliflariga qo'shilgan)
 
 - [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
-    - For a richer, more up-to-date (2017), but longer treatment
+    - Nisbatan ancha boyroq va yangiroq (2017), lekin uzunroq yozilgan
 
 - [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
-      that is just an intro. This a guidebook on program design and architecture
+    - Boshlang'ich bir ikki boblari muammolarga ajoyib yechimlar taqdim qiladi, lekin bu shunchaki kirish. 
+      Bu kitob dastur dizayn va arxitekturasi uchun qo'llanma
 
 ## Additional Learning
 

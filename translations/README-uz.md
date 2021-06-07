@@ -1415,7 +1415,7 @@ You're never really done.
 
 ## Qo'shimcha kitoblar
 
-    Siz qiziqtirgan mavzuga chuqur sho'ng'ishingiz uchun resurslar
+    O'zingizni qiziqtirgan mavzuga chuqur sho'ng'ishingiz uchun resurslar
 
 - [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
     - Eski lekin yaxshi
@@ -1430,17 +1430,17 @@ You're never really done.
 - [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
 - [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - Qaytarish uchun va muammoni tanib olish uchun
-    - Algoritm katalog qismi intervyularda tushadigan savollardan ancha qiying
-    - Bu kitobda ikkita qism bor:
+    - Algoritm katalog qismi intervyularda tushadigan savollardan ancha qiyin
+    - Bu kitob ikki qismdan iborat:
         - Data strukturalar va algoritmlar bo'yicha sinf darslik kitobi
             - Yaxshi taraflari:
                 - Boshqa algoritm sinf darsliklari kabi qaytarish uchun yaxshi
-                - Ishda va akademiyada bo'lgan o'zini masala yechish tajribasidan yaxshi hikoyalar bor
+                - Ishda va akademiyada bo'lgan o'zining masala yechish tajribasidan yaxshi hikoyalar bor
                 - Kod namunalari C da
             - Yomon taraflari:
-                - CLRS kabi zich va tushinishga qiyin bo'lishi mumkin, va hatto bir hil mavzularga CLRS yaxshiroq bo'lishi mumkin
+                - CLRS kabi zich va tushinishga qiyin bo'lishi mumkin, va hatto bir xil mavzularga CLRS yaxshiroq bo'lishi mumkin
                 - Bazi narsalar yetarlicha yoritilmagani uchun, 7, 8, 9-boblar tushunishga qiyin (Ehtimol menikidan aqlliroq kalla kerakdir)
-                - Meni notug'ri tushunmang: Menga Skiena, uni o'qitish uslubi, va mannerizmi yoqadi, lekin men Stony Brook universitetdagilar kabi emasman
+                - Meni noto'g'ri tushunmang: Menga Skiena, uni o'qitish uslubi, va mannerizmi yoqadi, lekin men Stony Brook universitetdagilar kabi emasman
         - Algoritm katalogi:
             - Bu kitobni sotib olishingizni asl sababi
             - Bu qismga yetib qoldim. Tugatganimdan so'ng bu yerni yangilab qo'yaman
@@ -1451,8 +1451,8 @@ You're never really done.
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 - [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - Kitob 2004-yilda nashr etilgan va bir oz eskirgan, lekin kompyuterni qisqa vaqta tushunish uchun zo'r resurs
-    - Muallif [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly) ni kashf etgan. Shunday ekan, HLA haqida gaplar va namunalarga skeptik qarang. Keng ishlatilmaydi lekin assembly qanday ko'rinishimi ko'rsatadigan namunalar
-    - Bu boblar sizga komputerni tushunishda yaxshi bilm poydevori bo'ladi
+    - Muallif [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly) ni kashf etgan. Shunday ekan, HLA haqida gaplar va namunalarga skeptik qarang. Keng ishlatilmaydi lekin assembly qanday ko'rinishini ko'rsatadigan namunalar
+    - Bu boblar sizga kompyuterni tushunishda yaxshi bilim poydevori bo'ladi
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -1463,7 +1463,7 @@ You're never really done.
         - Chapter 10 - Instruction Set Architecture
         - Chapter 11 - Memory Architecture and Organization
 - [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Muhim:** Bu kitobni o'qish sizga cheklangan qiymatga ega. Bu kitob algoritmlar va data strukturalar tahlili uchun zo'r, lekin yaxshi kod yozishni o'rgatmaydi. O'zingiz to'g'ri yechim topishingiz kerak bo'ladi
+    - **Muhim:** Bu kitobni o'qish siz uchun cheklangan qiymatga ega. Bu kitob algoritmlar va data strukturalar tahlili uchun zo'r, lekin yaxshi kod yozishni o'rgatmaydi. O'zingiz to'g'ri yechim topishingiz kerak bo'ladi
     - CLR nomi bilan ham tanilgan (bazida CLRS chunki Stein keyinroq kitob mualliflariga qo'shilgan)
 
 - [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)

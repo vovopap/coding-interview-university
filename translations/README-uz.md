@@ -1639,18 +1639,19 @@ Hech qachon tugatgan bo'lmaymiz.
 - ### Kattalashtirilgan Data Strukturalari
     - [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
-- ### Balanced search trees
-    - Know at least one type of balanced binary tree (and know how it's implemented):
-    - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
-        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
-        to move any accessed key to the root." - Skiena
+- ### Balanced search tree-lar
+    - Kamida bitta balanced binary tree turini biling (va uni qanday yozishni ham biling)
+    - "Balanced search tree-lar orasida, AVL va 2/3 tree-lar hozir o'tmishga aylangan, va red-black tree-lar ancha mashhurroq.
+        Xususan qiziqarli bo'lgan o'z-o'zini tashkil qiladigan data strukture bu splay tree. Splay tree
+        har safar key so'ralganda uni rotatsiyadan foydalangan holda root-ga o'tkazadi." - Skiena
     - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
-        balanced search tree in your interview. But I wanted exposure to coding one up
-        and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code
-        - Splay tree: insert, search, delete functions
-        If you end up implementing red/black tree try just these:
-        - Search and insertion functions, skipping delete
-    - I want to learn more about B-Tree since it's used so widely with very large data sets
+    - Bulardan men splay tree-ni kodda yozishni tanladim. Bilishimcha intervyuda sizdan balanced search tree-ni
+        yozishni so'rashmaydi. Lekin men baribir yozishni xohladim va tan olaylik splay tree-lar zo'r.
+        Men juda ko'p red-black tree kodlarini ham o'qidim.
+        - Splay tree: insert, search, delete funksiyalari
+        Agar red-black tree-ni yozadigan bo'lsez faqat shularni yozishga harakat qiling:
+        - Search va insertion funksiyalari, delete-ni tashlab ketavering
+    - Men B-tree-lar haqida ko'proq o'rganmoqchiman chunki ular katta data to'plamlari bilan juda ko'p ishlatiladi
     - [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
     - **AVL trees**

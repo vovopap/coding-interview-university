@@ -1473,23 +1473,23 @@ Hech qachon tugatgan bo'lmaymiz.
     - Boshlang'ich bir ikki boblari muammolarga ajoyib yechimlar taqdim qiladi, lekin bu shunchaki kirish. 
       Bu kitob dastur dizayn va arxitekturasi uchun qo'llanma
 
-## Additional Learning
+## Qo'shimcha o'rganish
 
-    I added them to help you become a well-rounded software engineer, and to be aware of certain
-    technologies and algorithms, so you'll have a bigger toolbox.
+    Men bularni har tomonlama rivojlangan dasturchi bo'lishingizga yordam berish va ba'zi texnologiyalar va algoritmlar xabardor bo'lishingiz uchun qo'shdim
+    texnologiyalar va algoritmlar, Natijada sizda kattaroq asboblar qutisi bo'ladi.
 
-- ### Compilers
+- ### Kompilyatorlar
     - [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
     - [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
     - [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
     - [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
-- ### Emacs and vi(m)
-    - Familiarize yourself with a unix-based code editor
+- ### Emacs va vi(m) 
+    - Unix-ga asoslangan kod muharriri (code editor) bilan tanishib chiqing
     - vi(m):
         - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
         - [VIM Adventures](http://vim-adventures.com/)
-        - set of 4 videos:
+        - 4 ta videolar to'plami:
             - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
             - [The vi/vim editor - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
             - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
@@ -1497,7 +1497,7 @@ Hech qachon tugatgan bo'lmaymiz.
         - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
     - emacs:
         - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
-        - set of 3 (videos):
+        - 3 ta videolar to'plami:
             - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
             - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
@@ -1505,8 +1505,8 @@ Hech qachon tugatgan bo'lmaymiz.
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
         - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
-- ### Unix command line tools
-    - I filled in the list below from good tools.
+- ### Unix uchun buyruqlar ro'yxati
+    - Quyidagi ro'yxatni yaxshi vositalardan to'ldirdim.
     - bash
     - cat
     - grep
@@ -1519,15 +1519,15 @@ Hech qachon tugatgan bo'lmaymiz.
     - [strace](https://en.wikipedia.org/wiki/Strace)
     - [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+- ### Ma'lumot nazariyasi (videolar)
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
-    - More about Markov processes:
+    - Markov protseslari haqida batafsil:
         - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
         - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
-    - See more in MIT 6.050J Information and Entropy series below
+    - Batafsil quyida MIT 6.050J-ning Ma'lumot va Entropiya seriyalarida ko'ring
 
-- ### Parity & Hamming Code (videos)
+- ### Parity va "Hamming Code" (videolar)
     - [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
     - [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
     - Hamming Code:
@@ -1535,21 +1535,21 @@ Hech qachon tugatgan bo'lmaymiz.
         - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
     - [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ### Entropy
-    - Also see videos below
-    - Make sure to watch information theory videos first
+- ### Entropiya
+    - Quyidagi videolarni ko'ring
+    - Avval ma'lumot nazariyasi videolarini tomosha qiling
     - [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ### Cryptography
-    - Also see videos below
-    - Make sure to watch information theory videos first
+- ### Kriptografiya
+    - Quyidagi videolarni ham ko'ring
+    - Avval ma'lumot nazariyasi videolarini tomosha qiling
     - [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ### Compression
-    - Make sure to watch information theory videos first
-    - Computerphile (videos):
+- ### Kompressiya
+    - Avval ma'lumot nazariyasi videolarini tomosha qiling
+    - Computerphile (videolar):
         - [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
         - [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
         - [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
@@ -1559,7 +1559,7 @@ Hech qachon tugatgan bo'lmaymiz.
     - [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Computer Security
+- ### Kompyuter xavfsizligi
     - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
@@ -1574,12 +1574,12 @@ Hech qachon tugatgan bo'lmaymiz.
         - [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- ### Garbage collection
+- ### Chiqindi yig'ish (Garbage collection)
     - [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
     - [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ### Parallel Programming
+- ### Paralel dasturlash
     - [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 

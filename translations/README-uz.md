@@ -1475,7 +1475,7 @@ Hech qachon tugatgan bo'lmaymiz.
 
 ## Qo'shimcha o'rganish
 
-    Men bularni har tomonlama rivojlangan dasturchi bo'lishingizga yordam berish va ba'zi narsalardan xabardor bo'lishingiz uchun qo'shdim
+    Men bularni har tomonlama rivojlangan dasturchi bo'lishingizga yordam berish va ba'zi texnologiyalar va algoritmlar xabardor bo'lishingiz uchun qo'shdim
     texnologiyalar va algoritmlar, Natijada sizda kattaroq asboblar qutisi bo'ladi.
 
 - ### Kompilyatorlar
@@ -1484,8 +1484,8 @@ Hech qachon tugatgan bo'lmaymiz.
     - [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
     - [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
-- ### Emac-lar va vi(m) 
-    - Unix-ga asoslangan kod muharriri bilan tanishib chiqing
+- ### Emacs va vi(m) 
+    - Unix-ga asoslangan kod muharriri (code editor) bilan tanishib chiqing
     - vi(m):
         - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
         - [VIM Adventures](http://vim-adventures.com/)
@@ -1495,7 +1495,7 @@ Hech qachon tugatgan bo'lmaymiz.
             - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
             - [The vi/vim editor - Lesson 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
         - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
-    - emaclar:
+    - emacs:
         - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
         - 3 ta videolar to'plami:
             - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
@@ -1519,7 +1519,7 @@ Hech qachon tugatgan bo'lmaymiz.
     - [strace](https://en.wikipedia.org/wiki/Strace)
     - [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Ma'lumot teoriyasi (videolar)
+- ### Ma'lumot nazariyasi (videolar)
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - Markov protseslari haqida batafsil:
         - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
@@ -1527,7 +1527,7 @@ Hech qachon tugatgan bo'lmaymiz.
         - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
     - Batafsil quyida MIT 6.050J-ning Ma'lumot va Entropiya seriyalarida ko'ring
 
-- ### Paritet va "Hamming Code" (videolar)
+- ### Parity va "Hamming Code" (videolar)
     - [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
     - [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
     - Hamming Code:
@@ -1574,7 +1574,7 @@ Hech qachon tugatgan bo'lmaymiz.
         - [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- ### Chiqindi yig'ish
+- ### Chiqindi yig'ish (Garbage collection)
     - [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
     - [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)

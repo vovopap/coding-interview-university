@@ -1654,13 +1654,13 @@ Hech qachon tugatgan bo'lmaymiz.
     - Men B-tree-lar haqida ko'proq o'rganmoqchiman chunki ular katta data to'plamlari bilan juda ko'p ishlatiladi
     - [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
-    - **AVL trees**
-        - In practice:
-            From what I can tell, these aren't used much in practice, but I could see where they would be:
-            The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
-            balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
-            attractive for data structures that may be built once and loaded without reconstruction, such as language
-            dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter)
+    - **AVL tree-lar**
+        - Amalda:
+            Meni fikrimda AVL tree-lar amalda uncha ishlatilmaydi. Lekin men qayerda ishlatilishi mumkinligini ayta olaman:
+            AVL bu search, insertion, va removal funksiyalarini O(log n) tezligida qila oladigan yana bitta struktura. AVL tree-lar
+            red-black tree-larga nisbatan ancha uzil-kesil balanslangan. Shuning uchun insertion va removal sekin, lekin search tezroq.
+            Shu sababli u bir marta qurilib qayta-qayta yuklanib ishlatiladigan data strukturalari uchun juda qo'l keladi.
+            Masalan: til lug'atlari yoki dastur lu'gatlari (assembler va interpreter opcode-lari)
         - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
         - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)

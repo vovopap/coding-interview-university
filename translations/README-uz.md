@@ -1667,13 +1667,12 @@ Hech qachon tugatgan bo'lmaymiz.
         - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
 
     - **Splay trees**
-        - In practice:
-            Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
-            data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
-            networking and file system code) etc
+        - Amalda:
+            Splay tree-lar asosan cache-lar, memory allocator-lar, router-lar, garbage collector-lar, data compressiya,
+            rope data struktura, Windows NT, va hokazo componentlarni qurish uchun ishlatiladi
         - [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
-        - MIT Lecture: Splay Trees:
-            - Gets very mathy, but watch the last 10 minutes for sure.
+        - MIT ma'ruza: Splay Trees:
+            - Juda ko'p matematika aralashgan, lekin aniq oxirgi 10 minutini ko'ring
             - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
     - **Red/black trees**

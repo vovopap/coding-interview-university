@@ -1675,25 +1675,25 @@ Hech qachon tugatgan bo'lmaymiz.
             - Juda ko'p matematika aralashgan, lekin aniq oxirgi 10 minutini ko'ring
             - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
-    - **Red/black trees**
-        - These are a translation of a 2-3 tree (see below).
-        - In practice:
-            Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
-            Not only does this make them valuable in time-sensitive applications such as real-time applications,
-            but it makes them valuable building blocks in other data structures which provide worst-case guarantees;
-            for example, many data structures used in computational geometry can be based on red–black trees, and
-            the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In the version 8 of Java,
-            the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
-            hashcodes, a Red-Black tree is used
-        - [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
+    - **Red/black tree-lar**
+        - Bular 2-3 tree-ni tarjimasi (pastni ko'ring)
+        - Amalda:
+            Red-black tree-lar insertion, deletion va search uchun eng-yomon ish vaqtini kavolat qiladi.
+            Uni shu xususiyati vaqt juda muhim bo'lgan dasturlarda foydali qiladi. Hamda eng-yomon vaqtni
+            kafolat qiladigan data strukturalarni foydali bir qismi bo'lib ishlaydi;
+            masalan, kompyutatsion geometriyada ishlatiladigan ko'p data strukturalar red-black tree-larga asoslanishi mumkin
+            va hozirgi Linux kernellarda ishlatiladigan "Completely Fair Scheduler" red-black tree ishlatadi. Javaning 8 versiyasida,
+            oldin bir xil bo'lgan elementlari saqlash uchun LinkedList ishlatgan HashMap data strukturasi o'zgartirilib 
+            hozirda Red-Black tree ishlatadi
+        - [Aduni - Algorithms - Lecture 4 (link videoni kerakli joyidan boshlaydi) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/)
 
-    - **2-3 search trees**
-        - In practice:
-            2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
-        - You would use 2-3 tree very rarely because its implementation involves different types of nodes. Instead, people use Red Black trees.
+    - **2-3 search tree-lar**
+        - Amalda:
+            2-3 tree-lar sekinroq ishlaydigan search operatsiyasi hisobiga juda tez insert operatsiyasiga ega.
+        - 2-3 tree-lar kamdan-kam ishlatiladi chunki uni kodda yozish uchun har xil node-lar ekan bo'ladi. O'rniga, odamlar Red Black tree-larni ishlatadi
         - [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
         - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)

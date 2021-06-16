@@ -1698,20 +1698,21 @@ Hech qachon tugatgan bo'lmaymiz.
         - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-    - **2-3-4 Trees (aka 2-4 trees)**
-        - In practice:
-            For every 2-4 tree, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
-            operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
-            important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce
-            2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
+    - **2-3-4 Tree-lar (shuningdek 2-4 tree nomi bilan tanilgan)**
+        - Amalda:
+            Har 2-4 tree uchun unga mos elementlari bir xil tartibda bo'lgan red-black bor. Insertion va deletion funksiyalari red-black
+            tree-dagi color-flipping va rotation funksiyalariga tengma-tengdir. Bu xususiyati uni red-black tree-larni tagidagi mantiqni 
+            tushunishda juda muxim ro'l o'ynaydi va shuning uchun ko'p kirish algoritm kitoblari red-black tree-dan oldin 2-4 treelar haqida gapiradi,
+            garchi **2-4 tree-lar amalda uncha ko'p ishlatilmasa**.
         - [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
         - [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
-    - **N-ary (K-ary, M-ary) trees**
-        - note: the N or K is the branching factor (max branches)
-        - binary trees are a 2-ary tree, with branching factor = 2
+    - **N-talik (K-talik, M-talik) tree-lar**
+        - eslatma: N va K bu branchlash faktori (maksimum branchlar)
+        - binary tree-lar bu branchlash faktor = 2 bo'lgan 2-talik tree-lar
         - 2-3 trees are 3-ary
+        - 2-3 tree-lar 3-talik xisoblanadi
         - [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
 
     - **B-Trees**

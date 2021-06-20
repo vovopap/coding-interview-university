@@ -1628,8 +1628,8 @@ Hech qachon tugatgan bo'lmaymiz.
     - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
 - ### Locality-Sensitive Hashing
-    - Used to determine the similarity of documents
-    - The opposite of MD5 or SHA which are used to determine if 2 documents/strings are exactly the same
+    - Dokumentlarning bir xilligini aniqlash uchun ishlatiladi
+    - MD5 yoki SHA ning teskarisi bo'lib, 2 ta dokumnet yoki satrni aniq bir xilligini aniqlaydi
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
 - ### van Emde Boas Trees
@@ -1640,9 +1640,10 @@ Hech qachon tugatgan bo'lmaymiz.
     - [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
 - ### Balanced search trees
-    - Know at least one type of balanced binary tree (and know how it's implemented):
-    - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
-        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
+    - Balanslangan ikkilik daraxtning (binary tree) kamida bitta turini bilish (va uning kodda qanday yozilishini bilish):
+    - "Balansli qidiruv daraxtlari(search trees) orasida AVL va 2/3 daraxtlar hozirda passé bo'lib, qizil-qora daraxtlar ko'proq mashhurdek tuyulyapti.
+- Resources:
+        - Books:        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
     - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
         balanced search tree in your interview. But I wanted exposure to coding one up
@@ -1804,11 +1805,11 @@ Hech qachon tugatgan bo'lmaymiz.
 
 ---
 
-## Additional Detail on Some Subjects
+## Ba'zi mavzular bo'yicha qo'shimcha ma'lumotlar
 
-    I added these to reinforce some ideas already presented above, but didn't want to include them
-    above because it's just too much. It's easy to overdo it on a subject.
-    You want to get hired in this century, right?
+    Men bularni Yuqorida keltirilgan ba'zi fikrlarni mustahkamlash uchun qo'shdim, lekin yuqorida qo'shishni xohlamagandim 
+    chunki juda ko'p resurslarni o'z ichiga oladi. Bularni mavzu asosida qaytadan ko'rib chiqish afzalroq.
+    Siz shu asrda ishga qabul qilinishingizni xohlaysiz shundaymi?
 
 - **SOLID**   
     - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
@@ -1834,7 +1835,7 @@ Hech qachon tugatgan bo'lmaymiz.
     - [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
     - [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
-- **More Dynamic Programming** (videos)
+- **Dinamik dasturlash haqida batafsil** (videolar)
     - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
     - [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
     - [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
@@ -1843,11 +1844,11 @@ Hech qachon tugatgan bo'lmaymiz.
     - [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
     - [6.046: Dynamic Programming (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
 
-- **Advanced Graph Processing** (videos)
+- **Advanced Graph Processing** (videolar)
     - [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
     - [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
-- MIT **Probability** (mathy, and go slowly, which is good for mathy things) (videos):
+- MIT **Ehtimollik nazariyasi** (matematikaga oid, sekin asstalik bilan ko'rib chiqing, matematikaga oid narsalar uchun yaxshi) (videolar):
     - [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
     - [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
     - [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
@@ -1860,7 +1861,7 @@ Hech qachon tugatgan bo'lmaymiz.
 - [Simonson: Approximation Algorithms (video)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
 
 - **String Matching**
-    - Rabin-Karp (videos):
+    - Rabin-Karp (videolar):
         - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
         - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
         - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
@@ -1868,23 +1869,23 @@ Hech qachon tugatgan bo'lmaymiz.
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - Knuth-Morris-Pratt (KMP):
         - [TThe Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=5i7oKodCRJo)
-    - Boyer–Moore string search algorithm
+    - Boyer–Moore string search algoritmi
         - [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
         - [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
     - [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
-        - starts off great, but by the time it gets past KMP it gets more complicated than it needs to be
-        - nice explanation of tries
-        - can be skipped
+        - juda yaxshi boshlanadi, ammo KMPdan o'tib ketishi bilan u kerak bo'lgandan ko'ra murakkabroq bo'ladi
+        - tries ning yaxshi tarifi berilgan
+        - o'tqazib yuborishingiz mumkin
 
 - **Sorting**
 
-    - Stanford lectures on sorting:
+    - Sorting bo'yicha Stanford universiteti ma'ruzalari:
         - [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
         - [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
     - Shai Simonson, [Aduni.org](http://www.aduni.org/):
         - [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
         - [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
-    - Steven Skiena lectures on sorting:
+    - Steven Skienaning sorting mavzusidagi ma'ruzalari:
         - [lecture begins at 26:46 (video)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
         - [lecture begins at 27:40 (video)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
         - [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
@@ -1892,7 +1893,7 @@ Hech qachon tugatgan bo'lmaymiz.
 
 ## Video Seriyalar
 
-Sit back and enjoy. "Netflix and skill" :P
+Qulay joylashib oling va maroqlaning. "Netflix va mahoratlar" :P
 
 - [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
@@ -1908,7 +1909,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
-- CSE373 - Analysis of Algorithms (25 videos)
+- CSE373 - Algoritmlarning tahlillari (25 ta videolar to'plami)
     - [Skiena lectures from Algorithm Design Manual](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
 
 - [UC Berkeley 61B (Spring 2014): Data Structures (25 videos)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
@@ -1954,40 +1955,40 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-## Computer Science Courses
+## Computer Science Kurslari
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
 
-## Algorithms implementation
+## Algoritmlarning qo'llanilishi
 
 - [Multiple Algorithms implementation by Princeton University)](https://algs4.cs.princeton.edu/code)
 
 
-## Papers
+## Maqolalar
 
 - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
 - [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
     - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
 - [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-    - replaced by Colossus in 2012
+    - 2012 yilda Kolossus bilan almashtirildi
 - [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-    - mostly replaced by Cloud Dataflow?
+    - Asosan Cloud Dataflow bilan almashtirilganmi??
 - [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
     - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
 - [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
 - [2007: Dynamo: Amazon’s Highly Available Key-value Store](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
-    - The Dynamo paper kicked off the NoSQL revolution
+    - The Dynamo maqolasi NoSQL revolyutsiyasini boshladi
 - [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
 - [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
 - [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
 - [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
-    - paper not available
-- 2012: AddressSanitizer: A Fast Address Sanity Checker:
+    - maqolaning o'zi mavjud emas
+- 2012: AddressSanitizer: Elektron manzilni to'g'riligini tez tekshirib beruvchi vosita:
     - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
     - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-- 2013: Spanner: Google’s Globally-Distributed Database:
-    - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+- 2013: Spanner: Googlening global tarqatilgan ma'lumotlar bazasi:
+    - [maqola](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
     - [video](https://www.usenix.org/node/170855)
 - [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
 - [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
@@ -1997,6 +1998,6 @@ Sit back and enjoy. "Netflix and skill" :P
 - [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
 
-## LICENSE
+## Litsenziya
 
 [CC-BY-SA-4.0](./LICENSE.txt)

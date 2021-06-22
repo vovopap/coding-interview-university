@@ -1618,7 +1618,7 @@ Hech qachon tugatgan bo'lmaymiz.
     - [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 - ### Bloom Filter
-    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
+    - m-ta bitlik va k-ta hashlash funksiyalik Bloom filterda elementni joylash va tekshirish O(k) ish vaqtini oladi
     - [Bloom Filters (video)](https://www.youtube.com/watch?v=-SuTGoFYjZs)
     - [Bloom Filters | Mining of Massive Datasets | Stanford University (video)](https://www.youtube.com/watch?v=qBTdukbzc78)
     - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
@@ -1627,175 +1627,174 @@ Hech qachon tugatgan bo'lmaymiz.
 - ### HyperLogLog
     - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
-- ### Locality-Sensitive Hashing
-    - Used to determine the similarity of documents
-    - The opposite of MD5 or SHA which are used to determine if 2 documents/strings are exactly the same
+- ### Locality-Sensitive Hashlash
+    - dokumentlarni o'xshashligini tekshirish uchun ishlatiladi
+    - MD5 va SHA teskarisi. MD5 va SHA esa dokumentlar/stringlarni bir xilligini tekshirish uchun ishlatiladi
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
-- ### van Emde Boas Trees
+- ### van Emde Boas Tree-lari
     - [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
     - [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
-- ### Augmented Data Structures
+- ### Kattalashtirilgan Data Strukturalari
     - [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
-- ### Balanced search trees
-    - Know at least one type of balanced binary tree (and know how it's implemented):
-    - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
-        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
-        to move any accessed key to the root." - Skiena
+- ### Balanced search tree-lar
+    - Kamida bitta balanced binary tree turini biling (va uni qanday yozishni ham biling)
+    - "Balanced search tree-lar orasida, AVL va 2/3 tree-lar hozir o'tmishga aylangan, va red-black tree-lar ancha mashhurroq.
+        Xususan qiziqarli bo'lgan o'z-o'zini tashkil qiladigan data struktura bu splay tree. Splay tree
+        har safar key so'ralganda uni rotatsiyadan foydalangan holda root-ga o'tkazadi." - Skiena
     - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
-        balanced search tree in your interview. But I wanted exposure to coding one up
-        and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code
-        - Splay tree: insert, search, delete functions
-        If you end up implementing red/black tree try just these:
-        - Search and insertion functions, skipping delete
-    - I want to learn more about B-Tree since it's used so widely with very large data sets
+    - Bulardan men splay tree-ni kodda yozishni tanladim. Bilishimcha intervyuda sizdan balanced search tree-ni
+        yozishni so'rashmaydi. Lekin men baribir yozishni xohladim va tan olaylik splay tree-lar zo'r.
+        Men juda ko'p red-black tree kodlarini ham o'qidim.
+        - Splay tree: insert, search, delete funksiyalari
+        Agar red-black tree-ni yozadigan bo'lsangiz faqat shularni yozishga harakat qiling:
+        - Search va insertion funksiyalari, delete-ni tashlab ketavering
+    - Men B-tree-lar haqida ko'proq o'rganmoqchiman chunki ular katta data to'plamlari bilan juda ko'p ishlatiladi
     - [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
-    - **AVL trees**
-        - In practice:
-            From what I can tell, these aren't used much in practice, but I could see where they would be:
-            The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
-            balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
-            attractive for data structures that may be built once and loaded without reconstruction, such as language
-            dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter)
+    - **AVL tree-lar**
+        - Amalda:
+            Meni fikrimda AVL tree-lar amalda uncha ishlatilmaydi. Lekin men qayerda ishlatilishi mumkinligini ayta olaman:
+            AVL bu search, insertion, va removal funksiyalarini O(log n) tezligida qila oladigan yana bitta struktura. AVL tree-lar
+            red-black tree-larga nisbatan ancha uzil-kesil balanslangan. Shuning uchun insertion va removal sekin, lekin search tezroq.
+            Shu sababli u bir marta qurilib qayta-qayta yuklanib ishlatiladigan data strukturalari uchun juda qo'l keladi.
+            Masalan: til lug'atlari yoki dastur lu'gatlari (assembler va interpreter opcode-lari)
         - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
         - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
 
     - **Splay trees**
-        - In practice:
-            Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
-            data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
-            networking and file system code) etc
+        - Amalda:
+            Splay tree-lar asosan cache-lar, memory allocator-lar, router-lar, garbage collector-lar, data compressiya,
+            rope data struktura, Windows NT, va hokazo componentlarni qurish uchun ishlatiladi
         - [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
-        - MIT Lecture: Splay Trees:
-            - Gets very mathy, but watch the last 10 minutes for sure.
+        - MIT ma'ruza: Splay Trees:
+            - Juda ko'p matematika aralashgan, lekin aniq oxirgi 10 minutini ko'ring
             - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
-    - **Red/black trees**
-        - These are a translation of a 2-3 tree (see below).
-        - In practice:
-            Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
-            Not only does this make them valuable in time-sensitive applications such as real-time applications,
-            but it makes them valuable building blocks in other data structures which provide worst-case guarantees;
-            for example, many data structures used in computational geometry can be based on red–black trees, and
-            the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In the version 8 of Java,
-            the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
-            hashcodes, a Red-Black tree is used
-        - [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
+    - **Red/black tree-lar**
+        - Bular 2-3 tree-ni tarjimasi (pastni ko'ring)
+        - Amalda:
+            Red-black tree-lar insertion, deletion va search uchun eng-yomon ish vaqtini kafolatlaydi.
+            Uni shu xususiyati vaqt juda muhim bo'lgan dasturlarda foydali qiladi. Hamda eng-yomon vaqtni
+            kafolat qiladigan data strukturalarni foydali bir qismi bo'lib ishlaydi;
+            masalan, kompyutatsion geometriyada ishlatiladigan ko'p data strukturalar red-black tree-larga asoslanishi mumkin
+            va hozirgi Linux kernellarda ishlatiladigan "Completely Fair Scheduler" red-black tree ishlatadi. Javaning 8 versiyasida,
+            oldin bir xil bo'lgan elementlari saqlash uchun LinkedList ishlatgan HashMap data strukturasi o'zgartirilib 
+            hozirda Red-Black tree ishlatadi
+        - [Aduni - Algorithms - Lecture 4 (link videoni kerakli joyidan boshlaydi) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/)
 
-    - **2-3 search trees**
-        - In practice:
-            2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
-        - You would use 2-3 tree very rarely because its implementation involves different types of nodes. Instead, people use Red Black trees.
+    - **2-3 search tree-lar**
+        - Amalda:
+            2-3 tree-lar sekinroq ishlaydigan search operatsiyasi hisobiga juda tez insert operatsiyasiga ega.
+        - 2-3 tree-lar kamdan-kam ishlatiladi chunki uni kodda yozish uchun har xil node-lar kerak bo'ladi. O'rniga, odamlar Red Black tree-larni ishlatadi
         - [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
         - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-    - **2-3-4 Trees (aka 2-4 trees)**
-        - In practice:
-            For every 2-4 tree, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
-            operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
-            important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce
-            2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
+    - **2-3-4 Tree-lar (shuningdek 2-4 tree nomi bilan tanilgan)**
+        - Amalda:
+            Har 2-4 tree uchun unga mos elementlari bir xil tartibda bo'lgan red-black bor. Insertion va deletion funksiyalari red-black
+            tree-dagi color-flipping va rotation funksiyalariga tengma-tengdir. Bu xususiyati uni red-black tree-larni tagidagi mantiqni 
+            tushunishda juda muhim rol o'ynaydi va shuning uchun ko'p kirish algoritm kitoblari red-black tree-dan oldin 2-4 treelar haqida gapiradi,
+            garchi **2-4 tree-lar amalda uncha ko'p ishlatilmasa**.
         - [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
         - [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
-    - **N-ary (K-ary, M-ary) trees**
-        - note: the N or K is the branching factor (max branches)
-        - binary trees are a 2-ary tree, with branching factor = 2
+    - **N-talik (K-talik, M-talik) tree-lar**
+        - eslatma: N va K bu branchlash faktori (maksimum branchlar)
+        - binary tree-lar bu branchlash faktor = 2 bo'lgan 2-talik tree-lar
         - 2-3 trees are 3-ary
+        - 2-3 tree-lar 3-talik xisoblanadi
         - [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
 
-    - **B-Trees**
-        - Fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor).
-        - In Practice:
-            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
-            its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
-            block in a particular file. The basic problem is turning the file block i address into a disk block
-            (or perhaps to a cylinder-head-sector) address
+    - **B-Tree**
+        - Qiziq fakt: bu noma'lum, lekin B-tree-dagi B Boeing, Balanced, yoki Bayerdan (boshqa ixtirochisi) olingan bo'lishi mumkin
+        - Amalda:
+            B-Tree-lar malumotlar bazasida keng ishlatiladi. Ko'p zamonaviy fayl tizimlari B-tree yoki uni boshqa variantlarini ishlatadi.
+            Malumotlar bazasidan tashqari, B-Tree-lar berilgan fayldagi tasodifiy bo'lakni tez o'qishga yordam beradi. Berilgan i fayl bo'lak adresini disk bo'lak adresiga aylantirish asosiy muammodir.
         - [B-Tree](https://en.wikipedia.org/wiki/B-tree)
         - [B-Tree Datastructure](http://btechsmartclass.com/data_structures/b-trees.html)
         - [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
         - [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
-                - covers cache-oblivious B-Trees, very interesting data structures
-                - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
+                - keshga e'tiborsiz B-Tree-lar haqida, juda qiziq data strukturalari
+                - birinchi 37 minuti juda texnik, o'tkazib yuborsangiz bo'ladi (B bu bo'lak hajmi, kesh qator hajmi)
 
 
-- ### k-D Trees
-    - Great for finding number of points in a rectangle or higher dimension object
-    - A good fit for k-nearest neighbors
+- ### k-D Tree-lar
+    - Uchburchak ichidagi nuqtalarni topish uchun yoki yuqori o'lchivli obyektlar uchun juda zo'r
+    - k-ta yaqin qo'shnilarni topish uchun mos
     - [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
     - [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
-- ### Skip lists
-    - "These are somewhat of a cult data structure" - Skiena
+- ### Skip listlar
+    - "Bular qandaydir kult data strukturalari" - Skiena
     - [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
 
-- ### Network Flows
+- ### Network Flow
     - [Ford-Fulkerson in 5 minutes — Step by step example (video)](https://www.youtube.com/watch?v=Tl90tNtKvxs)
     - [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
-- ### Disjoint Sets & Union Find
+- ### Disjoint Set & Union Find
     - [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
     - [Sedgewick Algorithms - Union-Find (6 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
 
-- ### Math for Fast Processing
+- ### Tez xisoblash uchun Matematika
     - [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
 - ### Treap
-    - Combination of a binary search tree and a heap
+    - Binary search tree va heapni birikmasi
     - [Treap](https://en.wikipedia.org/wiki/Treap)
     - [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
     - [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
-- ### Linear Programming (videos)
+- ### Linear Programming (videolar)
     - [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
     - [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
     - [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
     - [Solve Linear Equations with Python - Simplex Algorithm](https://www.youtube.com/watch?v=44pAWI7v5Zk)
 
-- ### Geometry, Convex hull (videos)
+- ### Geometry, Convex hull (videolar)
     - [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
     - [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
     - [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ### Discrete math
-    - See videos below
+- ### Diskret matematika
+    - Pastdagi videolarni ko'ring
 
 - ### Machine Learning
-    - Why ML?
+    - Nega ML?
         - [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
         - [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
         - [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
     - [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
     - [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
     - [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
-    - [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
-    - [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
-    - Courses:
-        - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
-              - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
-              - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
+    - [Tensorflow Tutoriallari](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
+    - [Practical Guide to implementing Neural Networks in Python (Theano ishlatgan holda)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
+    - Kurslar:
+        - [Zo'r boshlovchi kurs: Machine Learning](https://www.coursera.org/learn/machine-learning)
+              - [faqat videolari](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
+              - 12-dan 18-gacha videolar chiqizli algebrani qaytarish uchun (14 va 15 dublikat)
         - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
         - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
-    - Resources:
-        - Books:
+    - Manbalar:
+        - Kitoblar:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
             - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
             - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)

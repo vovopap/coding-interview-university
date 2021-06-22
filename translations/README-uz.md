@@ -1642,14 +1642,14 @@ Hech qachon tugatgan bo'lmaymiz.
 - ### Balanced search tree-lar
     - Kamida bitta balanced binary tree turini biling (va uni qanday yozishni ham biling)
     - "Balanced search tree-lar orasida, AVL va 2/3 tree-lar hozir o'tmishga aylangan, va red-black tree-lar ancha mashhurroq.
-        Xususan qiziqarli bo'lgan o'z-o'zini tashkil qiladigan data strukture bu splay tree. Splay tree
+        Xususan qiziqarli bo'lgan o'z-o'zini tashkil qiladigan data struktura bu splay tree. Splay tree
         har safar key so'ralganda uni rotatsiyadan foydalangan holda root-ga o'tkazadi." - Skiena
     - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
     - Bulardan men splay tree-ni kodda yozishni tanladim. Bilishimcha intervyuda sizdan balanced search tree-ni
         yozishni so'rashmaydi. Lekin men baribir yozishni xohladim va tan olaylik splay tree-lar zo'r.
         Men juda ko'p red-black tree kodlarini ham o'qidim.
         - Splay tree: insert, search, delete funksiyalari
-        Agar red-black tree-ni yozadigan bo'lsez faqat shularni yozishga harakat qiling:
+        Agar red-black tree-ni yozadigan bo'lsangiz faqat shularni yozishga harakat qiling:
         - Search va insertion funksiyalari, delete-ni tashlab ketavering
     - Men B-tree-lar haqida ko'proq o'rganmoqchiman chunki ular katta data to'plamlari bilan juda ko'p ishlatiladi
     - [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
@@ -1678,7 +1678,7 @@ Hech qachon tugatgan bo'lmaymiz.
     - **Red/black tree-lar**
         - Bular 2-3 tree-ni tarjimasi (pastni ko'ring)
         - Amalda:
-            Red-black tree-lar insertion, deletion va search uchun eng-yomon ish vaqtini kavolat qiladi.
+            Red-black tree-lar insertion, deletion va search uchun eng-yomon ish vaqtini kafolatlaydi.
             Uni shu xususiyati vaqt juda muhim bo'lgan dasturlarda foydali qiladi. Hamda eng-yomon vaqtni
             kafolat qiladigan data strukturalarni foydali bir qismi bo'lib ishlaydi;
             masalan, kompyutatsion geometriyada ishlatiladigan ko'p data strukturalar red-black tree-larga asoslanishi mumkin
@@ -1693,7 +1693,7 @@ Hech qachon tugatgan bo'lmaymiz.
     - **2-3 search tree-lar**
         - Amalda:
             2-3 tree-lar sekinroq ishlaydigan search operatsiyasi hisobiga juda tez insert operatsiyasiga ega.
-        - 2-3 tree-lar kamdan-kam ishlatiladi chunki uni kodda yozish uchun har xil node-lar ekan bo'ladi. O'rniga, odamlar Red Black tree-larni ishlatadi
+        - 2-3 tree-lar kamdan-kam ishlatiladi chunki uni kodda yozish uchun har xil node-lar kerak bo'ladi. O'rniga, odamlar Red Black tree-larni ishlatadi
         - [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
         - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
@@ -1702,7 +1702,7 @@ Hech qachon tugatgan bo'lmaymiz.
         - Amalda:
             Har 2-4 tree uchun unga mos elementlari bir xil tartibda bo'lgan red-black bor. Insertion va deletion funksiyalari red-black
             tree-dagi color-flipping va rotation funksiyalariga tengma-tengdir. Bu xususiyati uni red-black tree-larni tagidagi mantiqni 
-            tushunishda juda muxim ro'l o'ynaydi va shuning uchun ko'p kirish algoritm kitoblari red-black tree-dan oldin 2-4 treelar haqida gapiradi,
+            tushunishda juda muhim rol o'ynaydi va shuning uchun ko'p kirish algoritm kitoblari red-black tree-dan oldin 2-4 treelar haqida gapiradi,
             garchi **2-4 tree-lar amalda uncha ko'p ishlatilmasa**.
         - [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
         - [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -1726,7 +1726,7 @@ Hech qachon tugatgan bo'lmaymiz.
         - [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
-                - keshga e'tiborsiz B-Tree-lar haqida, huda qiziq data strukturalari
+                - keshga e'tiborsiz B-Tree-lar haqida, juda qiziq data strukturalari
                 - birinchi 37 minuti juda texnik, o'tkazib yuborsangiz bo'ladi (B bu bo'lak hajmi, kesh qator hajmi)
 
 

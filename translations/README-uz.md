@@ -1640,8 +1640,8 @@ Hech qachon tugatgan bo'lmaymiz.
     - [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
 - ### Balanced search trees
-    - Balanslangan ikkilik daraxtning (binary tree) kamida bitta turini bilish (va uning kodda qanday yozilishini bilish):
-    - "Balansli qidiruv daraxtlari(search trees) orasida AVL va 2/3 daraxtlar hozirda passé bo'lib, qizil-qora daraxtlar ko'proq mashhurdek tuyulyapti.
+    - Balanced search tree (binary tree) kamida bitta turini bilish (va uning kodda qanday yozilishini bilish):
+    - "Balansli qidiruv daraxtlari(search trees) orasida AVL va 2/3 daraxtlar hozirda o'tmish bo'lib, Red/Black tree-lar ko'proq mashhurdek tuyulyapti.
 - Resources:
         - Books:        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
@@ -1807,8 +1807,8 @@ Hech qachon tugatgan bo'lmaymiz.
 
 ## Ba'zi mavzular bo'yicha qo'shimcha ma'lumotlar
 
-    Men bularni Yuqorida keltirilgan ba'zi fikrlarni mustahkamlash uchun qo'shdim, lekin yuqorida qo'shishni xohlamagandim 
-    chunki juda ko'p resurslarni o'z ichiga oladi. Bularni mavzu asosida qaytadan ko'rib chiqish afzalroq.
+    Men bularni Yuqorida keltirilgan ba'zi fikrlarni mustahkamlash uchun qo'shdim, lekin yuqorida qo'shishni xohlamadim
+    chunki juda ko'p resurslarni o'z ichiga oladi. Bitta mavzuda juda ko'p qolib ketish ham yaxshi emas.
     Siz shu asrda ishga qabul qilinishingizni xohlaysiz shundaymi?
 
 - **SOLID**   
@@ -1893,7 +1893,7 @@ Hech qachon tugatgan bo'lmaymiz.
 
 ## Video Seriyalar
 
-Qulay joylashib oling va maroqlaning. "Netflix va mahoratlar" :P
+Qulay joylashib oling va maroqlaning. "Netflix va skillar" :P
 
 - [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
@@ -1960,7 +1960,7 @@ Qulay joylashib oling va maroqlaning. "Netflix va mahoratlar" :P
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
 
-## Algoritmlarning qo'llanilishi
+## Algoritmlarning kodda yozilishi
 
 - [Multiple Algorithms implementation by Princeton University)](https://algs4.cs.princeton.edu/code)
 
@@ -1984,7 +1984,7 @@ Qulay joylashib oling va maroqlaning. "Netflix va mahoratlar" :P
 - [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
 - [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
     - maqolaning o'zi mavjud emas
-- 2012: AddressSanitizer: Elektron manzilni to'g'riligini tez tekshirib beruvchi vosita:
+- 2012: AddressSanitizer: A Fast Address Sanity Checker:
     - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
     - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
 - 2013: Spanner: Googlening global tarqatilgan ma'lumotlar bazasi:

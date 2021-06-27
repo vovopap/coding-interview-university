@@ -6,9 +6,9 @@ Asl versiyasi: [Inglizcha](../README.md)
 > ammo bu proyekt bugun siz ko'rib turgan katta ro'yxatga aylandi. Ushbu o'quv rejasidan o'tib, [men Amazon-ga dasturchi sifatida ishga yollandim](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 
 > Ehtimol, menga o'xshab o'qishingizga to'g'ri kelmaydi. Baribir sizga kerak bo'lgan hamma narsa shu yerda.
 >
-> Bir necha oy davomida kuniga taxminan 8-12 soat o'qidim. Bu mening hikoyam: [Nega men Google-da intervyu olish uchun 8 oy davomida kechayu kunduz o'qidim](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> Bir necha oy davomida kuniga taxminan 8-12 soat o'qidim. Bu mening hikoyam: [Nega men Google-da intervyudan o'tish uchun 8 oy davomida kechayu kunduz o'qidim?](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> Bu erda keltirilgan narsalar sizni har qanday dasturiy ta'minot kompaniyalari, shu jumladan gigantlar: Amazon, Facebook, Google va Microsoft-da o'tkaziladigan texnik suhbatga yaxshi tayyorlaydi.
+> Bu yerda keltirilgan narsalar sizni har qanday dasturiy ta'minot kompaniyalari, shu jumladan gigantlar: Amazon, Facebook, Google va Microsoft-da o'tkaziladigan texnik suhbatga yaxshi tayyorlaydi.
 >
 > *Sizga omad tilayman!*
 
@@ -48,136 +48,136 @@ Asl versiyasi: [Inglizcha](../README.md)
 
 </details>
 
-## Bu nima?
+## Bu nima uchun kerak?
 
-Bu mening web dasturchisi (web developer) darajasidan katta kompaniyada ishlaydigan dastur injineri (software engineer) darajasiga chiqish uchun qilgan ko'p oylik o'qish rejam.
+Bu mening web dasturchi (web developer) darajasidan katta kompaniyada ishlaydigan dastur injineri (software engineer) darajasiga chiqish uchun qilgan ko'p oylik o'qish rejam.
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-Bu proyekt **yangi dasturchi injinerlar** uchun juda forydali. Va yana, oddiy programmistlikdan (masalan web yoki mobildan) dastur injinerlikka (dastur injinerlaridan computer science bilimlari talab qilinadi) o'tmoqchi bo'lganlar uchun foydali.
+Bu proyekt **yangi dasturchi injinerlar** uchun juda foydali. Va yana, oddiy programmistlikdan (masalan web yoki mobildan) dasturiy injinerlikka (dastur injinerlaridan computer science bilimlari talab qilinadi) o'tmoqchi bo'lganlar uchun foydali.
 
 
-Agar sizda dasturchilik bo'yicha ko'p yillik tajribangiz bo'lsa, shuni bilingki: Google, Amazon, Facebook, va Microsoftga o'xshagan katta kompaniyalar dastur injinerlikni (software engineer) oddiy dasturchilikdan (software/web developer) farqli deb kuradi va ular computer science bilimini talab qiladi.
+Agar sizda dasturchilik bo'yicha ko'p yillik tajribangiz bo'lsa, shuni bilingki: Google, Amazon, Facebook, va Microsoftga o'xshagan katta kompaniyalar dasturiy injinerlikni (software engineer) oddiy dasturchilik (software/web developer) dan farqli deb ko'radi va ular computer science bilimini talab qiladi.
 
 
-Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, unda siz ixtiyoriy ro'yxatdan ko'proq o'qing (tarmoq, xavfsizlik va boshqalar).
+Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, unda siz ixtiyoriy ro'yxatdan ko'proq o'qing (networking, xavfsizlik va boshqalar).
 ---
 
-## Table of Contents
+## Mundarija
 
-- [What is it?](#what-is-it)
-- [Nima uchun foydali?](#why-use-it)
-- [Qanday foydalanish kerak?](#how-to-use-it)
-- [O'zingizni omadsiz deb o'ylamang](#dont-feel-you-arent-smart-enough)
-- [Video qo'llanmalar haqida](#about-video-resources)
-- [Suhbat jarayoni va intervyuga tayyorgarlik](#interview-process--general-interview-prep)
-- [Intervyu uchun bitta dasturlash tilini tanlang](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [The Daily Plan](#the-daily-plan)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
+- [Bu nima uchun kerak?](#bu-nima-uchun-kerak)
+- [Nima uchun foydali?](#nima-uchun-foydali)
+- [Qanday foydalanish kerak?](#qanday-foydalanish-kerak)
+- [O'zingizni omadsiz deb hisoblamang](#ozingizni-omadsiz-deb-hisoblamang)
+- [Video qo'llanmalar haqida](#video-qollanmalar-haqida)
+- [Suhbat jarayoni va intervyuga tayyorgarlik](#suhbat-jarayoni-va-intervyuga-tayyorgarlik)
+- [Intervyu uchun bitta dasturlash tilini tanlang](#intervyu-uchun-bitta-dasturlash-tilini-tanlang)
+- [Kitoblar ro'yxati](#kitoblar-royxati)
+- [O'rganishni boshlashdan oldin](#organishni-boshlashdan-oldin)
+- [Bu proyekt nimalarni o'z ichiga olmaydi](#bu-proyekt-nimalarni-oz-ichiga-olmaydi)
+- [Kunlik reja](#kunlik-reja)
+- [Oldindan nima bilish kerak](#oldindan-nima-bilish-kerak)
+- [Algoritmik murakkablik / Big-O / Asimtotik tahlil](#algoritmik-murakkablik--big-o--asimtotik-tahlil)
+- [Ma'lumotlar tuzilmasi (Data structures)](#malumotlar-tuzilmasi-data-structures)
+    - [Massivlar](#massivlar)
+    - [Linked Lists (O'zaro bog'langan ro'yxatlar)](#linked-lists-ozaro-boglangan-royxatlar)
     - [Stack](#stack)
     - [Queue](#queue)
     - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
+- [Qo'shimcha bilimlar](#qoshimcha-bilimlar)
     - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
+    - [Bitwise operatsiyalari](#bitwise-operatsiyalari)
+- [Trees (daraxtlar)](#trees-daraxtlar)
+    - [Trees - Eslatmalar & Kelib chiqishi](#trees---eslatmalar--kelib-chiqishi)
+    - [Binary search tree-lar: BST-lar](#binary-search-tree-lar-bst-lar)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
+    - balanslangan search tree-lar (umumiy tushuncha)
     - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
+- [Sorting (Saralash)](#sorting-saralash)
     - selection
     - insertion
     - heapsort
     - quicksort
     - merge sort
-- [Graphs](#graphs)
+- [Graflar](#graflar)
     - directed
     - undirected
     - adjacency matrix
     - adjacency list
     - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
+- [Yanada ko'proq bilim](#yanada-koproq-bilim)
+    - [Rekursiya](#rekursiya)
+    - [Dinamik dasturlash (Dynamic Programming)](#dinamik-dasturlash-dynamic-programming)
     - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Testing](#testing)
+    - [Dizayn patternlar](#dizayn-patternlar)
+    - [Kombinatorikalar & Ehtimollik nazariyasi](#kombinatorikalar--ehtimollik-nazariyasi)
+    - [NP-NP to'liq va taxminiy algoritmlari](#np-np-toliq-va-taxminiy-algoritmlari)
+    - [Keshlar](#keshlar)
+    - [Processlar va Threadlar](#processlar-va-threadlar)
+    - [Testlash (Testing)](#testlash-testing)
     - [Scheduling](#scheduling)
-    - [String searching & manipulations](#string-searching--manipulations)
-    - [Tries](#tries)
+    - [Stringni izlash va manipulyatsiyalar](#stringni-izlash-va-manipulyatsiyalar)
+    - [Trie-lar](#trie-lar)
     - [Floating Point Numbers](#floating-point-numbers)
     - [Unicode](#unicode)
     - [Endianness](#endianness)
     - [Networking](#networking)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [Tizim Dizayni, Scalability, Ma'lumotlar bilan ishlash](#tizim-dizayni-scalability-malumotlar-bilan-ishlash) (agar sizda 4+ yillik tajriba bo'lsa)
+- [Yakuniy tahlil](#yakuniy-tahlil)
+- [Coding bo'yicha savollar ustida ishlash](#coding-boyicha-savollar-ustida-ishlash)
+- [Coding mashqlar/savollar](#coding-mashqlarsavollar)
+- [Intervyuga yaqin kelganizda](#intervyuga-yaqin-kelganizda)
+- [Sizni rezyumeingiz](#sizni-rezyumeingiz)
+- [Intervyuga yaqin kelganda quydagilar haqida o'ylab yuring](#intervyuga-yaqin-kelganda-quydagilar-haqida-oylab-yuring)
+- [Intervyuver uchun savollaringizni tayyorlab qo'ying](#intervyuver-uchun-savollaringizni-tayyorlab-qoying)
+- [Ishga qabul qilinganingizdan so'ng](#ishga-qabul-qilinganingizdan-song)
 
----------------- Everything below this point is optional ----------------
+---------------- Quyidagilar ixtiyoriy ----------------
 
-## Additional Resources
+## Qo'shimcha manbalar
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory-videos)
-    - [Parity & Hamming Code](#parity--hamming-code-videos)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Xabar almashish, Serializatsiya, va Queue Tizimlar](#messaging-serialization-and-queueing-systems)
+- [Qo'shimcha kitoblar](#qoshimcha-kitoblar)
+- [Qo'shimcha o'rganish](#qoshimcha-organish)
+    - [Kompilyatorlar](#kompilyatorlar)
+    - [Emacs va vi(m)](#emacs-va-vim)
+    - [Unix uchun buyruqlar ro'yxati](#unix-uchun-buyruqlar-royxati)
+    - [Ma'lumot nazariyasi](#malumot-nazariyasi-videolar)
+    - [Parity va "Hamming Code"](#parity-va-hamming-code-videolar)
+    - [Entropiya](#entropiya)
+    - [Kriptografiya](#kriptografiya)
+    - [Kompressiya](#kompressiya)
+    - [Kompyuter xavfsizligi](#kompyuter-xavfsizligi)
+    - [Chiqindi yig'ish (Garbage collection)](#chiqindi-yigish-garbage-collection)
+    - [Paralel dasturlash](#paralel-dasturlash)
+    - [Xabar almashish, Serializatsiya, va Queue Tizimlar](#xabar-almashish-serializatsiya-va-queue-tizimlar)
     - [A*](#a)
     - [Fast Fourier Transform](#fast-fourier-transform)
     - [Bloom Filter](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
-    - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [Balanced search trees](#balanced-search-trees)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [Locality-Sensitive Hashlash](#locality-sensitive-hashlash)
+    - [van Emde Boas Tree-lari](#van-emde-boas-tree-lari)
+    - [Kattalashtirilgan Data Strukturalari](#kattalashtirilgan-data-strukturalari)
+    - [Balanced search tree-lar](#balanced-search-tree-lar)
+        - AVL tree-lar
+        - Splay tree-lar
+        - Red/black tree-lar
+        - 2-3 search tree-lar
+        - 2-3-4 Tree-lar (shuningdek 2-4 tree nomi bilan tanilgan)
+        - N-talik (K-talik, M-talik) tree-lar
+        - B-Tree-lar
+    - [k-D Tree-lar](#k-d-treelar)
+    - [Skip listlar](#skip-listlar)
+    - [Network Flow](#network-flow)
+    - [Disjoint Set & Union Find](#disjoint-set--union-find)
+    - [Tez hisoblash uchun Matematika](#tez-hisoblash-uchun-matematika)
     - [Treap](#treap)
     - [Linear Programming](#linear-programming-videos)
     - [Geometry, Convex hull](#geometry-convex-hull-videos)
-    - [Discrete math](#discrete-math)
+    - [Diskret matematika](#diskret-matematika)
     - [Machine Learning](#machine-learning)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Seriyalar](#video-series)
-- [Computer Science Courses](#computer-science-courses)
-- [Papers](#papers)
+- [Ba'zi mavzular bo'yicha qo'shimcha ma'lumotlar](#bazi-mavzular-boyicha-qoshimcha-malumotlar)
+- [Video Seriyalar](#video-seriyalar)
+- [Computer Science Kurslari](#computer-science-kurslari)
+- [Maqolalar](#maqolalar)
 
 ---
 
@@ -188,7 +188,7 @@ Big-O ni nimaligini bilmas edim, tree-lar yoki graph-lar haqida hech qanday tush
 ega emas edim. Agar tartiblash algoritmini (sorting) yozishni so'rashganda, aniq qovun tushirgan 
 bo'lar edim. Umrimda ishlatgan data strukturalarni hammasini tayyor holda ishlatganman 
 (built-in library) va ularning asosida nimalar yotishini umuman bilmas edim. 
-Juda ko'p kod yozgan bo'lsamda, lekin men hech qachon qandaydir data strukturani noldan yozmaganman
+Juda ko'p kod yozgan bo'lsamda, lekin men hech qachon qandaydir data strukturani noldan yozmaganman.
 
 Bu uzoq vaqt talab qiladigan jarayon bo’lib, sizga bir necha oy kerak bo'lishi mumkin. 
 Agar siz allaqachon bu narsalarni ko'pini bilsangiz, bu resurslar sizni ko'p vaqtingizni olmaydi.
@@ -197,7 +197,7 @@ Agar siz allaqachon bu narsalarni ko'pini bilsangiz, bu resurslar sizni ko'p vaq
 
 Quyida foydalanish qoidalari berilgan bo'lib, bosqichlarni yuqoridan pastga tartibda bajarishingiz kerak.
 
-Men natijalarni kuzatish uchun vazifalar ro'yxatini o'z ichiga olgan Github markupidan foydalanmoqdaman.
+Men natijalarni kuzatish uchun vazifalar ro'yxatini o'z ichiga olgan Github markup-idan foydalanmoqdaman.
 
 **Bu kabi elementlarni tekshirishingiz uchun yangi "branch" yarating, so'ngra shunchaki qavs ichiga x qo'shib, ro'yxat elementlarini belgilashingiz mumkin: [x]**
 
@@ -245,7 +245,7 @@ Ba'zan darslar sessiyada bo'lmaganligi sababli siz bir necha oy kutishingizga to
 
     Bepul va har doim ham ochiq ommaviy manbalarni yaratishda o'z hissangizni qo'shishingizni xohlagan bo'lar edim. 
     Bu manbalar Youtube dagi video darsliklar ham bo'lishi mumkin. Masalan menga universitet 
-    maruzalaridan foydalanish yoqadi.    
+    ma'ruzalaridan foydalanish yoqadi.    
 
 
 ## Suhbat jarayoni va intervyuga tayyorgarlik
@@ -292,7 +292,7 @@ Quyida intervyu uchun dasturlash tilini tanlash haqida yozgan maqolam: [Pick One
  
 Siz intervyu uchun tanlagan dasturlash tilida erkin kod yoza oladigan va o'z bilimingizga ega bo'lishingiz kerak.
 
-Tog'ri tanlov haqida ko'proq o'qishingiz uchun manbalar:
+To'g'ri tanlov haqida ko'proq o'qishingiz uchun manbalar:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
@@ -309,7 +309,7 @@ Bu sizning vaqtingizni tejash uchun men ishlatgan kitoblar ro'yxatining qisqarti
 - [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
     - Javoblar (C++ va Java)
     - "Cracking the Coding Interview" kitobini boshlashdan oldin tayyorlanish uchun juda yaxshi manba 
-    - Juda murakkab emas, hattoki masalarning ko'pchiligi intervyuda uchraydigan masalalardan osonroq.
+    - Juda murakkab emas, hattoki masalalarning ko'pchiligi intervyuda uchraydigan masalalardan osonroq.
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - Java dasturlash tilida javoblar
 
@@ -325,19 +325,17 @@ Quyidagi kitoblardan birini tanlashingiz mumkin:
 
 ### Dasturlash tiliga oid
 
-** Yuqorida aytilganidek siz intervyu uchun bitta dasturlash tilini tanlashingiz kerak **
+**Yuqorida aytilganidek siz intervyu uchun bitta dasturlash tilini tanlashingiz kerak**
 
-Mening tilga oid tavsiyalarim. Menda barcha tillar uchun resurslar yo'q shuning uchun sizda qo'shimcha ma'lumot bo'lsa 
-tavsiya qilishingiz mumkin.
-Agar siz bulardan birini o'qib chiqsangiz, masalalarni yechishda kerak bo'lgan barcha data strukturalar
-va algoritmlari bo'yicha bilimlarga ega bo'lishingiz kerak.
-** Loyihadagi video resurslarni o'tkazib yuborishingiz mumkin**, agar ko'rib chiqishni xohlamasangiz.
+Mening tilga oid tavsiyalarim. Menda barcha tillar uchun resurslar yo'q shuning uchun sizda qo'shimcha ma'lumot bo'lsa tavsiya qilishingiz mumkin.
+Agar siz bulardan birini o'qib chiqsangiz, masalalarni yechishda kerak bo'lgan barcha data strukturalar va algoritmlari bo'yicha bilimlarga ega bo'lishingiz kerak.
+**Loyihadagi video resurslarni o'tkazib yuborishingiz mumkin**, agar ko'rib chiqishni xohlamasangiz.
 
 [Tilga oid qo'shimcha resurslar.](programming-language-resources.md)
 
 ### C++
 
-Men bularning ikkitasini o'qimaganman, lekin ular yuqori baholangan va Sedvik tomonidan yozilgan. Sedgewick aka zo'rlar :)
+Men bularning ikkitasini o'qimaganman, lekin ular yuqori baholangan va Sedgewick tomonidan yozilgan. Sedgewick aka zo'rlar :)
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
@@ -391,27 +389,25 @@ Menga tavsiya qilingan kurs (shaxsan o'zim ko'rib chiqmaganman): [Learning how t
 Muammoni yechish uchun, men fleshkartalar uchun sayt yaratdim, u yerga 2 turdagi fleshkartalar joylanadi: umumiy eslatmalar va kod. 
 Har bir karta o'z formatiga ega.
 
-Vebsaytdan telefon yoki tabletdan ham xoxlagan joyda foydalana olishim uchun mobilga moslangan sayt yaratdim.
+Vebsaytdan telefon yoki tabletdan ham xohlagan joyda foydalana olishim uchun mobil telefonga moslangan sayt yaratdim.
 
 O'zingizni saytingizni ham tekinga yarating:
 
 - [Fleshkartalar sayti uchun repo](https://github.com/jwasham/computer-science-flash-cards)
 - [Mening fleshkartalarim bazasi (eski versiya - 1200 ta kartalar)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
-- [ening fleshkartalarim bazasi(yangi versiya - 1800 ta kartalar)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
+- [Mening fleshkartalarim bazasi(yangi versiya - 1800 ta kartalar)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
-Yodingizda bo'lsin, menda assembly language va Python triviyalaridan tortib, machine learning va statistikani 
-o'z ichiga olgan kartalarim bor. Bu esa talab qilinadigan narsalardan ham ko'p hisoblanadi. 
+Yodingizda bo'lsin, menda assembly language va Python triviyalaridan tortib, machine learning va statistikani o'z ichiga olgan kartalarim bor. Bu esa talab qilinadigan narsalardan ham ko'p hisoblanadi. 
 (Ya'ni bularning barchasini siz bir vaqtda o'zlashtirgan bo'lishingiz shart emas)
 
-**Fleshkartalardagi eslatmalar :** Birinchi marta fleshkartadagi javobni topa olganingizda uni o'zlashtirilganlar qatoriga qo'shmang. Aksincha xuddi shu kartani 
+**Fleshkartalardagi eslatmalar :** Birinchi marta fleshkartadagi javobni topa olganingizda uni o'zlashtirilganlar qatoriga qo'shmang. Aksincha huddi shu kartani 
 ajratib qo'ying va bir necha marta javob bering toki haqiqatdan ham javobni anglab yetguningizgacha.
 Takrorlash natijasida ma'lumot miyangizga chuqurroq joylashadi.
  
 
 Fleshkartalar uchun bir necha marta menga tavsiya qilingan alternativ vebsayt [Anki](http://ankisrs.net/). 
 Bu sizning eslab qolishingizga yordam berish uchun takrorlash sistemasini ishlatadi. 
-Buni ishlatish qulay va barcha platformalarda mavjud va cloud bn sinxronizatsiya qilingan. iOS platformalari 
-uchun narxi $25, lekin boshqa platformalar uchun tekin.
+Buni ishlatish qulay va barcha platformalarda mavjud va cloud bilan sinxronizatsiya qilingan. iOS platformalari uchun narxi $25, lekin boshqa platformalar uchun tekin.
 
 Anki formatidagi mening fleshkartalarim bazasi: https://ankiweb.net/shared/info/25173560 ([@xiewenya](https://github.com/xiewenya) ga tashakkur).
 
@@ -426,7 +422,7 @@ So'ng, keyingi mavzuga o'ting. Bir qancha vaqtdan keyin yana ortga qaytib linked
 rekursiyaga oid masala yeching. Asosiysi o'rganish jarayonida ko'proq masalalarni yechishda davom eting.
 Sizni ishga bilimingiz uchun emas, bilimingizni qo'llay olishingiz uchun qabul qilishadi.
 Men sizlarga tavsiya qiladigan kitoblar va saytlar bor. 
-Ko'proq ko'rish uchun havolaga o'ting:: [Coding Question Practice](#coding-question-practice).
+Ko'proq ko'rish uchun havolaga o'ting: [Coding bo'yicha savollar ustida ishlash](#coding-boyicha-savollar-ustida-ishlash).
 
 ### 4. Takrorlang, takrorlang va yana takrorlang
 
@@ -438,7 +434,7 @@ Masalalar yechish jarayonida biroz tanaffus oling va o'zingizni fleshkartalaring
 ### 5. Diqqatingizni bir joyga jamlang
 
 Atrofimizda juda ko'p narsalar bizni chalg'itib qo'yadi va qimmatli vaqtimizni oladi.
-Shuningg uchun diqqatni jamlash va konsentratsiya qilish oson emas. Buning bir usuli,
+Shuning uchun diqqatni jamlash va konsentratsiya qilish oson emas. Buning bir usuli,
 matnsiz biron musiqa tinglang, bu esa diqqatingizni jamlashingizga yordam beradi.
 
 ## Bu proyekt nimalarni o'z ichiga olmaydi
@@ -461,14 +457,14 @@ Har kuni bitta mavzu olib, videolarini ko'rib, quyidagi tillarda kodda yozib chi
 - va testlar yozgan holda (oddiy assert() ishlatib)
 - siz Java yoki boshqa tilda qilishingiz mumkin
 
-Sizga bularni hammasi kerak emas. Intervyu uchun sizga [faqat bitta til](#pick-one-language-for-the-interview) kerak.
+Sizga bularni hammasi kerak emas. Intervyu uchun sizga [faqat bitta til](#intervyu-uchun-bitta-dasturlash-tilini-tanlang) kerak.
 
 Nega turlicha yozish kerak?
 - Mashq, mashq, mashq, ko'nglim ayniguncha. Shunda muammosiz tushimda ham qila olaman.
-- Pastgi darajada (low level) yoza olish uchun (masalan, garbage collection ishlatmagan holda)
+- Past darajada (low level) yoza olish uchun (masalan, garbage collection ishlatmagan holda)
 - Har kunlik ishda built-in tiplardan bemalol foydalana olish uchun (production-da array listni yoki linked listni boshidan yozib o'tirmaymanku)
 
-Har bir mavzuni tepadagi tarzda o'qiyolmashim mumkin, lekin harakat qilaman.
+Har bir mavzuni tepadagi tarzda o'qiyolmasligim mumkin, lekin harakat qilaman.
 
 Meni kodlarimni bu yerda ko'rishingiz mumkin:
  - [C](https://github.com/jwasham/practice-c)
@@ -485,7 +481,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - C hamma yoqda. Siz C da yozilgan namuna kodlarni kitoblarda, ma'ruzalarda, videolarda, hamma yoqda uchratasiz
     - [ ] [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - Bu qisqacha kitob, lekin C ni sizga ancha o'rgatadi va agar ozgina mashq qilsangiz tezda mohir bo'lib ketasiz.
-            C ni tushunish dasturlar va xotira qanday ishlashini tushinishga yordam beradi
+            C ni tushunish - dasturlar va xotira qanday ishlashini tushunishga yordam beradi
         - [Savollarga javoblar](https://github.com/lekkas/c-algorithms)
 
 - [ ] **Kompyuterlar dasturni qanday boshqarishadi**
@@ -499,7 +495,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
 
 - Kodda yozadigan narsa yo'q
 - Bu yerda ko'p videolar bor. Tushunguningizgacha ko'ring. Har doim qayta ko'rib chiqishingiz mumkin.
-- Agar bazi maruzalarda murakkab matematika ishlatilsa, pastgi qisimga tushib diskret matematika videolarini ko'rib chiqishingiz mumkin
+- Agar bazi ma'ruzalarda murakkab matematika ishlatilsa, pastgi qismga tushib diskret matematika videolarini ko'rib chiqishingiz mumkin
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (umumiy qisqacha tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - eng yaxshi matematik tushuntirish (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -528,20 +524,19 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - [Dinamik massivlar (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Vektorni bajaring (o'lchamini o'zgartiradigan massiv):
-        - [ ] Massivlar va ko'rsatgichlar(pointerlar) yordamida kod yozishni mashq qiling va massivning index-iga 
-          o'tish uchun indexing o'rniga pointer matematikasini ishlating.
+        - [ ] Massivlar va ko'rsatgichlar(pointerlar) yordamida kod yozishni mashq qiling va massivning indeksiga o'tish uchun indeks o'rniga pointer matematikasini ishlating.
         - [ ] Massivimiz elementlarini ushlab turadigan ichki (private) massiv
             - int massivni elementlarni saqlash uchun ishlatsak bo'ladi, faqat uning xususiyatlaridan foydalanmaslik kerak
             - 16 dan boshlang, agar boshlanayotgan son kattaroq bo'lsa 2 ning darajalarini ishlating(2 - 16, 32, 64, 128)
-        - [ ] size() - Massivdagi elementlar soni
+        - [ ] size() - massivdagi elementlar soni
         - [ ] capacity() - massiv o'z ichiga olishi mumkin bo'lgan elementlar soni
-        - [ ] is_empty() - Massiv bo'sh yoki yo'qligini tekshirish
-        - [ ] at(index) - Ko'rsatilgan index-dagi massiv elementini qaytaradi. 
-          Agar berilgan index massiv indexlaridan tashqarida bo'lsa xatolik qaytaradi.
+        - [ ] is_empty() - massiv bo'sh yoki yo'qligini tekshirish
+        - [ ] at(index) - ko'rsatilgan indeksdagi massiv elementini qaytaradi. 
+          Agar berilgan index massiv indekslaridan tashqarida bo'lsa xatolik qaytaradi.
         - [ ] push(item)
-        - [ ] insert(index, item) - Ko'rsatilgan index-ga elementni qo'shadi, index-dagi eski element(lar)ni esa o'zidan o'ngga ko'chiradi 
+        - [ ] insert(index, item) - ko'rsatilgan indeksga elementni qo'shadi, indeksdagi eski element(lar)ni esa o'zidan o'ngga ko'chiradi 
         - [ ] prepend(item) - Massivning birinchi elementidan oldin yangi element qo'shish
-        - [ ] pop() - Massivning oxirgi elementini o'chiradi va o'chirilgan elemntni qaytaradi.
+        - [ ] pop() - Massivning oxirgi elementini o'chiradi va o'chirilgan elementni qaytaradi.
         - [ ] delete(index) - Massiv elementini index bo'yicha o'chiradi, Qolgan elementlar chapga ko'chiriladi
         - [ ] remove(item) - Berilgan qiymatni izlaydi va shu qiymatga ega index-larni barchasini o'chiradi
         - [ ] find(item) - Berilgan qiymatni izlaydi va shu qiymatga ega birinchi index-ni qaytaradi, agar topilmasa -1 qaytaradi
@@ -561,7 +556,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - butun videoni ko'rmang, Node struct va xotira ajratish (memory allocation) qismilarini ko'ring
+            - butun videoni ko'rmang, Node struct va xotira ajratish (memory allocation) qismlarini ko'ring
     - [ ] Linked List va Array(massiv)lar:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
@@ -576,13 +571,13 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - [ ] value_at(index) - n-inchi elementning qiymatini qaytaradi (0 dan boshlab)
         - [ ] push_front(value) - listning boshiga element qo'shadi
         - [ ] pop_front() - birinchi elementni olib tashlab va uni qiymatini qaytaradi
-        - [ ] push_back(value) - oxiriga element qoshadi
-        - [ ] pop_back() - oxiriga elementni olib tashlab va uni qiymatini qaytaradi
+        - [ ] push_back(value) - oxiriga element qo'shadi
+        - [ ] pop_back() - oxirgi elementni olib tashlab va uni qiymatini qaytaradi
         - [ ] front() - birinchi elementni qiymatini qaytaradi
-        - [ ] back() - oxiriga elementni qiymatini qaytaradi
+        - [ ] back() - oxirgi elementni qiymatini qaytaradi
         - [ ] insert(index, value) - index-ni joyiga value-ni joylashtiradi
         - [ ] erase(index) - index joyida turgan elementni o'chirib tashlaydi
-        - [ ] value_n_from_end(n) - oxiriga sanaganda n-inchi elementni qiymatini qaytaradi
+        - [ ] value_n_from_end(n) - oxiridan sanaganda n-inchi elementni qiymatini qaytaradi
         - [ ] reverse() - listni teskari safga qo'yadi
         - [ ] remove_value(value) - value qiymatiga ega bo'lgan birinchi elementni o'chirib tashlaydi
     - [ ] Doubly-linked List
@@ -591,7 +586,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    - [ ] Kodda yozmayman. Massivada stackni yaratish juda oson.
+    - [ ] Kodda yozmayman. Massivda stackni yaratish juda oson.
 
 - ### Queue
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
@@ -606,8 +601,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - empty()
         - full()
     - [ ] Ish xarajati:
-        - queue uchun linked-list ishlatib, list boshiga enqueue qilish va ohiridan dequeue qilish - bu yomon yondashuv
-            chunki har safar dequeue qilinganda O(n) vaqt ketadi
+        - queue uchun linked-list ishlatib, list boshiga enqueue qilish va oxiridan dequeue qilish - bu yomon yondashuv. Chunki har safar dequeue qilinganda O(n) vaqt ketadi
         - enqueue: O(1) (amortized, linked list va massiv [probing])
         - dequeue: O(1) (linked list va massiv)
         - empty: O(1) (linked list va massiv)
@@ -629,7 +623,6 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
             - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
-    - [ ] Implement with array using linear probing
     - [ ] 'Linear probing' ishlatgan holda amalga oshirish (massiv bilan)
         - hash(k, m) - m bu hash table-ning o'lchami
         - add(key, value) - agar key mavjud bo'lsa, qiymatini yangilaydi
@@ -647,11 +640,11 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - binary search (tartiblangan integer massivlarida)
         - rekursiv binary search
 
-- ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
+- ### Bitwise operatsiyalari
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - siz ikkining ko'p darajalarini bilishingiz kerak (2^1 dan 2^16 gacha va 2^32)
+    - [ ] Quyidagi operatorlar bilan bitlarni bo'shqarishni yaxshi bilishingiz kerak: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
+        - [ ] Yaxshi kirish:
             [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
         - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
         - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
@@ -661,17 +654,17 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
         - [ ] [Bit Hacks (video)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
 		- [ ] [Practice Operations](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
-    - [ ] 2s and 1s complement
+    - [ ] 2 va 1 ning komplementlari
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
         - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
         - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] Count set bits
+    - [ ] 1ga teng bo'lgan bitlarni sanash
         - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] Swap values:
+    - [ ] Qiymatlarni almashtirish:
         - [Swap](https://bits.stephan-brumme.com/swap.html)
-    - [ ] Absolute value:
+    - [ ] Absolyut qiymat:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
 ## Trees (daraxtlar)
@@ -713,10 +706,10 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - [ ] Kodda yozish:
         - [ ] insert    // qiymatni treega joylaydi
         - [ ] get_node_count // treedagi elementlar sonini qaytaradi
-        - [ ] print_values // treedagi hamma qiymatlarini, mindan maxgacha, yozib chiqaradi
+        - [ ] print_values // treedagi hamma qiymatlarini, min-dan max-gacha, yozib chiqaradi
         - [ ] delete_tree
         - [ ] is_in_tree // true qaytaradi agar qiymat treeda mavjud bo'lsa
-        - [ ] get_height // treeni balandligini qaytaradi (bitta node-ning balandligi 1 xisoblanadi)
+        - [ ] get_height // treeni balandligini qaytaradi (bitta node-ning balandligi 1 hisoblanadi)
         - [ ] get_min   // treedagi minimum qiymatni qaytaradi
         - [ ] get_max   // treedagi maximum qiymatni qaytaradi
         - [ ] is_binary_search_tree
@@ -823,8 +816,8 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
     - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-Xulosada, vizual tarzda ma'lumot olish uchun [15 ta saralash algoritmlari](https://www.youtube.com/watch?v=kPRA0W1kECg).
-Agar sizga ushbu mavzu bo'yicha batafsil ma'lumot kerak bo'lsa, "Saralash" bo'limiga qarang [Ba'zi mavzular bo'yicha qo'shimcha ma'lumot](#additional-detail-on-some-subjects)
+Vizual tarzda ma'lumot olish uchun [15 ta saralash algoritmlari](https://www.youtube.com/watch?v=kPRA0W1kECg).
+Agar sizga ushbu mavzu bo'yicha batafsil ma'lumot kerak bo'lsa, "Saralash" bo'limiga qarang [Ba'zi mavzular bo'yicha qo'shimcha ma'lumotlar](#bazi-mavzular-boyicha-qoshimcha-malumotlar)
 
 ## Graflar
 
@@ -843,7 +836,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - [ ] [Breadth-First Search](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
     - [ ] [Depth-First Search](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
 
-- [ ] Skiena maruzalari - ajoyib intro:
+- [ ] Skiena ma'ruzalari - ajoyib kirish:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
@@ -888,7 +881,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 ## Yanada ko'proq bilim
 
 - ### Rekursiya
-    - [ ] rekursiya & backtracking-ga oid Stanford
+    - [ ] rekursiya & backtracking-ga oid Stanford ma'ruzalari:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
@@ -926,7 +919,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 
 - ### Object-Oriented Programming
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-    - [ ] SOLID OOP Printsiplari: [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
+    - [ ] SOLID OOP Prinsiplari: [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
 
 - ### Dizayn patternlar
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
@@ -1054,7 +1047,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - OS da bu qanday ishlaydi?
     - Operatsion tizim videolaridan o'rganish mumkin
 
-- ### Stringni izlash va manipulyatsiyalar us
+- ### Stringni izlash va manipulyatsiyalar
     - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
@@ -1750,7 +1743,7 @@ Hech qachon tugatgan bo'lmaymiz.
     - [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
     - [Sedgewick Algorithms - Union-Find (6 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
 
-- ### Tez xisoblash uchun Matematika
+- ### Tez hisoblash uchun Matematika
     - [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 

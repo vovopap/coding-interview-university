@@ -112,7 +112,7 @@ Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, un
     - [Kombinatorikalar & Ehtimollik nazariyasi](#kombinatorikalar--ehtimollik-nazariyasi)
     - [NP-NP to'liq va taxminiy algoritmlari](#np-np-toliq-va-taxminiy-algoritmlari)
     - [Keshlar](#keshlar)
-    - [Processlar va Threadlar](#processlar-va-threadlar)
+    - [Process-lar va Thread-lar](#process-lar-va-thread-lar)
     - [Testlash (Testing)](#testlash-testing)
     - [Scheduling](#scheduling)
     - [Stringni izlash va manipulyatsiyalar](#stringni-izlash-va-manipulyatsiyalar)
@@ -962,7 +962,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
             - [ ] [Ehtimollik nazariyasi haqida (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
 - ### NP, NP to'liq va taxminiy algoritmlari
-    - Sotuvchi sotuvchi va ryukzak muammosi kabi NP-ning eng mashhur klasslari haqida bilish,
+    - traveling salesman and the knapsack muammosi kabi NP-ning eng mashhur klasslari haqida bilish,
         va intervyu beruvchisi ularni niqob bilan so'raganda ularni taniy olish.
         
     - NP-complete nima ekanligini biling.
@@ -979,9 +979,9 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
     - [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
     - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - Piter Norvig sotuvchi sayohatchining sayohatchi masalasining maqbul yechimlarini muhokama qiladi:
+    - Piter Norvig traveling salesman masalasining maqbul yechimlarini muhokama qiladi:
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
-    - 1048 - 1140 sahifalari  CLRS da Agar bu sizda bo'lsa.
+    - 1048 - 1140 sahifalari  CLRS da agar bu sizda bo'lsa.
 
 - ### Keshlar
     - [ ] LRU keshi haqida:
@@ -992,32 +992,32 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
         - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
         - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- ### Processlar va Threadlar
+- ### Process-lar va Thread-lar
     - [ ] Computer Science 162 - Operatsion tizimlar (25ta video):
-        - processlar va threadlar uchun 1-chidan 11-chigacha bo'lgan videolarni ko'ring
+        - process-lar va thread-lar uchun 1-chidan 11-chigacha bo'lgan videolarni ko'ring
         - [Operating Systems and System Programming (video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
     - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
     - o'z ichiga oladi:
-        - Processlar, Threadlar, Concurrency muammolari
-            - processlar va threadlarni bir biridan farqi
+        - Process-lar, Thread-lar, Concurrency muammolari
+            - process-lar va thread-larni bir biridan farqi
             - Processlar
             - Threadlar
             - Locklar
-            - Mutexlar
-            - Semaphorelar
+            - Mutex-lar
+            - Semaphore-lar
             - Monitorlar
             - Ular qanday ishlaydi?
             - Deadlock
             - Livelock
-        - CPU faoliyati, interruptlar, context almashtirish (context switching)
-        - Ko'p yadrolik processorlar bilan ishlaydigan zamonaviy concurrency constructlari
+        - CPU faoliyati, interrupt-lar, context almashtirish (context switching)
+        - Ko'p yadrolik processorlar bilan ishlaydigan zamonaviy concurrency construct-lari
         - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
         - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
-        - Process uchun kerakli resurslar (xotira: kod, statik xotira, stack, heap, va hamda file descriptorlar, i/o)
-        - Thread uchun kerakli resurslar (tepadagilarni (stackdan tashqari) bitta processda bo'lgan boshqa threadlar bilan baham ko'radi, lekin har birini o'zini pc, stack counter, registerlar, and stacklari bor)
-        - Forklash bu aslida "copy on write" operatsiya. Bu degani fork qilingan processdan nusxa ko'chirish fork process birinchi marta xotiraga yozganda bo'ladi.
+        - Process uchun kerakli resurslar (xotira: kod, statik xotira, stack, heap, va hamda file descriptor-lar, i/o)
+        - Thread uchun kerakli resurslar (tepadagilarni (stackdan tashqari) bitta processda bo'lgan boshqa threadlar bilan baham ko'radi, lekin har birini o'zini pc, stack counter, registerlar, va stacklari bor)
+        - Forklash bu aslida "copy on write" operatsiyasi. Bu degani fork qilingan process-dan nusxa ko'chirish fork process birinchi marta xotiraga yozganda bo'ladi.
         - Context almashtirish
-            - Operatsion tizm va uni ushlab turgan hardware context almashtirishni qanday qiladi?
+            - Operatsion tizim va uni ushlab turgan hardware context almashtirishni qanday qiladi?
     - [ ] [threads in C++ (to'plam - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
     - [ ] Pythonda concurrency (videolar):
         - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
@@ -1057,11 +1057,11 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
         - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-    Agar bu mavzuda ko'proq ma'lumot olmoqchi bo'lsangiz, "String Matching" bo'limini ko'ring [Ba'zi mavzular bo'yicha qo'shimcha ma'lumot](#additional-detail-on-some-subjects).
+    Agar bu mavzuda ko'proq ma'lumot olmoqchi bo'lsangiz, "String Matching" bo'limini ko'ring [Ba'zi mavzular bo'yicha qo'shimcha ma'lumotlar](#bazi-mavzular-bo'yicha-qoshimcha-malumotlar).
 
 - ### Trie-lar
-    - Trie-larning turli xili mavjuddir.Bazilarida prefiks bor bo'lsa bazilarida esa yo'q, va bazilari yo'lni kuzatish uchun bitlar o'rniga string ishlatishadi.
-    - Men kodini ko'rib chiqaman, lekin uzim yozmayman
+    - Trie-larning turli xili mavjud. Bazilarida prefiks bor bo'lsa bazilarida esa yo'q, va bazilari yo'lni kuzatish uchun bitlar o'rniga string ishlatishadi.
+    - Men kodini ko'rib chiqaman, lekin o'zim yozmayman
     - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
         - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
@@ -1110,21 +1110,21 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 
 ## Tizim Dizayni, Scalability, Ma'lumotlar bilan ishlash
 
-**agar sizda 4+ yil ish tajribasi bo'lsa intervyularda sizga tizim dizayn savolli tushadi**
+**agar sizda 4+ yil ish tajribasi bo'lsa intervyularda sizga tizim dizayn bo'yicha savolar tushadi**
 - Scalability va Tizim Dizayn juda katta mavzular hisoblanadi.
-      Chunki katta ko'lamni traffikni ko'tara oladigan software/hardware- ni dizayn qilish uni ko'p qirralarini e'tiborga olishni talab qiladi
+      Chunki katta ko'lamli traffikni ko'tara oladigan software/hardware-ni dizayn qilish uni ko'p qirralarini e'tiborga olishni talab qiladi
       Buni ustida bir talay vaqt o'tkazasiz
 - Qirralar:
     - Scalability
         - Katta miqdordagi data to'plamlarni bitta qiymatga agregatlash
-        - bitta data to'plamni boshqasiga o'tkazish
+        - Bitta data to'plamini boshqasiga o'tkazish
         - Haddan tashqari katta miqdordagi data bilan ishlash
-    - Tizim dizayn
+    - Tizim dizayni
         - funksional to'plami
         - interfeyslar
         - klaslar ierarxiyasi
-        - malum bir cheklovlar ostida tizimni dizayn qilish
-        - soddaligi va mustahkamligi
+        - ma'lum bir cheklovlar ostida tizimni dizayn qilish
+        - soddaligi va mustaxkamligi
         - afzalliklar va kamchiliklar o'rtasidagi muvozanat
         - ijro tahlili (performance analysis) va optimallashtirish
 - [ ] **Bu yerdan boshlang**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
@@ -1196,7 +1196,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - [ ] [PlentyOfFish Architecture](http://highscalability.com/plentyoffish-architecture)
     - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
     - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
-    - [ ] Servislarni bir biriga bog'laydigan texnologiyalar haqida o'rganish uchun pastroqdagi "Xabar almashish, Serializatsiya, va Queue Tizimlar" qismni ko'ring
+    - [ ] Servislarni bir biriga bog'laydigan texnologiyalar haqida o'rganish uchun pastroqdagi "Xabar almashish, Serializatsiya, va Queue Tizimlar" qismini ko'ring
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
@@ -1211,18 +1211,18 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
             - Qo'shimcha funksional taklif qiling
             - Intervyuver qamrov doirasidan tashqarida deb bilgan punktlarni olib tashlang
             - High availability kerak deb biling va uni usecase-lar qatoriga qo'shing
-        2. Checklovlar haqida o'ylang
-            - Oyiga nechta requestlar bo'lishini so'rang
-            - Sekundiga nechta requestlar bo'lishini so'rang (intervyuver javob berishi yoki o'zizdan xisoblashni so'rashi mumkin)
+        2. Cheklovlar haqida o'ylang
+            - Oyiga nechta so'rovlar bo'lishini so'rang
+            - Sekundiga nechta so'rovlar bo'lishini so'rang (intervyuver javob berishi yoki o'zingiz hisoblashingizni so'rashi mumkin)
             - O'qishlar (reads) va yozishlar (writes) foizini baholang
             - Baholashda 80/20 qoidasini yodda tuting
             - Sekundiga qancha data yoziladi
             - 5 yil davomida jami qancha xotira kerak bo'ladi
             - Sekundiga qancha data o'qiladi
         3. Abstrakt dizayn:
-            - Qatlamalar (servis, data, kesh)
+            - Qatlamlar (servis, data, kesh)
             - Infrastruktura: load balancing, xabar almashish (messaging)
-            - Servis ishlashi uchun kerak bo'lgan muhum algoritmlarni tahlili
+            - Servis ishlashi uchun kerak bo'lgan muhim algoritmlarni tahlili
             - Bottleneck-larni e'tiborga oling va ularga yechim toping
     - Mashqlar:
         - [Design a CDN network: old article](https://kilthub.cmu.edu/articles/Globally_distributed_content_delivery/6605972)
@@ -1253,22 +1253,22 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 
 Yuqoridagi barcha "computer science" mavzularini bilb oldingiz, endi coding bo'yicha masalalarga javob berishni mashq qilish vaqti keldi.
 
-**Coding masalalarini yechishga tayyorlanish bu javoblarni yodlab qolish emas **
+**Coding masalalarini yechishga tayyorlanish bu javoblarni yodlab qolish emas**
 
 Masalalar yechishni mashq qilish nima uchun zarur:
 - Muammoni aniqlash va kerakli ma'lumotlar tuzilmalari va algoritmlari mos keladigan joyni topa olish
 - Masala uchun kerakli talablarni to'plash
-- Xuddi intervyudagi kabi muammoni yechish uchun qadam baqadam yurish
+- Huddi intervyudagi kabi muammoni yechish uchun qadam baqadam yurish
 - Doskada yoki qog'ozda kod yozish, kompyuterda emas
-- Yechimlarizga ish joyi xarajati va ish vaqti xarajatini aniqlash
+- Yechimlaringizga ish joyi xarajati va ish vaqti xarajatini aniqlash
 - Yechimlaringizni testlash
 
 Suhbatda metodik, kommunikativ muammolarni hal qilish uchun ajoyib kirish qismi mavjud. 
-Siz buni dasturlash uchun intervyu kitoblaridan ham topa olishingiz mumkin
+Siz buni dasturlash uchun intervyu kitoblaridan ham topa olishingiz mumkin,
 lekin men buni ular ichida juda foydali deb topdim:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-Uyingizda doska yo'qmi? Bu tabiy. Men o'zgacha insonman, menda kotta doskam bor. Doska o'rniga, rasm chizish uchun 
+Uyingizda doska yo'qmi? Bu tabiiy. Men o'zgacha insonman, menda kotta doskam bor. Doska o'rniga, rasm chizish uchun 
 mo'ljallangan daftar ishlating. Shunda divanda o'tirib, mashq qilishingiz mumkin. Bu mening "divanga mo'ljallangan doskam".
 Men rasmda qalamimni ham qo'shganman qulaylik uchun. Agar siz ruchkadan foydalansangiz, o'chirish istagi paydo bo'lishi mumkin. 
 Tez Chalkashib ketadi. Shuning uchun men qalam va o'chirg'ichdan foydalanaman.
@@ -1294,7 +1294,7 @@ Ko'ring [Book List above](#book-list)
 
 ## Coding mashqlar/savollar
 
-Miyyangiz og'rigunicha o'rganib bo'lganizdan keyin o'sha miyyangizni ishga soling
+Miyyangiz og'rigunigacha o'rganib bo'lganingizdan keyin o'sha miyyangizni ishga soling
 Har kuni coding savollar ishlang, qancha ko'p bo'lsa shuncha yaxshi
 
 - [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
@@ -1337,10 +1337,10 @@ Mock intervyular
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - Men buni ishlatdim va u menga phone screen va on-site intervyularga ruhan tayyorladi
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - foydalanuvchilararo intervyuga tayyorlanish modeli
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - kandidatlarga tech kompaniyalar bilan bo'ladigan bir nechta intervyulardan sakrab o'tishga ham yordam beradi
-- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - FAANGdan senior injinerlar bilan anonim algoritm/tizim dizayn intervyulari
+- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - FAANG-dan senior injinerlar bilan anonim algoritm/tizim dizayn intervyulari
 
 
-## Intervyuga yaqin kelganizda
+## Intervyuga yaqin kelganingizda
 
 - Cracking The Coding Interview Set 2 (videolar):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
@@ -1351,10 +1351,10 @@ Mock intervyular
 - 'Cracking The Coding Interview' kitobini Resume prep qismini va 'Programming Interviews Exposed' kitobini orqasini ko'ring
 
 
-## Intervyuga yaqin kelganda quydagilar haqida o'ylab yuring
+## Intervyuga yaqin kelganda quyidagilar haqida o'ylab yuring
 
 Sizdan so'rashlari mumkin bo'lgan 20 tacha intervyu savollarini o'ylab toping (pastagi savollarga o'xshagan). Har biri uchun 2-3 javobiz bo'lsin.
-Siz amalga oshirgan biror narsa haqida hikoyangiz bo'lsin
+Siz amalga oshirgan biror narsa haqida hikoyangiz bo'lsin.
 
 - Nega bu ishni xohlayapsiz?
 - Siz yechgan mushkul masala/muammo?
@@ -1371,13 +1371,13 @@ Siz amalga oshirgan biror narsa haqida hikoyangiz bo'lsin
 
 ## Intervyuver uchun savollaringizni tayyorlab qo'ying
 
-    Mening savollarimning bazilari (Bu savollarga javobni bilsam ham ularni fikrlarini yoki jamoaviy nuqtai nazarlarini bilishni xoxlayman):
+    Mening savollarimning bazilari (Bu savollarga javobni bilsam ham ularni fikrlarini yoki jamoaviy nuqtai nazarlarini bilishni xohlayman):
 
 - Jamoangiz qanchalik katta?
 - Sizning dasturlash siklingiz qanday tarzda o'tadi? waterfall/sprintlar/ yoki agile ishlatasizmi?
 - Deadline-lar ga shoshilish odatiy holmi? Yoki erkinlik ko'proqmi?
 - Jamoangizda qarorlar qanday qabul qilinadi?
-- Haftasiga nechi marta jamooaviy meeting-lar tashkil etiladi?
+- Haftasiga nechi marta jamoaviy meeting-lar tashkil etiladi?
 - Sizning ishdagi atmosferangiz sizga konsentratsiya qilishga yordam beradimi?
 - Hozirda nima ustida ishlayapsizlar?
 - Bunda sizga nima ko'proq yoqadi?
@@ -1416,7 +1416,7 @@ Hech qachon tugatgan bo'lmaymiz.
     - Zamonaviy variant
 - [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - Dizayn patternlarga yengil kirish
+    - Dizayn pattern-larga yengil kirish
 - [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
     - Shuningdek, "Gang Of Four" yoki "GOF" nomi bilan tanilgan
     - Qoidaga aylangan dizayn pattern kitobi
@@ -1437,7 +1437,7 @@ Hech qachon tugatgan bo'lmaymiz.
         - Algoritm katalogi:
             - Bu kitobni sotib olishingizni asl sababi
             - Bu qismga yetib qoldim. Tugatganimdan so'ng bu yerni yangilab qo'yaman
-    - kindleda ijaraga olsangiz bo'ladi
+    - kindle-da ijaraga olsangiz bo'ladi
     - Javoblar
         - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
@@ -1464,12 +1464,12 @@ Hech qachon tugatgan bo'lmaymiz.
 
 - [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
     - Boshlang'ich bir ikki boblari muammolarga ajoyib yechimlar taqdim qiladi, lekin bu shunchaki kirish. 
-      Bu kitob dastur dizayn va arxitekturasi uchun qo'llanma
+      Bu kitob dasturning dizayn va arxitekturasi uchun qo'llanma
 
 ## Qo'shimcha o'rganish
 
-    Men bularni har tomonlama rivojlangan dasturchi bo'lishingizga yordam berish va ba'zi texnologiyalar va algoritmlar xabardor bo'lishingiz uchun qo'shdim
-    texnologiyalar va algoritmlar, Natijada sizda kattaroq asboblar qutisi bo'ladi.
+    Men bularni har tomonlama rivojlangan dasturchi bo'lishingizga yordam berish va ba'zi texnologiyalar va algoritmlardan xabardor bo'lishingiz uchun qo'shdim,
+    Natijada sizda kattaroq asboblar qutisi bo'ladi.
 
 - ### Kompilyatorlar
     - [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
@@ -1637,7 +1637,6 @@ Hech qachon tugatgan bo'lmaymiz.
     - "Balanced search tree-lar orasida, AVL va 2/3 tree-lar hozir o'tmishga aylangan, va red-black tree-lar ancha mashhurroq.
         Xususan qiziqarli bo'lgan o'z-o'zini tashkil qiladigan data struktura bu splay tree. Splay tree
         har safar key so'ralganda uni rotatsiyadan foydalangan holda root-ga o'tkazadi." - Skiena
-    - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
     - Bulardan men splay tree-ni kodda yozishni tanladim. Bilishimcha intervyuda sizdan balanced search tree-ni
         yozishni so'rashmaydi. Lekin men baribir yozishni xohladim va tan olaylik splay tree-lar zo'r.
         Men juda ko'p red-black tree kodlarini ham o'qidim.
@@ -1696,23 +1695,22 @@ Hech qachon tugatgan bo'lmaymiz.
             Har 2-4 tree uchun unga mos elementlari bir xil tartibda bo'lgan red-black bor. Insertion va deletion funksiyalari red-black
             tree-dagi color-flipping va rotation funksiyalariga tengma-tengdir. Bu xususiyati uni red-black tree-larni tagidagi mantiqni 
             tushunishda juda muhim rol o'ynaydi va shuning uchun ko'p kirish algoritm kitoblari red-black tree-dan oldin 2-4 treelar haqida gapiradi,
-            garchi **2-4 tree-lar amalda uncha ko'p ishlatilmasa**.
+            garchi **2-4 tree-lar amalda uncha ko'p ishlatilmasada**.
         - [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
         - [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
     - **N-talik (K-talik, M-talik) tree-lar**
         - eslatma: N va K bu branchlash faktori (maksimum branchlar)
-        - binary tree-lar bu branchlash faktor = 2 bo'lgan 2-talik tree-lar
-        - 2-3 trees are 3-ary
+        - binary tree-lar bu branchlash faktori = 2 bo'lgan 2-talik tree-lar
         - 2-3 tree-lar 3-talik xisoblanadi
         - [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
 
     - **B-Tree**
         - Qiziq fakt: bu noma'lum, lekin B-tree-dagi B Boeing, Balanced, yoki Bayerdan (boshqa ixtirochisi) olingan bo'lishi mumkin
         - Amalda:
-            B-Tree-lar malumotlar bazasida keng ishlatiladi. Ko'p zamonaviy fayl tizimlari B-tree yoki uni boshqa variantlarini ishlatadi.
-            Malumotlar bazasidan tashqari, B-Tree-lar berilgan fayldagi tasodifiy bo'lakni tez o'qishga yordam beradi. Berilgan i fayl bo'lak adresini disk bo'lak adresiga aylantirish asosiy muammodir.
+            B-Tree-lar ma'lumotlar bazasida keng ishlatiladi. Ko'p zamonaviy fayl tizimlari B-tree yoki uni boshqa variantlarini ishlatadi.
+            Ma'lumotlar bazasidan tashqari, B-Tree-lar berilgan fayldagi tasodifiy bo'lakni tez o'qishga yordam beradi. Berilgan i fayl bo'lak adresini disk bo'lak adresiga aylantirish asosiy muammodir.
         - [B-Tree](https://en.wikipedia.org/wiki/B-tree)
         - [B-Tree Datastructure](http://btechsmartclass.com/data_structures/b-trees.html)
         - [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
@@ -1724,7 +1722,7 @@ Hech qachon tugatgan bo'lmaymiz.
 
 
 - ### k-D Tree-lar
-    - Uchburchak ichidagi nuqtalarni topish uchun yoki yuqori o'lchivli obyektlar uchun juda zo'r
+    - Uchburchak ichidagi nuqtalarni topish uchun yoki yuqori o'lchovli obyektlar uchun juda zo'r
     - k-ta yaqin qo'shnilarni topish uchun mos
     - [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
     - [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
@@ -1743,7 +1741,7 @@ Hech qachon tugatgan bo'lmaymiz.
     - [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
     - [Sedgewick Algorithms - Union-Find (6 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
 
-- ### Tez hisoblash uchun Matematika
+- ### Tez hisoblash uchun matematika
     - [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
@@ -1810,7 +1808,7 @@ Hech qachon tugatgan bo'lmaymiz.
         - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
     - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
         - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
-    - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
+    - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | Mijozlarni o'zlari ishlatmaydigan interfeyslarni implement qilishga majburlash kerak emas
         - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
         - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
     - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
@@ -1839,7 +1837,7 @@ Hech qachon tugatgan bo'lmaymiz.
     - [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
     - [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
-- MIT **Ehtimollik nazariyasi** (matematikaga oid, sekin asstalik bilan ko'rib chiqing, matematikaga oid narsalar uchun yaxshi) (videolar):
+- MIT **Ehtimollik nazariyasi** (matematikaga oid, sekin astalik bilan ko'rib chiqing, matematikaga oid narsalar uchun yaxshi) (videolar):
     - [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
     - [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
     - [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
@@ -1864,7 +1862,7 @@ Hech qachon tugatgan bo'lmaymiz.
         - [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
         - [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
     - [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
-        - juda yaxshi boshlanadi, ammo KMPdan o'tib ketishi bilan u kerak bo'lgandan ko'ra murakkabroq bo'ladi
+        - juda yaxshi boshlanadi, ammo KMP-dan o'tib ketishi bilan u kerak bo'lgandan ko'ra murakkabroq bo'ladi
         - tries ning yaxshi tarifi berilgan
         - o'tqazib yuborishingiz mumkin
 

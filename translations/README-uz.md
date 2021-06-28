@@ -129,7 +129,7 @@ Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, un
         - 2-3-4 Tree-lar (shuningdek 2-4 tree nomi bilan tanilgan)
         - N-talik (K-talik, M-talik) tree-lar
         - B-Tree-lar
-    - [k-D Tree-lar](#k-d-treelar)
+    - [k-D Tree-lar](#k-d-tree-lar)
     - [Skip listlar](#skip-listlar)
     - [Network Flow](#network-flow)
     - [Disjoint Set & Union Find](#disjoint-set--union-find)

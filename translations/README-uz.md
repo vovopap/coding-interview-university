@@ -15,6 +15,7 @@ Asl versiyasi: [Inglizcha](../README.md)
 ## Bu nima uchun kerak?
 
 Bu mening web dasturchi (web developer) darajasidan katta kompaniyada ishlaydigan dastur injineri (software engineer) darajasiga chiqish uchun qilgan ko'p oylik o'qish rejam.
+
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 Bu proyekt **yangi dasturchi injinerlar** uchun juda foydali. Va yana, oddiy programmistlikdan (masalan web yoki mobildan) dasturiy injinerlikka (dastur injinerlaridan computer science bilimlari talab qilinadi) o'tmoqchi bo'lganlar uchun foydali.

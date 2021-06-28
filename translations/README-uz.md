@@ -136,7 +136,7 @@ Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, un
     - [Tez hisoblash uchun matematika](#tez-hisoblash-uchun-matematika)
     - [Treap](#treap)
     - [Linear Programming](#linear-programming-videolar)
-    - [Geometry, Convex hull](#geometry-convex-hull-videos)
+    - [Geometry, Convex hull](#geometry-convex-hull-videolar)
     - [Diskret matematika](#diskret-matematika)
     - [Machine Learning](#machine-learning)
 - [Ba'zi mavzular bo'yicha qo'shimcha ma'lumotlar](#bazi-mavzular-boyicha-qoshimcha-malumotlar)

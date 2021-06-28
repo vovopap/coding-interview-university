@@ -92,7 +92,7 @@ Agar siz reliability engineer yoki operations engineer bo'lmoqchi bo'lsangiz, un
 - [Coding mashqlar/savollar](#coding-mashqlarsavollar)
 - [Intervyuga yaqin kelganingizda](#intervyuga-yaqin-kelganingizda)
 - [Sizni rezyumeingiz](#sizni-rezyumeingiz)
-- [Intervyuga yaqin kelganda quydagilar haqida o'ylab yuring](#intervyuga-yaqin-kelganda-quydagilar-haqida-oylab-yuring)
+- [Intervyuga yaqin kelganda quyidagilar haqida o'ylab yuring](#intervyuga-yaqin-kelganda-quyidagilar-haqida-oylab-yuring)
 - [Intervyuver uchun savollaringizni tayyorlab qo'ying](#intervyuver-uchun-savollaringizni-tayyorlab-qoying)
 - [Ishga qabul qilinganingizdan so'ng](#ishga-qabul-qilinganingizdan-song)
 
